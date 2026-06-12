@@ -613,7 +613,7 @@ function buildTeamTable(picks) {
       lastBox = p.box;
     }
     const bonusLabel = p.bonus > 0 ? `+${p.bonus}` : '—';
-    const scorerText = (p.scorers || []).join(' · ');
+    const scorerText = (p.scorers || []).join('<br>');
     rows += `<tr>
       <td>${p.team}</td>
       <td>${bonusLabel}</td>

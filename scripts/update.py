@@ -315,6 +315,51 @@ def apply_overrides(matches_by_id, overrides):
 
 
 # ---------------------------------------------------------------------------
+# Elimination tracking
+# ---------------------------------------------------------------------------
+
+def compute_eliminated_teams(matches_list):
+    """
+    Returns a set of norm'd team names that are out of the tournament.
+    Group stage: teams finishing 3rd or 4th (once group is complete).
+    Knockout rounds: loser of each finished match.
+    """
+    eliminated = set()
+
+    # Group stage — rank 3 or 4 means out
+    team_rank = {}
+    for m in matches_list:
+        if m.get("stage") != "GROUP":
+            continue
+        if m.get("home_group_rank") is not None:
+            team_rank[norm(m["home"])] = m["home_group_rank"]
+        if m.get("away_group_rank") is not None:
+            team_rank[norm(m["away"])] = m["away_group_rank"]
+    for team_key, rank in team_rank.items():
+        if rank >= 3:
+            eliminated.add(team_key)
+
+    # Knockout rounds — loser is out
+    knockout = {"ROUND_OF_16", "QUARTER_FINAL", "SEMI_FINAL", "THIRD_PLACE", "FINAL"}
+    for m in matches_list:
+        if m.get("stage") not in knockout:
+            continue
+        h = m["home_score"]
+        a = m["away_score"]
+        is_so = m.get("shootout", False)
+        h_pen = m.get("home_shootout_score", 0)
+        a_pen = m.get("away_shootout_score", 0)
+        if is_so:
+            eliminated.add(norm(m["away"] if h_pen > a_pen else m["home"]))
+        elif h > a:
+            eliminated.add(norm(m["away"]))
+        elif a > h:
+            eliminated.add(norm(m["home"]))
+
+    return eliminated
+
+
+# ---------------------------------------------------------------------------
 # Scoring engine
 # ---------------------------------------------------------------------------
 
@@ -332,6 +377,7 @@ def compute_standings(entries_data, rules, matches_list, aliases):
     sp  = rules["scorer_points"]
 
     player_aliases = aliases.get("players", aliases)  # support both flat and nested
+    eliminated = compute_eliminated_teams(matches_list)
 
     standings = []
 
@@ -442,12 +488,18 @@ def compute_standings(entries_data, rules, matches_list, aliases):
 
         picks_list = sorted(pick_stats.values(), key=lambda x: (x["box"], x["team"]))
 
+        teams_remaining = sum(
+            1 for p in entry["picks"]
+            if our_team_key(p["team"]) not in eliminated
+        )
+
         total = bonuses + match_pts + scorer_pts + pool_pts + tourney_pts
         standings.append({
             "id":   entry["id"],
             "name": entry["name"],
             "total": total,
             "total_games": total_games,
+            "teams_remaining": teams_remaining,
             "picks": picks_list,
             "breakdown": {
                 "bonuses":          bonuses,

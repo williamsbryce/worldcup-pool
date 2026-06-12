@@ -112,9 +112,10 @@
   .rank-badge.r2 { background: var(--silver); color: #fff; }
   .rank-badge.r3 { background: var(--bronze); color: #fff; }
 
-  .standing-name { flex: 1; font-weight: 600; font-size: .95rem; }
-  .standing-gp   { font-size: 1.1rem; font-weight: 800; color: var(--muted); min-width: 52px; text-align: right; padding-right: 16px; }
-  .standing-pts  { font-size: 1.1rem; font-weight: 800; color: var(--blue); min-width: 42px; text-align: right; }
+  .standing-name    { flex: 1; font-weight: 600; font-size: .95rem; }
+  .standing-gp      { font-size: 1.1rem; font-weight: 800; color: var(--muted); min-width: 52px; text-align: right; padding-right: 24px; }
+  .standing-teams   { font-size: 1.1rem; font-weight: 800; color: var(--muted); min-width: 52px; text-align: right; padding-right: 24px; }
+  .standing-pts     { font-size: 1.1rem; font-weight: 800; color: var(--blue); min-width: 42px; text-align: right; }
 
   .standings-col-header {
     display: flex;
@@ -131,10 +132,11 @@
     text-transform: uppercase;
     color: var(--muted);
   }
-  .standings-col-header .ch-rank { width: 32px; flex-shrink: 0; }
-  .standings-col-header .ch-name { flex: 1; }
-  .standings-col-header .ch-gp   { min-width: 52px; text-align: right; padding-right: 16px; }
-  .standings-col-header .ch-pts  { min-width: 42px; text-align: right; }
+  .standings-col-header .ch-rank  { width: 32px; flex-shrink: 0; }
+  .standings-col-header .ch-name  { flex: 1; }
+  .standings-col-header .ch-gp    { min-width: 52px; text-align: right; padding-right: 24px; }
+  .standings-col-header .ch-teams { min-width: 52px; text-align: right; padding-right: 24px; }
+  .standings-col-header .ch-pts   { min-width: 42px; text-align: right; }
 
   .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 
@@ -543,12 +545,14 @@ function renderStandings() {
       <span class="ch-rank"></span>
       <span class="ch-name">Participant</span>
       <span class="ch-gp">GP</span>
+      <span class="ch-teams">Teams</span>
       <span class="ch-pts">Pts</span>
     </div>`;
 
   const rows = standingsData.standings.map(s => {
     const rc = s.rank === 1 ? 'r1' : s.rank === 2 ? 'r2' : s.rank === 3 ? 'r3' : '';
     const gp = s.total_games != null ? s.total_games : '—';
+    const teams = s.teams_remaining != null ? s.teams_remaining : '—';
     const isLast = s.rank === standingsData.standings.length;
     const badgeContent = isLast ? '💩' : s.rank;
     const badgeStyle = isLast ? 'font-size:1.2rem;background:transparent;' : '';
@@ -557,6 +561,7 @@ function renderStandings() {
         <div class="rank-badge ${rc}" style="${badgeStyle}">${badgeContent}</div>
         <div class="standing-name">${s.name}</div>
         <div class="standing-gp">${gp}</div>
+        <div class="standing-teams">${teams}</div>
         <div class="standing-pts">${s.total}</div>
       </div>`;
   }).join('');

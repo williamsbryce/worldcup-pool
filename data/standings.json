@@ -1,11 +1,12 @@
 {
-  "last_updated": "2026-06-12T21:09:09Z",
+  "last_updated": "2026-06-12T21:22:28Z",
   "standings": [
     {
       "id": "dan-murza",
       "name": "Dan Murza",
       "total": 63,
       "total_games": 2,
+      "teams_remaining": 20,
       "picks": [
         {
           "box": 1,
@@ -317,6 +318,7 @@
       "name": "Alex Ryback",
       "total": 61,
       "total_games": 3,
+      "teams_remaining": 20,
       "picks": [
         {
           "box": 1,
@@ -628,6 +630,7 @@
       "name": "Tyler Marien",
       "total": 54,
       "total_games": 4,
+      "teams_remaining": 20,
       "picks": [
         {
           "box": 1,
@@ -939,6 +942,7 @@
       "name": "Bryce Williams",
       "total": 50,
       "total_games": 3,
+      "teams_remaining": 20,
       "picks": [
         {
           "box": 1,
@@ -1250,6 +1254,7 @@
       "name": "Brendan Newton",
       "total": 47,
       "total_games": 2,
+      "teams_remaining": 20,
       "picks": [
         {
           "box": 1,
@@ -1561,6 +1566,7 @@
       "name": "Damon Williams",
       "total": 42,
       "total_games": 3,
+      "teams_remaining": 20,
       "picks": [
         {
           "box": 1,
@@ -1872,6 +1878,7 @@
       "name": "Drew Findlay",
       "total": 42,
       "total_games": 3,
+      "teams_remaining": 20,
       "picks": [
         {
           "box": 1,
@@ -2183,6 +2190,7 @@
       "name": "Rob Roy",
       "total": 40,
       "total_games": 2,
+      "teams_remaining": 20,
       "picks": [
         {
           "box": 1,
@@ -2494,6 +2502,7 @@
       "name": "Tate Williams",
       "total": 38,
       "total_games": 1,
+      "teams_remaining": 20,
       "picks": [
         {
           "box": 1,
@@ -2805,6 +2814,7 @@
       "name": "Vernon Persaud",
       "total": 33,
       "total_games": 0,
+      "teams_remaining": 20,
       "picks": [
         {
           "box": 1,
@@ -3116,6 +3126,7 @@
       "name": "Andrew Tennent",
       "total": 31,
       "total_games": 2,
+      "teams_remaining": 20,
       "picks": [
         {
           "box": 1,

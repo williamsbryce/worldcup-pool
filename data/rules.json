@@ -1,0 +1,26 @@
+{
+  "per_match": {
+    "game_played": 1,
+    "win": 4,
+    "tie": 2,
+    "gd_per_goal": 1,
+    "shutout": 1,
+    "shootout_goal": 1,
+    "shootout_win": 1
+  },
+  "pool_placement": {
+    "1": 4,
+    "2": 2,
+    "3": 1,
+    "4": 0
+  },
+  "tournament_finish": {
+    "winner": 4,
+    "runner_up": 2,
+    "third": 1
+  },
+  "scorer_points": {
+    "boxes_1_6": 2,
+    "boxes_7_8": 3
+  }
+}

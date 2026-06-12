@@ -1,0 +1,81 @@
+{
+  "fetched_at": "2026-06-12T17:26:40Z",
+  "matches": [
+    {
+      "espn_id": "760415",
+      "date": "2026-06-11",
+      "home": "Mexico",
+      "away": "South Africa",
+      "home_score": 2,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Julián Quiñones",
+          "team": "Mexico",
+          "minute": "9'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Raúl Jiménez",
+          "team": "Mexico",
+          "minute": "67'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760414",
+      "date": "2026-06-11",
+      "home": "South Korea",
+      "away": "Czechia",
+      "home_score": 2,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Hwang In-Beom",
+          "team": "South Korea",
+          "minute": "67'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Oh Hyeon-Gyu",
+          "team": "South Korea",
+          "minute": "80'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Ladislav Krejcí",
+          "team": "Czechia",
+          "minute": "59'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    }
+  ]
+}

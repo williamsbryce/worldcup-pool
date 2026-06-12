@@ -1,0 +1,148 @@
+{
+  "last_updated": "2026-06-12T17:26:40Z",
+  "standings": [
+    {
+      "id": "alex-ryback",
+      "name": "Alex Ryback",
+      "total": 58,
+      "breakdown": {
+        "bonuses": 42,
+        "match_results": 14,
+        "scorer_goals": 2,
+        "pool_placement": 0,
+        "tournament_finish": 0
+      },
+      "rank": 1
+    },
+    {
+      "id": "dan-murza",
+      "name": "Dan Murza",
+      "total": 58,
+      "breakdown": {
+        "bonuses": 57,
+        "match_results": 1,
+        "scorer_goals": 0,
+        "pool_placement": 0,
+        "tournament_finish": 0
+      },
+      "rank": 2
+    },
+    {
+      "id": "tyler-marien",
+      "name": "Tyler Marien",
+      "total": 49,
+      "breakdown": {
+        "bonuses": 32,
+        "match_results": 15,
+        "scorer_goals": 2,
+        "pool_placement": 0,
+        "tournament_finish": 0
+      },
+      "rank": 3
+    },
+    {
+      "id": "bryce-williams",
+      "name": "Bryce Williams",
+      "total": 45,
+      "breakdown": {
+        "bonuses": 29,
+        "match_results": 14,
+        "scorer_goals": 2,
+        "pool_placement": 0,
+        "tournament_finish": 0
+      },
+      "rank": 4
+    },
+    {
+      "id": "brendan-newton",
+      "name": "Brendan Newton",
+      "total": 42,
+      "breakdown": {
+        "bonuses": 36,
+        "match_results": 6,
+        "scorer_goals": 0,
+        "pool_placement": 0,
+        "tournament_finish": 0
+      },
+      "rank": 5
+    },
+    {
+      "id": "damon-williams",
+      "name": "Damon Williams",
+      "total": 37,
+      "breakdown": {
+        "bonuses": 26,
+        "match_results": 9,
+        "scorer_goals": 2,
+        "pool_placement": 0,
+        "tournament_finish": 0
+      },
+      "rank": 6
+    },
+    {
+      "id": "drew-findlay",
+      "name": "Drew Findlay",
+      "total": 37,
+      "breakdown": {
+        "bonuses": 26,
+        "match_results": 9,
+        "scorer_goals": 2,
+        "pool_placement": 0,
+        "tournament_finish": 0
+      },
+      "rank": 7
+    },
+    {
+      "id": "rob-roy",
+      "name": "Rob Roy",
+      "total": 35,
+      "breakdown": {
+        "bonuses": 23,
+        "match_results": 8,
+        "scorer_goals": 4,
+        "pool_placement": 0,
+        "tournament_finish": 0
+      },
+      "rank": 8
+    },
+    {
+      "id": "tate-williams",
+      "name": "Tate Williams",
+      "total": 33,
+      "breakdown": {
+        "bonuses": 33,
+        "match_results": 0,
+        "scorer_goals": 0,
+        "pool_placement": 0,
+        "tournament_finish": 0
+      },
+      "rank": 9
+    },
+    {
+      "id": "vernon-persaud",
+      "name": "Vernon Persaud",
+      "total": 33,
+      "breakdown": {
+        "bonuses": 33,
+        "match_results": 0,
+        "scorer_goals": 0,
+        "pool_placement": 0,
+        "tournament_finish": 0
+      },
+      "rank": 10
+    },
+    {
+      "id": "andrew-tennent",
+      "name": "Andrew Tennent",
+      "total": 31,
+      "breakdown": {
+        "bonuses": 24,
+        "match_results": 7,
+        "scorer_goals": 0,
+        "pool_placement": 0,
+        "tournament_finish": 0
+      },
+      "rank": 11
+    }
+  ]
+}

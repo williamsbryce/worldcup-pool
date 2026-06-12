@@ -336,11 +336,14 @@ def compute_standings(entries_data, rules, matches_list, aliases):
     standings = []
 
     for entry in entries_data["entries"]:
-        bonuses      = sum(p["bonus"] for p in entry["picks"])
-        match_pts    = 0
-        scorer_pts   = 0
-        pool_pts     = 0
-        tourney_pts  = 0
+        # Per-team stats tracking
+        pick_stats = {}
+        for p in entry["picks"]:
+            pick_stats[p["team"]] = {
+                "box": p["box"], "team": p["team"], "bonus": p["bonus"],
+                "match": 0, "scorer": 0, "pool": 0, "tourney": 0,
+                "scorers": p["scorers"],
+            }
 
         picks_by_key = {}
         for p in entry["picks"]:
@@ -354,7 +357,6 @@ def compute_standings(entries_data, rules, matches_list, aliases):
 
                 pick = picks_by_key.get(team_key)
                 if pick is None:
-                    # try reverse-mapping ESPN name through TEAM_MAP
                     for our, espn in TEAM_MAP.items():
                         if norm(espn) == team_key:
                             pick = picks_by_key.get(norm(our))
@@ -363,75 +365,87 @@ def compute_standings(entries_data, rules, matches_list, aliases):
                 if pick is None:
                     continue
 
-                ts = m[f"{side}_score"]   # team score (regulation/ET)
-                os = m[f"{opp}_score"]    # opponent score
+                ps = pick_stats[pick["team"]]  # per-team accumulator
+
+                ts = m[f"{side}_score"]
+                os = m[f"{opp}_score"]
                 is_so = m.get("shootout", False)
                 h_pen = m.get("home_shootout_score", 0)
                 a_pen = m.get("away_shootout_score", 0)
                 team_pen = h_pen if side == "home" else a_pen
 
                 # --- game played ---
-                match_pts += pm["game_played"]
+                ps["match"] += pm["game_played"]
 
                 # --- win / tie / loss + GD ---
                 if is_so:
-                    match_pts += pm["tie"]
+                    ps["match"] += pm["tie"]
                     won = (side == "home" and h_pen > a_pen) or (side == "away" and a_pen > h_pen)
                     if won:
-                        match_pts += pm["shootout_win"]
-                    # shootout goals scored by this team (1 pt each)
-                    match_pts += team_pen * pm["shootout_goal"]
-                    gd = 0  # no GD from shootout
+                        ps["match"] += pm["shootout_win"]
+                    ps["match"] += team_pen * pm["shootout_goal"]
+                    gd = 0
                 elif ts > os:
-                    match_pts += pm["win"]
+                    ps["match"] += pm["win"]
                     gd = ts - os
                 elif ts == os:
-                    match_pts += pm["tie"]
+                    ps["match"] += pm["tie"]
                     gd = 0
                 else:
-                    gd = 0  # loss — GD doesn't go negative
+                    gd = 0
 
-                match_pts += gd * pm["gd_per_goal"]
+                ps["match"] += gd * pm["gd_per_goal"]
 
-                # --- shutout (based on regulation/ET score) ---
+                # --- shutout ---
                 if os == 0:
-                    match_pts += pm["shutout"]
+                    ps["match"] += pm["shutout"]
 
                 # --- pool placement ---
                 rank = m.get(f"{side}_group_rank")
                 if rank is not None:
-                    pool_pts += pp.get(str(rank), 0)
+                    ps["pool"] += pp.get(str(rank), 0)
 
                 # --- tournament finish ---
                 stage = m.get("stage", "GROUP")
                 if stage == "FINAL":
                     won = (not is_so and ts > os) or (is_so and ((side == "home" and h_pen > a_pen) or (side == "away" and a_pen > h_pen)))
-                    tourney_pts += tf["winner"] if won else tf["runner_up"]
+                    ps["tourney"] += tf["winner"] if won else tf["runner_up"]
                 elif stage == "THIRD_PLACE":
                     won = (not is_so and ts > os) or (is_so and ((side == "home" and h_pen > a_pen) or (side == "away" and a_pen > h_pen)))
                     if won:
-                        tourney_pts += tf["third"]
+                        ps["tourney"] += tf["third"]
 
                 # --- goal scorer points ---
                 pts_per_goal = sp["boxes_7_8"] if pick["box"] in (7, 8) else sp["boxes_1_6"]
 
                 for goal in m.get("goals", []):
-                    if goal.get("own_goal"):
+                    if goal.get("own_goal") or goal.get("shootout"):
                         continue
-                    if goal.get("shootout"):
-                        continue  # shootout goals counted as team pts above, not scorer pts
                     if not team_eq(pick["team"], goal["team"]):
                         continue
                     for sname in pick["scorers"]:
                         if scorer_eq(sname, goal["scorer"], player_aliases):
-                            scorer_pts += pts_per_goal
-                            break  # one award per goal
+                            ps["scorer"] += pts_per_goal
+                            break
+
+        # Aggregate totals from per-team stats
+        for ps in pick_stats.values():
+            ps["total"] = ps["bonus"] + ps["match"] + ps["scorer"] + ps["pool"] + ps["tourney"]
+
+        match_pts   = sum(ps["match"]   for ps in pick_stats.values())
+        scorer_pts  = sum(ps["scorer"]  for ps in pick_stats.values())
+        pool_pts    = sum(ps["pool"]    for ps in pick_stats.values())
+        tourney_pts = sum(ps["tourney"] for ps in pick_stats.values())
+        bonuses     = sum(ps["bonus"]   for ps in pick_stats.values())
+
+        picks_list = sorted(pick_stats.values(), key=lambda x: (x["box"], x["team"]))
 
         total = bonuses + match_pts + scorer_pts + pool_pts + tourney_pts
         standings.append({
             "id":   entry["id"],
             "name": entry["name"],
             "total": total,
+            "picks": picks_list,
             "breakdown": {
                 "bonuses":          bonuses,
                 "match_results":    match_pts,

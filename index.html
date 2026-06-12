@@ -116,23 +116,67 @@
 
   .standing-breakdown {
     display: none;
-    padding: 8px 14px 12px 58px;
+    border-bottom: 2px solid var(--border);
+  }
+  .standing-breakdown.open { display: block; }
+
+  .bd-summary {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    padding: 8px 14px 8px 58px;
     background: var(--gray);
     border-bottom: 1px solid var(--border);
-    font-size: .75rem;
-    color: var(--muted);
-    gap: 8px;
-    flex-wrap: wrap;
   }
-  .standing-breakdown.open { display: flex; }
   .bd-chip {
     background: var(--white);
     border: 1px solid var(--border);
     border-radius: 12px;
     padding: 2px 8px;
     white-space: nowrap;
+    font-size: .73rem;
+    color: var(--muted);
   }
   .bd-chip span { color: var(--blue); font-weight: 700; }
+
+  .team-table { width: 100%; border-collapse: collapse; font-size: .78rem; }
+  .team-table thead tr { background: var(--blue); color: var(--white); }
+  .team-table thead th {
+    padding: 5px 8px;
+    text-align: right;
+    font-weight: 700;
+    font-size: .68rem;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+  }
+  .team-table thead th:first-child { text-align: left; padding-left: 14px; }
+  .team-table tbody tr { border-bottom: 1px solid var(--border); }
+  .team-table tbody tr:last-child { border-bottom: none; }
+  .team-table tbody tr:hover { background: var(--gray); }
+  .team-table td {
+    padding: 6px 8px;
+    text-align: right;
+    color: var(--muted);
+  }
+  .team-table td:first-child { text-align: left; padding-left: 14px; color: var(--text); font-weight: 600; }
+  .team-table td.box-tag {
+    font-size: .65rem;
+    color: var(--muted);
+    font-weight: 700;
+    padding-right: 4px;
+  }
+  .team-table td.pts-total { color: var(--blue); font-weight: 800; }
+  .team-table .box-divider td {
+    background: #eef1f6;
+    color: var(--muted);
+    font-size: .65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    padding: 3px 8px 3px 14px;
+    text-align: left;
+  }
+  .scorer-names { font-size: .68rem; color: var(--muted); font-weight: 400; display: block; }
 
   /* ── entries page ── */
   .entry-select-wrap {
@@ -471,6 +515,7 @@ function renderStandings() {
   list.innerHTML = standingsData.standings.map(s => {
     const bd = s.breakdown;
     const rc = s.rank === 1 ? 'r1' : s.rank === 2 ? 'r2' : s.rank === 3 ? 'r3' : '';
+    const teamRows = buildTeamTable(s.picks || []);
     return `
       <div class="standing-row" onclick="toggleBreakdown('bd-${s.id}')">
         <div class="rank-badge ${rc}">${s.rank}</div>
@@ -478,13 +523,53 @@ function renderStandings() {
         <div class="standing-pts">${s.total}</div>
       </div>
       <div class="standing-breakdown" id="bd-${s.id}">
-        <div class="bd-chip">Bonus <span>${bd.bonuses}</span></div>
-        <div class="bd-chip">Match <span>${bd.match_results}</span></div>
-        <div class="bd-chip">Goals <span>${bd.scorer_goals}</span></div>
-        <div class="bd-chip">Pool <span>${bd.pool_placement}</span></div>
-        <div class="bd-chip">Tourney <span>${bd.tournament_finish}</span></div>
+        <div class="bd-summary">
+          <div class="bd-chip">Bonus <span>${bd.bonuses}</span></div>
+          <div class="bd-chip">Match <span>${bd.match_results}</span></div>
+          <div class="bd-chip">Goals <span>${bd.scorer_goals}</span></div>
+          <div class="bd-chip">Pool <span>${bd.pool_placement}</span></div>
+          <div class="bd-chip">Tourney <span>${bd.tournament_finish}</span></div>
+        </div>
+        <table class="team-table">
+          <thead><tr>
+            <th>Team</th>
+            <th>Bonus</th>
+            <th>Match</th>
+            <th>Goals</th>
+            <th>Pool</th>
+            <th>Total</th>
+          </tr></thead>
+          <tbody>${teamRows}</tbody>
+        </table>
       </div>`;
   }).join('');
+}
+
+function buildTeamTable(picks) {
+  if (!picks || picks.length === 0) return '<tr><td colspan="6" style="text-align:center;color:var(--muted);padding:10px">No pick data yet</td></tr>';
+  let rows = '';
+  let lastBox = null;
+  picks.forEach(p => {
+    if (p.box !== lastBox) {
+      const label = p.box >= 7
+        ? `Box ${p.box} ★ — 3 pts/goal, 1 scorer`
+        : `Box ${p.box}`;
+      rows += `<tr class="box-divider"><td colspan="6">${label}</td></tr>`;
+      lastBox = p.box;
+    }
+    const bonusLabel = p.bonus > 0 ? `+${p.bonus}` : '—';
+    const scorerText = (p.scorers || []).join(', ');
+    const earned = (p.match || 0) + (p.scorer || 0) + (p.pool || 0) + (p.tourney || 0);
+    rows += `<tr>
+      <td><span>${p.team}</span><span class="scorer-names">${scorerText}</span></td>
+      <td>${bonusLabel}</td>
+      <td>${p.match || 0}</td>
+      <td>${p.scorer || 0}</td>
+      <td>${p.pool || 0}</td>
+      <td class="pts-total">${p.total || 0}</td>
+    </tr>`;
+  });
+  return rows;
 }
 
 function toggleBreakdown(id) {

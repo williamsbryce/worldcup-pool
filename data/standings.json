@@ -1,10 +1,11 @@
 {
-  "last_updated": "2026-06-12T20:13:26Z",
+  "last_updated": "2026-06-12T20:35:31Z",
   "standings": [
     {
       "id": "alex-ryback",
       "name": "Alex Ryback",
       "total": 58,
+      "total_games": 2,
       "picks": [
         {
           "box": 1,
@@ -14,6 +15,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Vini",
             "Raphina"
@@ -28,6 +30,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Mbape",
             "Olise"
@@ -42,6 +45,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "CR7",
             "Bruno Fernandez"
@@ -56,6 +60,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Doku",
             "De Bruyne"
@@ -70,6 +75,7 @@
           "scorer": 2,
           "pool": 0,
           "tourney": 0,
+          "games": 1,
           "scorers": [
             "Jiminez",
             "Alvarado"
@@ -84,6 +90,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Diaz",
             "El Kaabi"
@@ -98,6 +105,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Haaland",
             "Sorloth"
@@ -112,6 +120,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Yildiz",
             "Guler"
@@ -126,6 +135,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "David",
             "Buchanan"
@@ -140,6 +150,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Modric",
             "Kramaric"
@@ -154,6 +165,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Isak",
             "Gyokeres"
@@ -168,6 +180,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Salah",
             "Trezeguet"
@@ -182,6 +195,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Semenyo",
             "Williams"
@@ -196,6 +210,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Diallo",
             "Diomande"
@@ -210,6 +225,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 1,
           "scorers": [
             "Heung Min",
             "Kang-in"
@@ -224,6 +240,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Toure"
           ],
@@ -237,6 +254,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Livramento"
           ],
@@ -250,6 +268,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Bakambu"
           ],
@@ -263,6 +282,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Diaz"
           ],
@@ -276,6 +296,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Saad"
           ],
@@ -295,6 +316,7 @@
       "id": "dan-murza",
       "name": "Dan Murza",
       "total": 58,
+      "total_games": 1,
       "picks": [
         {
           "box": 1,
@@ -304,6 +326,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Julián Álvarez",
             "Lautaro Martínez"
@@ -318,6 +341,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Vinícius Júnior",
             "Raphinha"
@@ -332,6 +356,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Jamal Musiala",
             "Kai Havertz"
@@ -346,6 +371,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Romelu Lukaku",
             "Jérémy Doku"
@@ -360,6 +386,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Youssef En-Nesyri",
             "Soufiane Rahimi"
@@ -374,6 +401,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Breel Embolo",
             "Dan Ndoye"
@@ -388,6 +416,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Kerem Aktürkoğlu",
             "Arda Güler"
@@ -402,6 +431,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Darwin Núñez",
             "Federico Valverde"
@@ -416,6 +446,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Jonathan David",
             "Cyle Larin"
@@ -430,6 +461,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Kaoru Mitoma",
             "Takumi Minamino"
@@ -444,6 +476,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Viktor Gyökeres",
             "Alexander Isak"
@@ -458,6 +491,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 1,
           "scorers": [
             "Adam Hložek",
             "Patrik Schick"
@@ -472,6 +506,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Amine Gouiri",
             "Riyad Mahrez"
@@ -486,6 +521,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Iñaki Williams",
             "Antoine Semenyo"
@@ -500,6 +536,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Mehdi Taremi",
             "Mohammad Mohebi"
@@ -514,6 +551,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Kusini Yengi"
           ],
@@ -527,6 +565,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Dailon Livramento"
           ],
@@ -540,6 +579,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Almoez Ali"
           ],
@@ -553,6 +593,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Rangelo Janga"
           ],
@@ -566,6 +607,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Aymen Hussein"
           ],
@@ -585,6 +627,7 @@
       "id": "tyler-marien",
       "name": "Tyler Marien",
       "total": 49,
+      "total_games": 3,
       "picks": [
         {
           "box": 1,
@@ -594,6 +637,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Messi",
             "J. Álvarez"
@@ -608,6 +652,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Kane",
             "Saka"
@@ -622,6 +667,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Mbappe",
             "Dembele"
@@ -636,6 +682,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Depay",
             "Gakpo"
@@ -650,6 +697,7 @@
           "scorer": 2,
           "pool": 0,
           "tourney": 0,
+          "games": 1,
           "scorers": [
             "R. Jiménez",
             "S. Giménez"
@@ -664,6 +712,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "El Kaabi",
             "Brahim Díaz"
@@ -678,6 +727,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Pulisic",
             "Balogun"
@@ -692,6 +742,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Núñez",
             "Valverde"
@@ -706,6 +757,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Arnautović",
             "Gregoritsch"
@@ -720,6 +772,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "David",
             "Larin"
@@ -734,6 +787,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Ueda",
             "Kubo"
@@ -748,6 +802,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "N. Jackson",
             "Mané"
@@ -762,6 +817,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Mahrez",
             "Amoura"
@@ -776,6 +832,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Amad Diallo",
             "Bonny"
@@ -790,6 +847,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 1,
           "scorers": [
             "Son",
             "Lee Kang-in"
@@ -804,6 +862,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Irankunda"
           ],
@@ -817,6 +876,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Akram Afif"
           ],
@@ -830,6 +890,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 1,
           "scorers": [
             "Lyle Foster"
           ],
@@ -843,6 +904,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Ismael Díaz"
           ],
@@ -856,6 +918,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Shomurodov"
           ],
@@ -875,6 +938,7 @@
       "id": "bryce-williams",
       "name": "Bryce Williams",
       "total": 45,
+      "total_games": 2,
       "picks": [
         {
           "box": 1,
@@ -884,6 +948,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Vinicius Jr",
             "Raphinha"
@@ -898,6 +963,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Kai Havertz",
             "Jamal Musiala"
@@ -912,6 +978,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Lamine Yamal",
             "Mikel Oyarzabal"
@@ -926,6 +993,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Cody Gakpo",
             "Memphis Depay"
@@ -940,6 +1008,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Luis Díaz",
             "Luis Suárez"
@@ -954,6 +1023,7 @@
           "scorer": 2,
           "pool": 0,
           "tourney": 0,
+          "games": 1,
           "scorers": [
             "Raúl Jiménez",
             "Santiago Giménez"
@@ -968,6 +1038,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Ayoub El Kaabi",
             "Brahim Díaz"
@@ -982,6 +1053,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Erling Haaland",
             "Alexander Sørloth"
@@ -996,6 +1068,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Marko Arnautović",
             "Marcel Sabitzer"
@@ -1010,6 +1083,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Jonathan David",
             "Cyle Larin"
@@ -1024,6 +1098,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Takefusa Kubo",
             "Ayase Ueda"
@@ -1038,6 +1113,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Mohamed Salah",
             "Omar Marmoush"
@@ -1052,6 +1128,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Amad Diallo",
             "Evann Guessand"
@@ -1066,6 +1143,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Antonio Sanabria",
             "Miguel Almirón"
@@ -1080,6 +1158,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 1,
           "scorers": [
             "Son Heung-min",
             "Hwang Hee-chan"
@@ -1094,6 +1173,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Mitch Duke"
           ],
@@ -1107,6 +1187,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Cédric Bakambu"
           ],
@@ -1120,6 +1201,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Salem Al-Dawsari"
           ],
@@ -1133,6 +1215,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Mousa Tamari"
           ],
@@ -1146,6 +1229,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Eldor Shomurodov"
           ],
@@ -1165,6 +1249,7 @@
       "id": "brendan-newton",
       "name": "Brendan Newton",
       "total": 42,
+      "total_games": 1,
       "picks": [
         {
           "box": 1,
@@ -1174,6 +1259,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Alvarez",
             "Messi"
@@ -1188,6 +1274,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Kane",
             "Rashford"
@@ -1202,6 +1289,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Mbappe",
             "Olise"
@@ -1216,6 +1304,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Gakpo",
             "Depay"
@@ -1230,6 +1319,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Luis Diaz",
             "Rafael Santos Borre"
@@ -1244,6 +1334,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Brahim Diaz",
             "Ayoub El Kaabi"
@@ -1258,6 +1349,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Haaland",
             "Alexander Sorloth"
@@ -1272,6 +1364,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Kenan Yildiz",
             "Arda Guler"
@@ -1286,6 +1379,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Jonathon David",
             "Cyle Larin"
@@ -1300,6 +1394,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Ayase Ueda",
             "Keito Nakamura"
@@ -1314,6 +1409,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Gyokeres",
             "Isak"
@@ -1328,6 +1424,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Sadio Mane",
             "Nicolas Jackson"
@@ -1342,6 +1439,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Amad Diallo",
             "Krasso"
@@ -1356,6 +1454,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "McTominay",
             "McGinn"
@@ -1370,6 +1469,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 1,
           "scorers": [
             "Son Hueng-min",
             "Want Hee-chan"
@@ -1384,6 +1484,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Nestory Irankunda"
           ],
@@ -1397,6 +1498,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Dailon Livramento"
           ],
@@ -1410,6 +1512,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Firas Al-Buraikan"
           ],
@@ -1423,6 +1526,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Jose Fajardo"
           ],
@@ -1436,6 +1540,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Hazem Mastouri"
           ],
@@ -1455,6 +1560,7 @@
       "id": "damon-williams",
       "name": "Damon Williams",
       "total": 37,
+      "total_games": 2,
       "picks": [
         {
           "box": 1,
@@ -1464,6 +1570,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Mbappe",
             "Olise"
@@ -1478,6 +1585,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Ronaldo",
             "Fernandes"
@@ -1492,6 +1600,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Yamal",
             "Oyarzabal"
@@ -1506,6 +1615,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Gakpo",
             "Depay"
@@ -1520,6 +1630,7 @@
           "scorer": 2,
           "pool": 0,
           "tourney": 0,
+          "games": 1,
           "scorers": [
             "Jimenz",
             "Mora"
@@ -1534,6 +1645,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Kaabi",
             "Diaz"
@@ -1548,6 +1660,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Embolo",
             "Vargas"
@@ -1562,6 +1675,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Balogun",
             "Pulisic"
@@ -1576,6 +1690,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Larin",
             "David"
@@ -1590,6 +1705,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Kramaric",
             "Budimir"
@@ -1604,6 +1720,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Valencia",
             "Plata"
@@ -1618,6 +1735,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Mane",
             "Jackson"
@@ -1632,6 +1750,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Amoura",
             "Mahrez"
@@ -1646,6 +1765,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Sanabria",
             "Enciso"
@@ -1660,6 +1780,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Adams",
             "Tominay"
@@ -1674,6 +1795,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Bakambu"
           ],
@@ -1687,6 +1809,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Buraikan"
           ],
@@ -1700,6 +1823,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 1,
           "scorers": [
             "Foster"
           ],
@@ -1713,6 +1837,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Mejbri"
           ],
@@ -1726,6 +1851,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Shomurodov"
           ],
@@ -1745,6 +1871,7 @@
       "id": "drew-findlay",
       "name": "Drew Findlay",
       "total": 37,
+      "total_games": 2,
       "picks": [
         {
           "box": 1,
@@ -1754,6 +1881,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Messi",
             "Lautaro Martinez"
@@ -1768,6 +1896,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Kane",
             "Dana"
@@ -1782,6 +1911,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Mbappe",
             "Dembele"
@@ -1796,6 +1926,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Depay",
             "Gakpo"
@@ -1810,6 +1941,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Diaz",
             "Rodriguez"
@@ -1824,6 +1956,7 @@
           "scorer": 2,
           "pool": 0,
           "tourney": 0,
+          "games": 1,
           "scorers": [
             "Jimenez",
             "Gimenz"
@@ -1838,6 +1971,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Diaz",
             "Kaabi"
@@ -1852,6 +1986,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Haaland",
             "Sorloth"
@@ -1866,6 +2001,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "David",
             "Larin"
@@ -1880,6 +2016,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Budimir",
             "Perisic"
@@ -1894,6 +2031,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Ueda",
             "Kubo"
@@ -1908,6 +2046,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Salah",
             "Marmoush"
@@ -1922,6 +2061,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Taremi",
             "Azmoun"
@@ -1936,6 +2076,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Fofana",
             "Adringa"
@@ -1950,6 +2091,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Sanabria",
             "Almiron"
@@ -1964,6 +2106,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Leckie"
           ],
@@ -1977,6 +2120,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Al-Dawsari"
           ],
@@ -1990,6 +2134,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 1,
           "scorers": [
             "Foster"
           ],
@@ -2003,6 +2148,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Khazri"
           ],
@@ -2016,6 +2162,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Shomurodov"
           ],
@@ -2035,6 +2182,7 @@
       "id": "rob-roy",
       "name": "Rob Roy",
       "total": 35,
+      "total_games": 1,
       "picks": [
         {
           "box": 1,
@@ -2044,6 +2192,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "L Martinez",
             "Messi"
@@ -2058,6 +2207,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Dembele",
             "Mbappe"
@@ -2072,6 +2222,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Yamal",
             "Rodri"
@@ -2086,6 +2237,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Depay",
             "de Jong"
@@ -2100,6 +2252,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "L Diaz",
             "J Rodriguez"
@@ -2114,6 +2267,7 @@
           "scorer": 4,
           "pool": 0,
           "tourney": 0,
+          "games": 1,
           "scorers": [
             "R Jiminez",
             "J Quinones"
@@ -2128,6 +2282,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Nusa",
             "Haaland"
@@ -2142,6 +2297,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "F Valverde",
             "D Nunez"
@@ -2156,6 +2312,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "David",
             "Larin"
@@ -2170,6 +2327,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "I Perisic",
             "A Kramaric"
@@ -2184,6 +2342,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Isak",
             "Gyokeres"
@@ -2198,6 +2357,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "E Demirovic",
             "E Dzeko"
@@ -2212,6 +2372,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Diomande",
             "Pepe"
@@ -2226,6 +2387,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Enciso",
             "Almiron"
@@ -2240,6 +2402,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "McTominay",
             "McGinn"
@@ -2254,6 +2417,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "R Mendes"
           ],
@@ -2267,6 +2431,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Wissa"
           ],
@@ -2280,6 +2445,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Al Juwayer"
           ],
@@ -2293,6 +2459,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "J L Rodriguez"
           ],
@@ -2306,6 +2473,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Skhiri"
           ],
@@ -2325,6 +2493,7 @@
       "id": "tate-williams",
       "name": "Tate Williams",
       "total": 33,
+      "total_games": 0,
       "picks": [
         {
           "box": 1,
@@ -2334,6 +2503,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Messi",
             "Martinez"
@@ -2348,6 +2518,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Mbappe",
             "Dembele"
@@ -2362,6 +2533,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Yamal",
             "Oyarzabal"
@@ -2376,6 +2548,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Gakpo",
             "Malen"
@@ -2390,6 +2563,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Diaz",
             "Arias"
@@ -2404,6 +2578,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Diaz",
             "El Kaabi"
@@ -2418,6 +2593,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Haaland",
             "Sorloth"
@@ -2432,6 +2608,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Balogun",
             "Pulisic"
@@ -2446,6 +2623,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "David",
             "Larin"
@@ -2460,6 +2638,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Valencia",
             "Plata"
@@ -2474,6 +2653,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Gyokeres",
             "Isak"
@@ -2488,6 +2668,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Salah",
             "Marmoush"
@@ -2502,6 +2683,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Mahrez",
             "Amoura"
@@ -2516,6 +2698,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Enciso",
             "Sanabria"
@@ -2530,6 +2713,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Shankland",
             "Dykes"
@@ -2544,6 +2728,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Toure"
           ],
@@ -2557,6 +2742,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Mendes"
           ],
@@ -2570,6 +2756,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Ali"
           ],
@@ -2583,6 +2770,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Isidor"
           ],
@@ -2596,6 +2784,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Olwan"
           ],
@@ -2615,6 +2804,7 @@
       "id": "vernon-persaud",
       "name": "Vernon Persaud",
       "total": 33,
+      "total_games": 0,
       "picks": [
         {
           "box": 1,
@@ -2624,6 +2814,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Messi",
             "Alvarez"
@@ -2638,6 +2829,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Vini Jr",
             "Raphinha"
@@ -2652,6 +2844,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Dembele",
             "Mbappe"
@@ -2666,6 +2859,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Lukaku",
             "Doku"
@@ -2680,6 +2874,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Dhuran",
             "Luis Diaz"
@@ -2694,6 +2889,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Diaz",
             "En-Nesyri"
@@ -2708,6 +2904,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Haaland",
             "Odegaard"
@@ -2722,6 +2919,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Embolo",
             "Ndoye"
@@ -2736,6 +2934,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Paez",
             "Valencia"
@@ -2750,6 +2949,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Ayase",
             "Kubo"
@@ -2764,6 +2964,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Isak",
             "Gyokeres"
@@ -2778,6 +2979,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Salah",
             "Marmoush"
@@ -2792,6 +2994,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Mohamed Amoura",
             "Amine Gouiri"
@@ -2806,6 +3009,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Enciso",
             "Sanabria"
@@ -2820,6 +3024,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Mctominay",
             "Shankland"
@@ -2834,6 +3039,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Yoanne Wissa"
           ],
@@ -2847,6 +3053,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Wood"
           ],
@@ -2860,6 +3067,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Firas Al Buraikan"
           ],
@@ -2873,6 +3081,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Ali Abdi"
           ],
@@ -2886,6 +3095,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Shomurodov"
           ],
@@ -2905,6 +3115,7 @@
       "id": "andrew-tennent",
       "name": "Andrew Tennent",
       "total": 31,
+      "total_games": 2,
       "picks": [
         {
           "box": 1,
@@ -2914,6 +3125,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "H. Kane",
             "J. Bellingham"
@@ -2928,6 +3140,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "K. Mbappe",
             "O. Dembele"
@@ -2942,6 +3155,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "Mikel Oyarzabal",
             "Lamine Yamal"
@@ -2956,6 +3170,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "R. lukaku",
             "J Doku"
@@ -2970,6 +3185,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "L. Suarez",
             "L. Diaz"
@@ -2984,6 +3200,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "I. Saibari",
             "B. Diaz"
@@ -2998,6 +3215,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "E. Haaland",
             "A. Sorloth"
@@ -3012,6 +3230,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "B. Embolo",
             "G.  Xhaka"
@@ -3026,6 +3245,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "L. Modric",
             "A. Kramaric"
@@ -3040,6 +3260,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "K. Paez",
             "E. Valencia"
@@ -3054,6 +3275,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "R. Doan",
             "T. kubo"
@@ -3068,6 +3290,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "M. Salah",
             "O. Marmoush"
@@ -3082,6 +3305,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "R. Mahrez",
             "M. Amine Amoura"
@@ -3096,6 +3320,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "J. Enciso",
             "A. Sanaeria"
@@ -3110,6 +3335,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 1,
           "scorers": [
             "Son Heung-Min",
             "Lee Kang-In"
@@ -3124,6 +3350,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "N. irankunda"
           ],
@@ -3137,6 +3364,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "A. Afif"
           ],
@@ -3150,6 +3378,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 1,
           "scorers": [
             "Foster"
           ],
@@ -3163,6 +3392,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "F. Chaouat"
           ],
@@ -3176,6 +3406,7 @@
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
+          "games": 0,
           "scorers": [
             "E. Shomurodov"
           ],

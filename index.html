@@ -515,27 +515,33 @@ function renderStandings() {
   }
 
   list.innerHTML = standingsData.standings.map(s => {
-    const bd = s.breakdown;
     const rc = s.rank === 1 ? 'r1' : s.rank === 2 ? 'r2' : s.rank === 3 ? 'r3' : '';
+    const gp = s.total_games != null ? s.total_games : '—';
     return `
       <div class="standing-row">
         <div class="rank-badge ${rc}">${s.rank}</div>
-        <div class="standing-name">${s.name}</div>
+        <div class="standing-name">${s.name}<span style="display:block;font-size:.68rem;font-weight:400;color:var(--muted);">${gp} GP</span></div>
         <div class="standing-pts">${s.total}</div>
       </div>`;
   }).join('');
 }
 
 function buildTeamTable(picks) {
-  if (!picks || picks.length === 0) return '<tr><td colspan="6" style="text-align:center;color:var(--muted);padding:10px">No pick data yet</td></tr>';
+  if (!picks || picks.length === 0) return '<tr><td colspan="7" style="text-align:center;color:var(--muted);padding:10px">No pick data yet</td></tr>';
   let rows = '';
   let lastBox = null;
+  const totBonus  = picks.reduce((s, p) => s + (p.bonus  || 0), 0);
+  const totGames  = picks.reduce((s, p) => s + (p.games  || 0), 0);
+  const totMatch  = picks.reduce((s, p) => s + (p.match  || 0), 0);
+  const totScorer = picks.reduce((s, p) => s + (p.scorer || 0), 0);
+  const totPool   = picks.reduce((s, p) => s + (p.pool   || 0), 0);
+  const totTotal  = picks.reduce((s, p) => s + (p.total  || 0), 0);
   picks.forEach(p => {
     if (p.box !== lastBox) {
       const label = p.box >= 7
         ? `Box ${p.box} ★ — 3 pts/goal, 1 scorer`
         : `Box ${p.box}`;
-      rows += `<tr class="box-divider"><td colspan="6">${label}</td></tr>`;
+      rows += `<tr class="box-divider"><td colspan="7">${label}</td></tr>`;
       lastBox = p.box;
     }
     const bonusLabel = p.bonus > 0 ? `+${p.bonus}` : '—';
@@ -543,12 +549,22 @@ function buildTeamTable(picks) {
     rows += `<tr>
       <td><span>${p.team}</span><span class="scorer-names">${scorerText}</span></td>
       <td>${bonusLabel}</td>
-      <td>${p.match || 0}</td>
+      <td>${p.games  || 0}</td>
+      <td>${p.match  || 0}</td>
       <td>${p.scorer || 0}</td>
-      <td>${p.pool || 0}</td>
+      <td>${p.pool   || 0}</td>
       <td class="pts-total">${p.total || 0}</td>
     </tr>`;
   });
+  rows += `<tr style="background:#eef1f6;border-top:2px solid var(--border);">
+    <td style="padding-left:14px;color:var(--text);font-weight:700;">Totals</td>
+    <td style="text-align:right;font-weight:700;color:var(--text);">${totBonus > 0 ? '+' + totBonus : '—'}</td>
+    <td style="text-align:right;font-weight:700;color:var(--text);">${totGames}</td>
+    <td style="text-align:right;font-weight:700;color:var(--text);">${totMatch}</td>
+    <td style="text-align:right;font-weight:700;color:var(--text);">${totScorer}</td>
+    <td style="text-align:right;font-weight:700;color:var(--text);">${totPool}</td>
+    <td class="pts-total">${totTotal}</td>
+  </tr>`;
   return rows;
 }
 
@@ -597,6 +613,7 @@ function renderEntryDetail() {
         <thead><tr>
           <th>Team</th>
           <th>Bonus</th>
+          <th>GP</th>
           <th>Match</th>
           <th>Goals</th>
           <th>Pool</th>

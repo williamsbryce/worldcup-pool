@@ -341,7 +341,7 @@ def compute_standings(entries_data, rules, matches_list, aliases):
         for p in entry["picks"]:
             pick_stats[p["team"]] = {
                 "box": p["box"], "team": p["team"], "bonus": p["bonus"],
-                "match": 0, "scorer": 0, "pool": 0, "tourney": 0,
+                "match": 0, "scorer": 0, "pool": 0, "tourney": 0, "games": 0,
                 "scorers": p["scorers"],
             }
 
@@ -366,6 +366,7 @@ def compute_standings(entries_data, rules, matches_list, aliases):
                     continue
 
                 ps = pick_stats[pick["team"]]  # per-team accumulator
+                ps["games"] += 1
 
                 ts = m[f"{side}_score"]
                 os = m[f"{opp}_score"]
@@ -437,6 +438,7 @@ def compute_standings(entries_data, rules, matches_list, aliases):
         pool_pts    = sum(ps["pool"]    for ps in pick_stats.values())
         tourney_pts = sum(ps["tourney"] for ps in pick_stats.values())
         bonuses     = sum(ps["bonus"]   for ps in pick_stats.values())
+        total_games = sum(ps["games"]   for ps in pick_stats.values())
 
         picks_list = sorted(pick_stats.values(), key=lambda x: (x["box"], x["team"]))
 
@@ -445,6 +447,7 @@ def compute_standings(entries_data, rules, matches_list, aliases):
             "id":   entry["id"],
             "name": entry["name"],
             "total": total,
+            "total_games": total_games,
             "picks": picks_list,
             "breakdown": {
                 "bonuses":          bonuses,

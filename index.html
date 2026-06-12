@@ -8,8 +8,8 @@
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   html {
+    height: 100%;
     height: -webkit-fill-available;
-    overscroll-behavior: none;
   }
 
   :root {
@@ -30,10 +30,19 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     background: var(--gray);
     color: var(--text);
-    padding-bottom: calc(70px + env(safe-area-inset-bottom));
-    min-height: 100vh;
-    min-height: -webkit-fill-available;
-    overscroll-behavior: none;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    height: 100dvh;
+    height: -webkit-fill-available;
+    overflow: hidden;
+  }
+
+  #main-scroll {
+    flex: 1;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-y: contain;
   }
 
   /* ── header ── */
@@ -43,27 +52,19 @@
     padding: 14px 16px 10px;
     padding-top: calc(14px + env(safe-area-inset-top));
     text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 50;
+    flex-shrink: 0;
     box-shadow: 0 2px 8px rgba(0,0,0,.3);
-    transform: translateZ(0);
-    -webkit-transform: translateZ(0);
   }
   header h1 { font-size: 1.35rem; font-weight: 700; letter-spacing: .03em; }
   header p  { font-size: .72rem; opacity: .8; margin-top: 2px; }
 
   /* ── tab bar ── */
   nav {
-    position: fixed;
-    bottom: 0; left: 0; right: 0;
     display: flex;
+    flex-shrink: 0;
     background: var(--blue2);
     border-top: 2px solid var(--red);
-    z-index: 50;
     padding-bottom: env(safe-area-inset-bottom);
-    transform: translateZ(0);
-    -webkit-transform: translateZ(0);
   }
   nav button {
     flex: 1;
@@ -375,6 +376,8 @@
   <p id="last-updated">Loading...</p>
 </header>
 
+<div id="main-scroll">
+
 <!-- ── Standings page ── -->
 <section id="page-standings" class="page active">
   <div id="standings-list" class="card"><div class="loading">Loading standings…</div></div>
@@ -457,6 +460,8 @@
   </div>
 </section>
 
+</div><!-- #main-scroll -->
+
 <!-- ── Tab bar ── -->
 <nav>
   <button class="active" onclick="showPage('standings',this)">
@@ -493,6 +498,7 @@ function showPage(name, btn) {
   document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
   document.getElementById('page-' + name).classList.add('active');
   btn.classList.add('active');
+  document.getElementById('main-scroll').scrollTop = 0;
   if (name === 'standings' && standingsData) renderStandings();
   if (name === 'entries'   && entriesData)  populateEntrySelect();
   if (name === 'results'   && matchesData)  renderResults();

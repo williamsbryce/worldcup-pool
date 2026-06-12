@@ -613,8 +613,9 @@ function populateEntrySelect() {
   if (!entriesData) return;
   const sel = document.getElementById('entry-select');
   const cur = sel.value;
+  const sorted = [...entriesData.entries].sort((a, b) => a.name.localeCompare(b.name));
   sel.innerHTML = '<option value="">— Select a participant —</option>' +
-    entriesData.entries.map(e =>
+    sorted.map(e =>
       `<option value="${e.id}">${e.name}</option>`
     ).join('');
   if (cur) sel.value = cur;

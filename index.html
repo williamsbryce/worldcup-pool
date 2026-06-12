@@ -113,7 +113,7 @@
   .rank-badge.r3 { background: var(--bronze); color: #fff; }
 
   .standing-name { flex: 1; font-weight: 600; font-size: .95rem; }
-  .standing-gp   { font-size: .78rem; font-weight: 600; color: var(--muted); width: 36px; text-align: center; flex-shrink: 0; }
+  .standing-gp   { font-size: 1.1rem; font-weight: 800; color: var(--muted); min-width: 52px; text-align: right; padding-right: 16px; }
   .standing-pts  { font-size: 1.1rem; font-weight: 800; color: var(--blue); min-width: 42px; text-align: right; }
 
   .standings-col-header {
@@ -132,8 +132,8 @@
     color: var(--muted);
   }
   .standings-col-header .ch-rank { width: 32px; flex-shrink: 0; }
-  .standings-col-header .ch-gp   { width: 36px; text-align: center; flex-shrink: 0; }
   .standings-col-header .ch-name { flex: 1; }
+  .standings-col-header .ch-gp   { min-width: 52px; text-align: right; padding-right: 16px; }
   .standings-col-header .ch-pts  { min-width: 42px; text-align: right; }
 
   .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
@@ -541,8 +541,8 @@ function renderStandings() {
   const header = `
     <div class="standings-col-header">
       <span class="ch-rank"></span>
-      <span class="ch-gp">GP</span>
       <span class="ch-name">Participant</span>
+      <span class="ch-gp">GP</span>
       <span class="ch-pts">Pts</span>
     </div>`;
 
@@ -555,8 +555,8 @@ function renderStandings() {
     return `
       <div class="standing-row">
         <div class="rank-badge ${rc}" style="${badgeStyle}">${badgeContent}</div>
-        <div class="standing-gp">${gp}</div>
         <div class="standing-name">${s.name}</div>
+        <div class="standing-gp">${gp}</div>
         <div class="standing-pts">${s.total}</div>
       </div>`;
   }).join('');

@@ -126,6 +126,8 @@
   .rank-badge.r3 { background: var(--bronze); color: #fff; }
 
   .standing-name    { flex: 1; font-weight: 600; font-size: .88rem; }
+  .standing-name-link { cursor: pointer; color: var(--blue); text-decoration: underline; text-underline-offset: 2px; }
+  .standing-name-link:active { opacity: .6; }
   .standing-teams   { font-size: 1rem; font-weight: 800; color: var(--muted); min-width: 46px; text-align: right; padding-right: 20px; }
   .standing-gp      { font-size: 1rem; font-weight: 800; color: var(--muted); min-width: 40px; text-align: right; padding-right: 16px; }
   .standing-pts     { font-size: 1rem; font-weight: 800; color: var(--blue); min-width: 36px; text-align: right; }
@@ -473,19 +475,19 @@
 
 <!-- ── Tab bar ── -->
 <nav>
-  <button class="active" onclick="showPage('standings',this)">
+  <button class="active" data-page="standings" onclick="showPage('standings',this)">
     <svg viewBox="0 0 24 24"><path d="M11 15H6l7-14v8h5l-7 14v-8z"/></svg>
     Standings
   </button>
-  <button onclick="showPage('entries',this)">
+  <button data-page="entries" onclick="showPage('entries',this)">
     <svg viewBox="0 0 24 24"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
     Entries
   </button>
-  <button onclick="showPage('results',this)">
+  <button data-page="results" onclick="showPage('results',this)">
     <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
     Results
   </button>
-  <button onclick="showPage('rules',this)">
+  <button data-page="rules" onclick="showPage('rules',this)">
     <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM8 17h8v-2H8v2zm0-4h8v-2H8v2zm0-4h5V7H8v2z"/></svg>
     Rules
   </button>
@@ -511,6 +513,19 @@ function showPage(name, btn) {
   if (name === 'standings' && standingsData) renderStandings();
   if (name === 'entries'   && entriesData)  populateEntrySelect();
   if (name === 'results'   && matchesData)  renderResults();
+}
+
+function goToEntry(id) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById('page-entries').classList.add('active');
+  document.querySelector('nav button[data-page="entries"]').classList.add('active');
+  document.getElementById('main-scroll').scrollTop = 0;
+  if (entriesData) {
+    populateEntrySelect();
+    document.getElementById('entry-select').value = id;
+    renderEntryDetail();
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -586,7 +601,7 @@ function renderStandings() {
     return `
       <div class="standing-row">
         <div class="rank-badge ${rc}" style="${badgeStyle}">${badgeContent}</div>
-        <div class="standing-name">${s.name}</div>
+        <div class="standing-name standing-name-link" onclick="goToEntry('${s.id}')">${s.name}</div>
         <div class="standing-teams">${teams}</div>
         <div class="standing-gp">${gp}</div>
         <div class="standing-pts">${s.total}</div>

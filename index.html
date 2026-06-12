@@ -103,20 +103,19 @@
   .standing-row {
     display: flex;
     align-items: center;
-    padding: 11px 14px;
+    padding: 8px 12px;
     border-bottom: 1px solid var(--border);
-    gap: 12px;
-    cursor: pointer;
+    gap: 10px;
+    cursor: default;
   }
   .standing-row:last-child { border-bottom: none; }
-  .standing-row { cursor: default; }
   .standing-row:hover { background: var(--gray); }
 
   .rank-badge {
-    width: 32px; height: 32px;
+    width: 28px; height: 28px;
     border-radius: 50%;
     display: flex; align-items: center; justify-content: center;
-    font-size: .85rem; font-weight: 800;
+    font-size: .78rem; font-weight: 800;
     flex-shrink: 0;
     background: var(--border);
     color: var(--muted);
@@ -125,31 +124,31 @@
   .rank-badge.r2 { background: var(--silver); color: #fff; }
   .rank-badge.r3 { background: var(--bronze); color: #fff; }
 
-  .standing-name    { flex: 1; font-weight: 600; font-size: .95rem; }
-  .standing-gp      { font-size: 1.1rem; font-weight: 800; color: var(--muted); min-width: 52px; text-align: right; padding-right: 24px; }
-  .standing-teams   { font-size: 1.1rem; font-weight: 800; color: var(--muted); min-width: 52px; text-align: right; padding-right: 24px; }
-  .standing-pts     { font-size: 1.1rem; font-weight: 800; color: var(--blue); min-width: 42px; text-align: right; }
+  .standing-name    { flex: 1; font-weight: 600; font-size: .88rem; }
+  .standing-teams   { font-size: 1rem; font-weight: 800; color: var(--muted); min-width: 46px; text-align: right; padding-right: 20px; }
+  .standing-gp      { font-size: 1rem; font-weight: 800; color: var(--muted); min-width: 40px; text-align: right; padding-right: 16px; }
+  .standing-pts     { font-size: 1rem; font-weight: 800; color: var(--blue); min-width: 36px; text-align: right; }
 
   .standings-col-header {
     display: flex;
     align-items: center;
-    padding: 5px 14px;
+    padding: 4px 12px;
     border-bottom: 2px solid var(--border);
     background: #f0f2f6;
-    gap: 12px;
+    gap: 10px;
   }
   .standings-col-header span {
-    font-size: .63rem;
+    font-size: .6rem;
     font-weight: 700;
     letter-spacing: .07em;
     text-transform: uppercase;
     color: var(--muted);
   }
-  .standings-col-header .ch-rank  { width: 32px; flex-shrink: 0; }
+  .standings-col-header .ch-rank  { width: 28px; flex-shrink: 0; }
   .standings-col-header .ch-name  { flex: 1; }
-  .standings-col-header .ch-gp    { min-width: 52px; text-align: right; padding-right: 24px; }
-  .standings-col-header .ch-teams { min-width: 52px; text-align: right; padding-right: 24px; }
-  .standings-col-header .ch-pts   { min-width: 42px; text-align: right; }
+  .standings-col-header .ch-teams { min-width: 46px; text-align: right; padding-right: 20px; }
+  .standings-col-header .ch-gp    { min-width: 40px; text-align: right; padding-right: 16px; }
+  .standings-col-header .ch-pts   { min-width: 36px; text-align: right; }
 
   .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 
@@ -557,8 +556,8 @@ function renderStandings() {
     <div class="standings-col-header">
       <span class="ch-rank"></span>
       <span class="ch-name">Participant</span>
-      <span class="ch-gp">GP</span>
       <span class="ch-teams">Teams</span>
+      <span class="ch-gp">GP</span>
       <span class="ch-pts">Pts</span>
     </div>`;
 
@@ -573,8 +572,8 @@ function renderStandings() {
       <div class="standing-row">
         <div class="rank-badge ${rc}" style="${badgeStyle}">${badgeContent}</div>
         <div class="standing-name">${s.name}</div>
-        <div class="standing-gp">${gp}</div>
         <div class="standing-teams">${teams}</div>
+        <div class="standing-gp">${gp}</div>
         <div class="standing-pts">${s.total}</div>
       </div>`;
   }).join('');

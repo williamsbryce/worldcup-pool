@@ -216,7 +216,14 @@
     padding: 3px 6px 3px 10px;
     text-align: left;
   }
-  .scorer-names { font-size: .68rem; color: var(--muted); font-weight: 400; display: block; }
+  .scorer-row td {
+    padding: 0 10px 5px 10px;
+    font-size: .7rem;
+    color: var(--muted);
+    font-style: italic;
+    background: var(--white);
+    border-bottom: 1px solid var(--border);
+  }
 
   /* ── entries page ── */
   .entry-select-wrap {
@@ -606,15 +613,18 @@ function buildTeamTable(picks) {
       lastBox = p.box;
     }
     const bonusLabel = p.bonus > 0 ? `+${p.bonus}` : '—';
-    const scorerText = (p.scorers || []).join(', ');
+    const scorerText = (p.scorers || []).join(' · ');
     rows += `<tr>
-      <td><span>${p.team}</span><span class="scorer-names">${scorerText}</span></td>
+      <td>${p.team}</td>
       <td>${bonusLabel}</td>
       <td>${p.games  || 0}</td>
       <td>${p.match  || 0}</td>
       <td>${p.scorer || 0}</td>
       <td>${p.pool   || 0}</td>
       <td class="pts-total">${p.total || 0}</td>
+    </tr>
+    <tr class="scorer-row">
+      <td colspan="7">${scorerText}</td>
     </tr>`;
   });
   rows += `<tr style="background:#eef1f6;border-top:2px solid var(--border);">

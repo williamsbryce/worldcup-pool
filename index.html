@@ -96,6 +96,7 @@
     cursor: pointer;
   }
   .standing-row:last-child { border-bottom: none; }
+  .standing-row { cursor: default; }
   .standing-row:hover { background: var(--gray); }
 
   .rank-badge {
@@ -490,8 +491,9 @@ async function loadAll() {
 function formatTime(iso) {
   try {
     const d = new Date(iso);
-    return d.toLocaleString('en-CA', { month:'short', day:'numeric',
-      hour:'2-digit', minute:'2-digit', timeZone:'America/Regina', timeZoneName:'short' });
+    const str = d.toLocaleString('en-CA', { month:'short', day:'numeric',
+      hour:'2-digit', minute:'2-digit', timeZone:'America/Regina' });
+    return str + ' SK';
   } catch { return iso; }
 }
 
@@ -515,32 +517,11 @@ function renderStandings() {
   list.innerHTML = standingsData.standings.map(s => {
     const bd = s.breakdown;
     const rc = s.rank === 1 ? 'r1' : s.rank === 2 ? 'r2' : s.rank === 3 ? 'r3' : '';
-    const teamRows = buildTeamTable(s.picks || []);
     return `
-      <div class="standing-row" onclick="toggleBreakdown('bd-${s.id}')">
+      <div class="standing-row">
         <div class="rank-badge ${rc}">${s.rank}</div>
         <div class="standing-name">${s.name}</div>
         <div class="standing-pts">${s.total}</div>
-      </div>
-      <div class="standing-breakdown" id="bd-${s.id}">
-        <div class="bd-summary">
-          <div class="bd-chip">Bonus <span>${bd.bonuses}</span></div>
-          <div class="bd-chip">Match <span>${bd.match_results}</span></div>
-          <div class="bd-chip">Goals <span>${bd.scorer_goals}</span></div>
-          <div class="bd-chip">Pool <span>${bd.pool_placement}</span></div>
-          <div class="bd-chip">Tourney <span>${bd.tournament_finish}</span></div>
-        </div>
-        <table class="team-table">
-          <thead><tr>
-            <th>Team</th>
-            <th>Bonus</th>
-            <th>Match</th>
-            <th>Goals</th>
-            <th>Pool</th>
-            <th>Total</th>
-          </tr></thead>
-          <tbody>${teamRows}</tbody>
-        </table>
       </div>`;
   }).join('');
 }
@@ -559,7 +540,6 @@ function buildTeamTable(picks) {
     }
     const bonusLabel = p.bonus > 0 ? `+${p.bonus}` : '—';
     const scorerText = (p.scorers || []).join(', ');
-    const earned = (p.match || 0) + (p.scorer || 0) + (p.pool || 0) + (p.tourney || 0);
     rows += `<tr>
       <td><span>${p.team}</span><span class="scorer-names">${scorerText}</span></td>
       <td>${bonusLabel}</td>
@@ -570,10 +550,6 @@ function buildTeamTable(picks) {
     </tr>`;
   });
   return rows;
-}
-
-function toggleBreakdown(id) {
-  document.getElementById(id).classList.toggle('open');
 }
 
 // ---------------------------------------------------------------------------
@@ -594,97 +570,41 @@ function renderEntryDetail() {
   const id = document.getElementById('entry-select').value;
   const el = document.getElementById('entry-detail');
   el.innerHTML = '';
-  if (!id || !entriesData) return;
+  if (!id || !standingsData) return;
 
-  const entry = entriesData.entries.find(e => e.id === id);
-  if (!entry) return;
+  const standing = standingsData.standings.find(s => s.id === id);
+  if (!standing) return;
 
-  // Group picks by box
-  const byBox = {};
-  entry.picks.forEach(p => {
-    if (!byBox[p.box]) byBox[p.box] = [];
-    byBox[p.box].push(p);
-  });
-
-  const scorerPts = computeScorerPts(entry);
-  const totalBonus = entry.picks.reduce((s, p) => s + p.bonus, 0);
+  const bd = standing.breakdown;
 
   // Summary card
-  const standing = standingsData?.standings?.find(s => s.id === id);
-  if (standing) {
-    const bd = standing.breakdown;
-    el.innerHTML += `
-      <div class="card" style="padding:12px 14px; margin-bottom:10px;">
-        <div style="display:flex; justify-content:space-between; align-items:center;">
-          <span style="font-size:1.5rem; font-weight:900; color:var(--blue)">${standing.total} pts</span>
-          <span style="font-size:.85rem; color:var(--muted)">Rank #${standing.rank}</span>
-        </div>
-        <div style="display:flex; gap:6px; flex-wrap:wrap; margin-top:8px; font-size:.73rem; color:var(--muted);">
-          <div class="bd-chip">Bonus <span style="color:var(--blue);font-weight:700">${bd.bonuses}</span></div>
-          <div class="bd-chip">Match <span style="color:var(--blue);font-weight:700">${bd.match_results}</span></div>
-          <div class="bd-chip">Goals <span style="color:var(--blue);font-weight:700">${bd.scorer_goals}</span></div>
-          <div class="bd-chip">Pool <span style="color:var(--blue);font-weight:700">${bd.pool_placement}</span></div>
-          <div class="bd-chip">Tourney <span style="color:var(--blue);font-weight:700">${bd.tournament_finish}</span></div>
-        </div>
-      </div>`;
-  }
-
-  [1,2,3,4,5,6,7,8].forEach(box => {
-    if (!byBox[box]) return;
-    const is78 = box >= 7;
-    let html = `<div class="card rules-section" style="margin-bottom:10px;">
-      <div class="box-header ${is78 ? 'box-78' : ''}">Box ${box}${is78 ? ' ★ (3 pts/goal)' : ''}</div>`;
-    byBox[box].forEach(p => {
-      const pts = scorerPts[p.team] || 0;
-      const bonusLabel = p.bonus > 0 ? `+${p.bonus}` : '—';
-      html += `
-        <div class="pick-row">
-          <div class="pick-team">${p.team}</div>
-          <div class="pick-bonus">${bonusLabel}</div>
-          <div class="pick-scorers">${p.scorers.join(', ')}</div>
-          <div class="pick-pts">${pts > 0 ? pts + 'g' : ''}</div>
-        </div>`;
-    });
-    html += '</div>';
-    el.innerHTML += html;
-  });
-}
-
-function computeScorerPts(entry) {
-  const pts = {};
-  if (!matchesData) return pts;
-  entry.picks.forEach(pick => {
-    let teamPts = 0;
-    matchesData.matches.forEach(m => {
-      const matchesHome = normStr(m.home) === normStr(pick.team);
-      const matchesAway = normStr(m.away) === normStr(pick.team);
-      if (!matchesHome && !matchesAway) return;
-      const ptsPerGoal = pick.box >= 7 ? 3 : 2;
-      (m.goals || []).forEach(g => {
-        if (g.own_goal || g.shootout) return;
-        if (normStr(g.team) !== normStr(matchesHome ? m.home : m.away)) return;
-        pick.scorers.forEach(sname => {
-          if (looseMatch(sname, g.scorer)) teamPts += ptsPerGoal;
-        });
-      });
-    });
-    if (teamPts > 0) pts[pick.team] = teamPts;
-  });
-  return pts;
-}
-
-function normStr(s) {
-  return (s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-}
-
-function looseMatch(entry, espn) {
-  const en = normStr(entry);
-  const an = normStr(espn);
-  if (en === an) return true;
-  const toks = en.split('').length > 3 ? [en] : [];
-  // last name matching: check if entry name is contained in espn name
-  if (an.includes(en) || en.includes(an)) return true;
-  return false;
+  el.innerHTML = `
+    <div class="card" style="padding:12px 14px; margin-bottom:10px;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+        <span style="font-size:1.5rem; font-weight:900; color:var(--blue)">${standing.total} pts</span>
+        <span style="font-size:.85rem; color:var(--muted)">Rank #${standing.rank}</span>
+      </div>
+      <div style="display:flex; gap:6px; flex-wrap:wrap; font-size:.73rem; color:var(--muted);">
+        <div class="bd-chip">Bonus <span style="color:var(--blue);font-weight:700">${bd.bonuses}</span></div>
+        <div class="bd-chip">Match <span style="color:var(--blue);font-weight:700">${bd.match_results}</span></div>
+        <div class="bd-chip">Goals <span style="color:var(--blue);font-weight:700">${bd.scorer_goals}</span></div>
+        <div class="bd-chip">Pool <span style="color:var(--blue);font-weight:700">${bd.pool_placement}</span></div>
+        <div class="bd-chip">Tourney <span style="color:var(--blue);font-weight:700">${bd.tournament_finish}</span></div>
+      </div>
+    </div>
+    <div class="card" style="overflow:hidden;">
+      <table class="team-table">
+        <thead><tr>
+          <th>Team</th>
+          <th>Bonus</th>
+          <th>Match</th>
+          <th>Goals</th>
+          <th>Pool</th>
+          <th>Total</th>
+        </tr></thead>
+        <tbody>${buildTeamTable(standing.picks || [])}</tbody>
+      </table>
+    </div>`;
 }
 
 // ---------------------------------------------------------------------------

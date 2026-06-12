@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-12T20:35:31Z",
+  "fetched_at": "2026-06-12T21:02:53Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -71,6 +71,40 @@
           "scorer": "Ladislav Krejcí",
           "team": "Czechia",
           "minute": "59'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760416",
+      "date": "2026-06-12",
+      "home": "Canada",
+      "away": "Bosnia-Herzegovina",
+      "home_score": 1,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Cyle Larin",
+          "team": "Canada",
+          "minute": "78'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Jovo Lukic",
+          "team": "Bosnia-Herzegovina",
+          "minute": "21'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

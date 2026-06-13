@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-12T21:22:28Z",
+  "fetched_at": "2026-06-13T08:33:27Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -105,6 +105,64 @@
           "scorer": "Jovo Lukic",
           "team": "Bosnia-Herzegovina",
           "minute": "21'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760417",
+      "date": "2026-06-12",
+      "home": "United States",
+      "away": "Paraguay",
+      "home_score": 4,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Folarin Balogun",
+          "team": "United States",
+          "minute": "31'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Folarin Balogun",
+          "team": "United States",
+          "minute": "45'+5'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Giovanni Reyna",
+          "team": "United States",
+          "minute": "90'+8'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Damián Bobadilla",
+          "team": "Paraguay",
+          "minute": "7'",
+          "type": "regular",
+          "own_goal": true,
+          "shootout": false
+        },
+        {
+          "scorer": "",
+          "team": "Paraguay",
+          "minute": "73'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-13T20:49:19Z",
+  "fetched_at": "2026-06-14T08:56:16Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -163,6 +163,134 @@
           "scorer": "",
           "team": "Paraguay",
           "minute": "73'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760420",
+      "date": "2026-06-13",
+      "home": "Qatar",
+      "away": "Switzerland",
+      "home_score": 1,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Breel Embolo",
+          "team": "Switzerland",
+          "minute": "17'",
+          "type": "penalty",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Miro Muheim",
+          "team": "Switzerland",
+          "minute": "90'+4'",
+          "type": "regular",
+          "own_goal": true,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760419",
+      "date": "2026-06-13",
+      "home": "Brazil",
+      "away": "Morocco",
+      "home_score": 1,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Vinícius Júnior ",
+          "team": "Brazil",
+          "minute": "32'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Ismael Saibari",
+          "team": "Morocco",
+          "minute": "21'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760418",
+      "date": "2026-06-13",
+      "home": "Haiti",
+      "away": "Scotland",
+      "home_score": 0,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "John McGinn",
+          "team": "Scotland",
+          "minute": "28'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760421",
+      "date": "2026-06-14",
+      "home": "Australia",
+      "away": "Türkiye",
+      "home_score": 2,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Nestory Irankunda",
+          "team": "Australia",
+          "minute": "27'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Connor Metcalfe",
+          "team": "Australia",
+          "minute": "75'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

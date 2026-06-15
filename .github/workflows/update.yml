@@ -2,8 +2,8 @@ name: Update Standings
 
 on:
   schedule:
-    # Every hour from 10:00 to 02:00 UTC (covers daytime + evening games)
-    - cron: '0 10-23,0-2 * * *'
+    # Every 30 min at :13 and :43 past the hour, all day — GitHub scheduled runs are best-effort and may still be delayed
+    - cron: '13,43 * * * *'
   workflow_dispatch:  # allows manual trigger from GitHub UI
 
 permissions:

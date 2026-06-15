@@ -689,11 +689,11 @@ function renderEntryDetail() {
         <span style="font-size:1.5rem; font-weight:900; color:var(--blue)">${standing.total} pts</span>
         <span style="font-size:.85rem; color:var(--muted)">Rank #${standing.rank}</span>
       </div>
-      <div style="display:flex; gap:6px; flex-wrap:wrap; font-size:.73rem; color:var(--muted);">
-        <div class="bd-chip">Bonus <span style="color:var(--blue);font-weight:700">${bd.bonuses}</span></div>
-        <div class="bd-chip">Match <span style="color:var(--blue);font-weight:700">${bd.match_results}</span></div>
-        <div class="bd-chip">Goals <span style="color:var(--blue);font-weight:700">${bd.scorer_goals}</span></div>
-        <div class="bd-chip">Pool &amp; Tourney <span style="color:var(--blue);font-weight:700">${bd.pool_placement + bd.tournament_finish}</span></div>
+      <div style="display:flex; gap:6px; flex-wrap:nowrap; overflow-x:auto; -webkit-overflow-scrolling:touch; font-size:.73rem; color:var(--muted);">
+        <div class="bd-chip" style="flex-shrink:0">Bonus <span style="color:var(--blue);font-weight:700">${bd.bonuses}</span></div>
+        <div class="bd-chip" style="flex-shrink:0">Match <span style="color:var(--blue);font-weight:700">${bd.match_results}</span></div>
+        <div class="bd-chip" style="flex-shrink:0">Goals <span style="color:var(--blue);font-weight:700">${bd.scorer_goals}</span></div>
+        <div class="bd-chip" style="flex-shrink:0">Pool/Tourney <span style="color:var(--blue);font-weight:700">${bd.pool_placement + bd.tournament_finish}</span></div>
       </div>
     </div>
     <div class="card" style="overflow:hidden;">

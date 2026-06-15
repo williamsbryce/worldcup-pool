@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-14T20:49:19Z",
+  "fetched_at": "2026-06-15T15:28:02Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -373,6 +373,148 @@
           "scorer": "Livano Comenencia",
           "team": "Curaçao",
           "minute": "21'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760425",
+      "date": "2026-06-14",
+      "home": "Netherlands",
+      "away": "Japan",
+      "home_score": 2,
+      "away_score": 2,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Virgil van Dijk",
+          "team": "Netherlands",
+          "minute": "51'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Crysencio Summerville",
+          "team": "Netherlands",
+          "minute": "64'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Daichi Kamada",
+          "team": "Japan",
+          "minute": "89'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Keito Nakamura",
+          "team": "Japan",
+          "minute": "57'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760423",
+      "date": "2026-06-14",
+      "home": "Ivory Coast",
+      "away": "Ecuador",
+      "home_score": 1,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Amad Diallo",
+          "team": "Ivory Coast",
+          "minute": "90'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760424",
+      "date": "2026-06-14",
+      "home": "Sweden",
+      "away": "Tunisia",
+      "home_score": 5,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Mattias Svanberg",
+          "team": "Sweden",
+          "minute": "84'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Yasin Ayari",
+          "team": "Sweden",
+          "minute": "7'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Yasin Ayari",
+          "team": "Sweden",
+          "minute": "90'+6'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Alexander Isak",
+          "team": "Sweden",
+          "minute": "30'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Viktor Gyökeres",
+          "team": "Sweden",
+          "minute": "59'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Omar Rekik",
+          "team": "Tunisia",
+          "minute": "43'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

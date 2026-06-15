@@ -533,10 +533,12 @@ function goToEntry(id) {
 // ---------------------------------------------------------------------------
 async function loadAll() {
   try {
-    const [s, m, e] = await Promise.all([
-      fetch('data/standings.json').then(r => r.json()),
-      fetch('data/matches.json').then(r => r.json()),
-      fetch('data/entries.json').then(r => r.json()),
+    // Fetch standings first to get last_updated, then use it as a cache-buster for all files
+    const s = await fetch('data/standings.json?_=' + Date.now()).then(r => r.json());
+    const v = (s.last_updated || '').replace(/\D/g, '');
+    const [m, e] = await Promise.all([
+      fetch('data/matches.json?v=' + v).then(r => r.json()),
+      fetch('data/entries.json?v=' + v).then(r => r.json()),
     ]);
     standingsData = s;
     matchesData   = m;

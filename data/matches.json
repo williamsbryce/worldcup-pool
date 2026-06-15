@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-15T15:36:39Z",
+  "fetched_at": "2026-06-15T21:05:24Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -515,6 +515,57 @@
           "scorer": "Omar Rekik",
           "team": "Tunisia",
           "minute": "43'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760428",
+      "date": "2026-06-15",
+      "home": "Spain",
+      "away": "Cape Verde",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": []
+    },
+    {
+      "espn_id": "760426",
+      "date": "2026-06-15",
+      "home": "Belgium",
+      "away": "Egypt",
+      "home_score": 1,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Mohamed Hany",
+          "team": "Egypt",
+          "minute": "66'",
+          "type": "regular",
+          "own_goal": true,
+          "shootout": false
+        },
+        {
+          "scorer": "Emam Ashour",
+          "team": "Egypt",
+          "minute": "19'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

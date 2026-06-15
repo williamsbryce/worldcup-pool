@@ -26,7 +26,6 @@ ESPN_BASE = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world"
 TEAM_MAP = {
     "USA":                    "United States",
     "Bosnia & Herzegovina":   "Bosnia and Herzegovina",
-    "Ivory Coast":            "Côte d'Ivoire",
     "DR Congo":               "DR Congo",
     "Curacao":                "Curaçao",
 }

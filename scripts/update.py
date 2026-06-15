@@ -10,7 +10,9 @@ import os
 import unicodedata
 import urllib.request
 import urllib.error
-from datetime import datetime, date, timedelta
+from datetime import datetime, date, timedelta, timezone
+
+SK_TZ = timezone(timedelta(hours=-6))  # Saskatchewan — UTC-6, no DST
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(SCRIPT_DIR, "..", "data")
@@ -170,10 +172,18 @@ def fetch_all_matches(existing_by_id):
             a_pen = int(situation.get("awayShootoutScore") or 0)
             shootout = h_pen > 0 or a_pen > 0
 
+            # Derive local SK date from the event's UTC kickoff time
+            event_utc_str = event.get("date", "")
+            if event_utc_str:
+                event_dt = datetime.fromisoformat(event_utc_str.replace("Z", "+00:00"))
+                match_date = event_dt.astimezone(SK_TZ).date().isoformat()
+            else:
+                match_date = d.isoformat()
+
             existing = matches.get(eid, {})
             matches[eid] = {
                 "espn_id":            eid,
-                "date":               d.isoformat(),
+                "date":               match_date,
                 "home":               home,
                 "away":               away,
                 "home_score":         home_score,

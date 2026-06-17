@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-17T12:59:51Z",
+  "last_updated": "2026-06-17T21:21:07Z",
   "standings": [
     {
       "id": "dan-murza",
@@ -1252,8 +1252,8 @@
     {
       "id": "alex-ryback",
       "name": "Alex Ryback",
-      "total": 133,
-      "total_games": 14,
+      "total": 136,
+      "total_games": 15,
       "teams_remaining": 20,
       "picks": [
         {
@@ -1290,16 +1290,16 @@
           "box": 1,
           "team": "Portugal",
           "bonus": 7,
-          "match": 0,
+          "match": 3,
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
-          "games": 0,
+          "games": 1,
           "scorers": [
             "Cristiano Ronaldo",
             "Bruno Fernandes"
           ],
-          "total": 7
+          "total": 10
         },
         {
           "box": 2,
@@ -1554,7 +1554,7 @@
       ],
       "breakdown": {
         "bonuses": 42,
-        "match_results": 73,
+        "match_results": 76,
         "scorer_goals": 18,
         "pool_placement": 0,
         "tournament_finish": 0
@@ -2812,8 +2812,8 @@
     {
       "id": "damon-williams",
       "name": "Damon Williams",
-      "total": 95,
-      "total_games": 16,
+      "total": 98,
+      "total_games": 17,
       "teams_remaining": 20,
       "picks": [
         {
@@ -2835,16 +2835,16 @@
           "box": 1,
           "team": "Portugal",
           "bonus": 7,
-          "match": 0,
+          "match": 3,
           "scorer": 0,
           "pool": 0,
           "tourney": 0,
-          "games": 0,
+          "games": 1,
           "scorers": [
             "Cristiano Ronaldo",
             "Bruno Fernandes"
           ],
-          "total": 7
+          "total": 10
         },
         {
           "box": 1,
@@ -3114,7 +3114,7 @@
       ],
       "breakdown": {
         "bonuses": 26,
-        "match_results": 55,
+        "match_results": 58,
         "scorer_goals": 14,
         "pool_placement": 0,
         "tournament_finish": 0

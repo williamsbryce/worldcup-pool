@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-17T12:59:51Z",
+  "fetched_at": "2026-06-17T21:21:07Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -850,6 +850,40 @@
           "scorer": "Ali Olwan",
           "team": "Jordan",
           "minute": "50'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760435",
+      "date": "2026-06-17",
+      "home": "Portugal",
+      "away": "Congo DR",
+      "home_score": 1,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "João Neves",
+          "team": "Portugal",
+          "minute": "6'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Yoane Wissa",
+          "team": "Congo DR",
+          "minute": "45'+5'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-16T22:58:03Z",
+  "fetched_at": "2026-06-17T12:59:51Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -700,6 +700,156 @@
           "scorer": "Ibrahim Mbaye",
           "team": "Senegal",
           "minute": "90'+5'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760430",
+      "date": "2026-06-16",
+      "home": "Iraq",
+      "away": "Norway",
+      "home_score": 1,
+      "away_score": 4,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Aymen Hussein",
+          "team": "Iraq",
+          "minute": "39'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Aymen Hussein",
+          "team": "Iraq",
+          "minute": "90'+6'",
+          "type": "regular",
+          "own_goal": true,
+          "shootout": false
+        },
+        {
+          "scorer": "Erling Haaland",
+          "team": "Norway",
+          "minute": "29'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Erling Haaland",
+          "team": "Norway",
+          "minute": "43'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Leo Østigard",
+          "team": "Norway",
+          "minute": "76'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760433",
+      "date": "2026-06-16",
+      "home": "Argentina",
+      "away": "Algeria",
+      "home_score": 3,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Lionel Messi",
+          "team": "Argentina",
+          "minute": "17'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Lionel Messi",
+          "team": "Argentina",
+          "minute": "60'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Lionel Messi",
+          "team": "Argentina",
+          "minute": "76'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760431",
+      "date": "2026-06-16",
+      "home": "Austria",
+      "away": "Jordan",
+      "home_score": 3,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Romano Schmid",
+          "team": "Austria",
+          "minute": "21'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Marko Arnautovic",
+          "team": "Austria",
+          "minute": "90'+12'",
+          "type": "penalty",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Yazan Al-Arab",
+          "team": "Jordan",
+          "minute": "76'",
+          "type": "regular",
+          "own_goal": true,
+          "shootout": false
+        },
+        {
+          "scorer": "Ali Olwan",
+          "team": "Jordan",
+          "minute": "50'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

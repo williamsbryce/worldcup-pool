@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-18T11:59:27Z",
+  "fetched_at": "2026-06-18T21:15:23Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -1026,6 +1026,98 @@
           "scorer": "Jáminton Campaz",
           "team": "Colombia",
           "minute": "90'+9'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760438",
+      "date": "2026-06-18",
+      "home": "Czechia",
+      "away": "South Africa",
+      "home_score": 1,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Michal Sadílek",
+          "team": "Czechia",
+          "minute": "6'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Teboho Mokoena",
+          "team": "South Africa",
+          "minute": "83'",
+          "type": "penalty",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760439",
+      "date": "2026-06-18",
+      "home": "Switzerland",
+      "away": "Bosnia-Herzegovina",
+      "home_score": 4,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Rubén Vargas",
+          "team": "Switzerland",
+          "minute": "84'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Johan Manzambi",
+          "team": "Switzerland",
+          "minute": "74'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Johan Manzambi",
+          "team": "Switzerland",
+          "minute": "90'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Granit Xhaka",
+          "team": "Switzerland",
+          "minute": "90'+7'",
+          "type": "penalty",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Ermin Mahmic",
+          "team": "Bosnia-Herzegovina",
+          "minute": "90'+3'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

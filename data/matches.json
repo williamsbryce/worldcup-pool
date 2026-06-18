@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-17T21:21:07Z",
+  "fetched_at": "2026-06-18T11:59:27Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -884,6 +884,148 @@
           "scorer": "Yoane Wissa",
           "team": "Congo DR",
           "minute": "45'+5'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760437",
+      "date": "2026-06-17",
+      "home": "England",
+      "away": "Croatia",
+      "home_score": 4,
+      "away_score": 2,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Jude Bellingham",
+          "team": "England",
+          "minute": "47'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Harry Kane",
+          "team": "England",
+          "minute": "12'",
+          "type": "penalty",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Harry Kane",
+          "team": "England",
+          "minute": "42'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Marcus Rashford",
+          "team": "England",
+          "minute": "85'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Petar Musa",
+          "team": "Croatia",
+          "minute": "45'+5'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Martin Baturina",
+          "team": "Croatia",
+          "minute": "36'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760434",
+      "date": "2026-06-17",
+      "home": "Ghana",
+      "away": "Panama",
+      "home_score": 1,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Caleb Yirenkyi",
+          "team": "Ghana",
+          "minute": "90'+5'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760436",
+      "date": "2026-06-17",
+      "home": "Uzbekistan",
+      "away": "Colombia",
+      "home_score": 1,
+      "away_score": 3,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Abbosbek Fayzullaev",
+          "team": "Uzbekistan",
+          "minute": "60'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Daniel Muñoz",
+          "team": "Colombia",
+          "minute": "40'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Luis Díaz",
+          "team": "Colombia",
+          "minute": "65'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Jáminton Campaz",
+          "team": "Colombia",
+          "minute": "90'+9'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

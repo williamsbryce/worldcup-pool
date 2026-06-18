@@ -25,9 +25,10 @@ ESPN_BASE = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world"
 # Teams whose names differ between entries.json and what ESPN returns
 TEAM_MAP = {
     "USA":                    "United States",
-    "Bosnia & Herzegovina":   "Bosnia and Herzegovina",
-    "DR Congo":               "DR Congo",
+    "Bosnia & Herzegovina":   "Bosnia-Herzegovina",
+    "DR Congo":               "Congo DR",
     "Curacao":                "Curaçao",
+    "Turkey":                 "Türkiye",
 }
 
 

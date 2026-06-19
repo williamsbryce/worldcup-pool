@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-18T22:22:27Z",
+  "fetched_at": "2026-06-19T12:37:12Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -1118,6 +1118,98 @@
           "scorer": "Ermin Mahmic",
           "team": "Bosnia-Herzegovina",
           "minute": "90'+3'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760440",
+      "date": "2026-06-18",
+      "home": "Canada",
+      "away": "Qatar",
+      "home_score": 6,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Cyle Larin",
+          "team": "Canada",
+          "minute": "16'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Jonathan David",
+          "team": "Canada",
+          "minute": "29'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Jonathan David",
+          "team": "Canada",
+          "minute": "45'+3'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Jonathan David",
+          "team": "Canada",
+          "minute": "90'+2'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Nathan Saliba",
+          "team": "Canada",
+          "minute": "64'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Mohamed Manai",
+          "team": "Qatar",
+          "minute": "75'",
+          "type": "regular",
+          "own_goal": true,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760441",
+      "date": "2026-06-18",
+      "home": "Mexico",
+      "away": "South Korea",
+      "home_score": 1,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Luis Romo",
+          "team": "Mexico",
+          "minute": "50'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

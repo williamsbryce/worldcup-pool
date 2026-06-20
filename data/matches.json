@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-20T16:04:43Z",
+  "fetched_at": "2026-06-20T20:52:25Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -1338,6 +1338,72 @@
           "scorer": "Matías Galarza",
           "team": "Paraguay",
           "minute": "2'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760447",
+      "date": "2026-06-20",
+      "home": "Netherlands",
+      "away": "Sweden",
+      "home_score": 5,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Brian Brobbey",
+          "team": "Netherlands",
+          "minute": "5'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Brian Brobbey",
+          "team": "Netherlands",
+          "minute": "17'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Cody Gakpo",
+          "team": "Netherlands",
+          "minute": "47'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Cody Gakpo",
+          "team": "Netherlands",
+          "minute": "54'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Crysencio Summerville",
+          "team": "Netherlands",
+          "minute": "89'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Anthony Elanga",
+          "team": "Sweden",
+          "minute": "59'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

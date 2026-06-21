@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-20T20:52:25Z",
+  "fetched_at": "2026-06-21T10:49:55Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -1404,6 +1404,115 @@
           "scorer": "Anthony Elanga",
           "team": "Sweden",
           "minute": "59'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760448",
+      "date": "2026-06-20",
+      "home": "Germany",
+      "away": "Ivory Coast",
+      "home_score": 2,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Deniz Undav",
+          "team": "Germany",
+          "minute": "68'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Deniz Undav",
+          "team": "Germany",
+          "minute": "90'+4'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Franck Kessié",
+          "team": "Ivory Coast",
+          "minute": "30'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760446",
+      "date": "2026-06-20",
+      "home": "Ecuador",
+      "away": "Curaçao",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": []
+    },
+    {
+      "espn_id": "760449",
+      "date": "2026-06-20",
+      "home": "Tunisia",
+      "away": "Japan",
+      "home_score": 0,
+      "away_score": 4,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Ayase Ueda",
+          "team": "Japan",
+          "minute": "31'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Ayase Ueda",
+          "team": "Japan",
+          "minute": "83'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Daichi Kamada",
+          "team": "Japan",
+          "minute": "4'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Junya Ito",
+          "team": "Japan",
+          "minute": "69'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

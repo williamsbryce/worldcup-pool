@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-21T17:08:07Z",
+  "fetched_at": "2026-06-21T22:02:15Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -1518,6 +1518,73 @@
           "shootout": false
         }
       ]
+    },
+    {
+      "espn_id": "760453",
+      "date": "2026-06-21",
+      "home": "Spain",
+      "away": "Saudi Arabia",
+      "home_score": 4,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Mikel Oyarzabal",
+          "team": "Spain",
+          "minute": "21'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Mikel Oyarzabal",
+          "team": "Spain",
+          "minute": "24'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Lamine Yamal",
+          "team": "Spain",
+          "minute": "10'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Hassan Al-Tambakti",
+          "team": "Saudi Arabia",
+          "minute": "49'",
+          "type": "regular",
+          "own_goal": true,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760451",
+      "date": "2026-06-21",
+      "home": "Belgium",
+      "away": "Iran",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": []
     }
   ]
 }

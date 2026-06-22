@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-21T22:02:15Z",
+  "fetched_at": "2026-06-22T16:16:25Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -1585,6 +1585,106 @@
       "home_group_rank": null,
       "away_group_rank": null,
       "goals": []
+    },
+    {
+      "espn_id": "760450",
+      "date": "2026-06-21",
+      "home": "Uruguay",
+      "away": "Cape Verde",
+      "home_score": 2,
+      "away_score": 2,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Maxi Araújo",
+          "team": "Uruguay",
+          "minute": "44'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Agustín Canobbio",
+          "team": "Uruguay",
+          "minute": "45'+6'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Kevin Pina",
+          "team": "Cape Verde",
+          "minute": "21'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Hélio Varela",
+          "team": "Cape Verde",
+          "minute": "61'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760452",
+      "date": "2026-06-21",
+      "home": "New Zealand",
+      "away": "Egypt",
+      "home_score": 1,
+      "away_score": 3,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Finn Surman",
+          "team": "New Zealand",
+          "minute": "15'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Mohamed Salah",
+          "team": "Egypt",
+          "minute": "67'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Mostafa Zico",
+          "team": "Egypt",
+          "minute": "58'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Trézéguet null",
+          "team": "Egypt",
+          "minute": "82'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
     }
   ]
 }

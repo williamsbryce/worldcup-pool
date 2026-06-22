@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-22T16:16:25Z",
+  "fetched_at": "2026-06-22T22:56:35Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -1680,6 +1680,40 @@
           "scorer": "Trézéguet null",
           "team": "Egypt",
           "minute": "82'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760456",
+      "date": "2026-06-22",
+      "home": "Argentina",
+      "away": "Austria",
+      "home_score": 2,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Lionel Messi",
+          "team": "Argentina",
+          "minute": "38'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Lionel Messi",
+          "team": "Argentina",
+          "minute": "90'+5'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

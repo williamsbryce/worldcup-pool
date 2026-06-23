@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-22T22:56:35Z",
+  "fetched_at": "2026-06-23T10:50:19Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -1714,6 +1714,148 @@
           "scorer": "Lionel Messi",
           "team": "Argentina",
           "minute": "90'+5'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760457",
+      "date": "2026-06-22",
+      "home": "France",
+      "away": "Iraq",
+      "home_score": 3,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Kylian Mbappé",
+          "team": "France",
+          "minute": "14'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Kylian Mbappé",
+          "team": "France",
+          "minute": "54'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Ousmane Dembélé",
+          "team": "France",
+          "minute": "66'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760454",
+      "date": "2026-06-22",
+      "home": "Norway",
+      "away": "Senegal",
+      "home_score": 3,
+      "away_score": 2,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Erling Haaland",
+          "team": "Norway",
+          "minute": "48'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Erling Haaland",
+          "team": "Norway",
+          "minute": "58'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Marcus Holmgren Pedersen",
+          "team": "Norway",
+          "minute": "43'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Ismaïla Sarr",
+          "team": "Senegal",
+          "minute": "53'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Ismaïla Sarr",
+          "team": "Senegal",
+          "minute": "90'+3'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760455",
+      "date": "2026-06-22",
+      "home": "Jordan",
+      "away": "Algeria",
+      "home_score": 1,
+      "away_score": 2,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Nizar Al-Rashdan",
+          "team": "Jordan",
+          "minute": "36'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Amine Gouiri",
+          "team": "Algeria",
+          "minute": "82'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Nadhir Benbouali",
+          "team": "Algeria",
+          "minute": "69'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-23T17:32:08Z",
+  "fetched_at": "2026-06-23T22:07:34Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -1861,6 +1861,81 @@
           "shootout": false
         }
       ]
+    },
+    {
+      "espn_id": "760461",
+      "date": "2026-06-23",
+      "home": "Portugal",
+      "away": "Uzbekistan",
+      "home_score": 5,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Nuno Mendes",
+          "team": "Portugal",
+          "minute": "17'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Cristiano Ronaldo",
+          "team": "Portugal",
+          "minute": "6'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Cristiano Ronaldo",
+          "team": "Portugal",
+          "minute": "39'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Rafael Leão",
+          "team": "Portugal",
+          "minute": "87'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Abduvohid Nematov",
+          "team": "Uzbekistan",
+          "minute": "60'",
+          "type": "regular",
+          "own_goal": true,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760458",
+      "date": "2026-06-23",
+      "home": "England",
+      "away": "Ghana",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": []
     }
   ]
 }

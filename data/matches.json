@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-23T22:07:34Z",
+  "fetched_at": "2026-06-24T10:29:02Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -1936,6 +1936,58 @@
       "home_group_rank": null,
       "away_group_rank": null,
       "goals": []
+    },
+    {
+      "espn_id": "760460",
+      "date": "2026-06-23",
+      "home": "Panama",
+      "away": "Croatia",
+      "home_score": 0,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Ante Budimir",
+          "team": "Croatia",
+          "minute": "54'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760459",
+      "date": "2026-06-23",
+      "home": "Colombia",
+      "away": "Congo DR",
+      "home_score": 1,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Daniel Muñoz",
+          "team": "Colombia",
+          "minute": "76'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
     }
   ]
 }

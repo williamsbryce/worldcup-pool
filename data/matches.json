@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-24T17:32:10Z",
+  "fetched_at": "2026-06-24T22:03:24Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -90,8 +90,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 2,
+      "away_group_rank": 3,
       "goals": [
         {
           "scorer": "Cyle Larin",
@@ -182,8 +182,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 4,
+      "away_group_rank": 1,
       "goals": [
         {
           "scorer": "Breel Embolo",
@@ -1079,8 +1079,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 1,
+      "away_group_rank": 3,
       "goals": [
         {
           "scorer": "Rubén Vargas",
@@ -1137,8 +1137,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 2,
+      "away_group_rank": 4,
       "goals": [
         {
           "scorer": "Cyle Larin",
@@ -1982,6 +1982,98 @@
         {
           "scorer": "Daniel Muñoz",
           "team": "Colombia",
+          "minute": "76'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760462",
+      "date": "2026-06-24",
+      "home": "Bosnia-Herzegovina",
+      "away": "Qatar",
+      "home_score": 3,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": 3,
+      "away_group_rank": 4,
+      "goals": [
+        {
+          "scorer": "Kerim Alajbegovic",
+          "team": "Bosnia-Herzegovina",
+          "minute": "29'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Ermin Mahmic",
+          "team": "Bosnia-Herzegovina",
+          "minute": "80'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Mahmoud Abunada",
+          "team": "Qatar",
+          "minute": "34'",
+          "type": "regular",
+          "own_goal": true,
+          "shootout": false
+        },
+        {
+          "scorer": "Hassan Al-Haydos",
+          "team": "Qatar",
+          "minute": "42'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760463",
+      "date": "2026-06-24",
+      "home": "Switzerland",
+      "away": "Canada",
+      "home_score": 2,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": 1,
+      "away_group_rank": 2,
+      "goals": [
+        {
+          "scorer": "Johan Manzambi",
+          "team": "Switzerland",
+          "minute": "57'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Rubén Vargas",
+          "team": "Switzerland",
+          "minute": "46'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Promise David",
+          "team": "Canada",
           "minute": "76'",
           "type": "regular",
           "own_goal": false,

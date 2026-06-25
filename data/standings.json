@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-25T12:51:07Z",
+  "last_updated": "2026-06-25T13:03:46Z",
   "standings": [
     {
       "id": "bryce-williams",
       "name": "Bryce Williams",
       "total": 323,
       "total_games": 45,
-      "teams_remaining": 19,
+      "teams_remaining": 20,
       "picks": [
         {
           "box": 1,
@@ -245,7 +245,7 @@
             "Son Heung-min",
             "Hwang Hee-chan"
           ],
-          "eliminated": true,
+          "eliminated": false,
           "total": 10
         },
         {
@@ -670,7 +670,7 @@
       "name": "Tate Williams",
       "total": 315,
       "total_games": 45,
-      "teams_remaining": 17,
+      "teams_remaining": 18,
       "picks": [
         {
           "box": 1,
@@ -909,7 +909,7 @@
             "Lawrence Shankland",
             "Lyndon Dykes"
           ],
-          "eliminated": true,
+          "eliminated": false,
           "total": 10
         },
         {
@@ -1002,7 +1002,7 @@
       "name": "Alex Ryback",
       "total": 309,
       "total_games": 45,
-      "teams_remaining": 19,
+      "teams_remaining": 20,
       "picks": [
         {
           "box": 1,
@@ -1241,7 +1241,7 @@
             "Son Heung-min",
             "Lee Kang-in"
           ],
-          "eliminated": true,
+          "eliminated": false,
           "total": 10
         },
         {
@@ -1334,7 +1334,7 @@
       "name": "Tyler Marien",
       "total": 308,
       "total_games": 46,
-      "teams_remaining": 18,
+      "teams_remaining": 19,
       "picks": [
         {
           "box": 1,
@@ -1573,7 +1573,7 @@
             "Son Heung-min",
             "Lee Kang-in"
           ],
-          "eliminated": true,
+          "eliminated": false,
           "total": 10
         },
         {
@@ -1998,7 +1998,7 @@
       "name": "Brendan Newton",
       "total": 300,
       "total_games": 44,
-      "teams_remaining": 18,
+      "teams_remaining": 20,
       "picks": [
         {
           "box": 1,
@@ -2221,7 +2221,7 @@
             "Scott McTominay",
             "John McGinn"
           ],
-          "eliminated": true,
+          "eliminated": false,
           "total": 12
         },
         {
@@ -2237,7 +2237,7 @@
             "Son Heung-min",
             "Hwang Hee-chan"
           ],
-          "eliminated": true,
+          "eliminated": false,
           "total": 10
         },
         {
@@ -2330,7 +2330,7 @@
       "name": "Vernon Persaud",
       "total": 300,
       "total_games": 44,
-      "teams_remaining": 19,
+      "teams_remaining": 20,
       "picks": [
         {
           "box": 1,
@@ -2569,7 +2569,7 @@
             "Scott McTominay",
             "Lawrence Shankland"
           ],
-          "eliminated": true,
+          "eliminated": false,
           "total": 10
         },
         {
@@ -2662,7 +2662,7 @@
       "name": "Damon Williams",
       "total": 295,
       "total_games": 46,
-      "teams_remaining": 19,
+      "teams_remaining": 20,
       "picks": [
         {
           "box": 1,
@@ -2901,7 +2901,7 @@
             "Che Adams",
             "Scott McTominay"
           ],
-          "eliminated": true,
+          "eliminated": false,
           "total": 10
         },
         {
@@ -2994,7 +2994,7 @@
       "name": "Rob Roy",
       "total": 294,
       "total_games": 44,
-      "teams_remaining": 18,
+      "teams_remaining": 20,
       "picks": [
         {
           "box": 1,
@@ -3185,7 +3185,7 @@
             "Ermedin Demirović",
             "Edin Džeko"
           ],
-          "eliminated": true,
+          "eliminated": false,
           "total": 12
         },
         {
@@ -3233,7 +3233,7 @@
             "Scott McTominay",
             "John McGinn"
           ],
-          "eliminated": true,
+          "eliminated": false,
           "total": 12
         },
         {
@@ -3326,7 +3326,7 @@
       "name": "Andrew Tennent",
       "total": 272,
       "total_games": 45,
-      "teams_remaining": 18,
+      "teams_remaining": 19,
       "picks": [
         {
           "box": 1,
@@ -3565,7 +3565,7 @@
             "Son Heung-min",
             "Lee Kang-in"
           ],
-          "eliminated": true,
+          "eliminated": false,
           "total": 10
         },
         {

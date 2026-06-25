@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-25T18:33:32Z",
+  "fetched_at": "2026-06-25T23:04:16Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -310,8 +310,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 1,
+      "away_group_rank": 4,
       "goals": [
         {
           "scorer": "Nico Schlotterbeck",
@@ -442,8 +442,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 2,
+      "away_group_rank": 3,
       "goals": [
         {
           "scorer": "Amad Diallo",
@@ -1423,8 +1423,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 1,
+      "away_group_rank": 2,
       "goals": [
         {
           "scorer": "Deniz Undav",
@@ -1465,8 +1465,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 3,
+      "away_group_rank": 4,
       "goals": []
     },
     {
@@ -2251,6 +2251,82 @@
           "scorer": "Thapelo Maseko",
           "team": "South Africa",
           "minute": "63'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760473",
+      "date": "2026-06-25",
+      "home": "Curaçao",
+      "away": "Ivory Coast",
+      "home_score": 0,
+      "away_score": 2,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": 4,
+      "away_group_rank": 2,
+      "goals": [
+        {
+          "scorer": "Nicolas Pépé",
+          "team": "Ivory Coast",
+          "minute": "7'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Nicolas Pépé",
+          "team": "Ivory Coast",
+          "minute": "64'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760468",
+      "date": "2026-06-25",
+      "home": "Ecuador",
+      "away": "Germany",
+      "home_score": 2,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": 3,
+      "away_group_rank": 1,
+      "goals": [
+        {
+          "scorer": "Nilson Angulo",
+          "team": "Ecuador",
+          "minute": "9'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Gonzalo Plata",
+          "team": "Ecuador",
+          "minute": "77'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Leroy Sané",
+          "team": "Germany",
+          "minute": "2'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

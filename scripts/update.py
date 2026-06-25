@@ -460,7 +460,7 @@ def compute_standings(entries_data, rules, matches_list, aliases):
                 # --- pool placement ---
                 rank = m.get(f"{side}_group_rank")
                 if rank is not None:
-                    ps["pool"] += pp.get(str(rank), 0)
+                    ps["pool"] = pp.get(str(rank), 0)
 
                 # --- tournament finish ---
                 stage = m.get("stage", "GROUP")

@@ -97,6 +97,8 @@ def parse_stage(event_name, note_text):
         return "SEMI_FINAL"
     if "quarterfinal" in txt or "quarter-final" in txt or "quarter final" in txt:
         return "QUARTER_FINAL"
+    if "round of 32" in txt or "round of thirty-two" in txt:
+        return "ROUND_OF_32"
     if "round of 16" in txt or "round of sixteen" in txt:
         return "ROUND_OF_16"
     if "final" in txt:
@@ -331,12 +333,23 @@ def apply_overrides(matches_by_id, overrides):
 def compute_eliminated_teams(matches_list):
     """
     Returns a set of norm'd team names that are out of the tournament.
-    Group stage: teams finishing 3rd or 4th (once group is complete).
+    Group stage: 4th place is out immediately; 3rd place stays alive until
+    the Round of 32 is published, then is out only if not in the bracket.
     Knockout rounds: loser of each finished match.
     """
     eliminated = set()
+    knockout = {"ROUND_OF_32", "ROUND_OF_16", "QUARTER_FINAL", "SEMI_FINAL", "THIRD_PLACE", "FINAL"}
 
-    # Group stage — rank 3 or 4 means out
+    # Teams that appear in a knockout fixture (i.e. they advanced past groups)
+    knockout_teams = set()
+    knockout_started = False
+    for m in matches_list:
+        if m.get("stage") in knockout:
+            knockout_started = True
+            knockout_teams.add(norm(m["home"]))
+            knockout_teams.add(norm(m["away"]))
+
+    # Group-stage final ranks
     team_rank = {}
     for m in matches_list:
         if m.get("stage") != "GROUP":
@@ -345,18 +358,22 @@ def compute_eliminated_teams(matches_list):
             team_rank[norm(m["home"])] = m["home_group_rank"]
         if m.get("away_group_rank") is not None:
             team_rank[norm(m["away"])] = m["away_group_rank"]
+
     for team_key, rank in team_rank.items():
-        if rank >= 3:
+        if rank >= 4:
+            eliminated.add(team_key)
+        elif rank == 3 and knockout_started and team_key not in knockout_teams:
             eliminated.add(team_key)
 
-    # Knockout rounds — loser is out
-    knockout = {"ROUND_OF_16", "QUARTER_FINAL", "SEMI_FINAL", "THIRD_PLACE", "FINAL"}
+    # Knockout rounds — loser of each finished match is out
     for m in matches_list:
         if m.get("stage") not in knockout:
             continue
-        h = m["home_score"]
-        a = m["away_score"]
+        h = m.get("home_score")
+        a = m.get("away_score")
         is_so = m.get("shootout", False)
+        if not is_so and (h is None or a is None):
+            continue
         h_pen = m.get("home_shootout_score", 0)
         a_pen = m.get("away_shootout_score", 0)
         if is_so:
@@ -367,12 +384,6 @@ def compute_eliminated_teams(matches_list):
             eliminated.add(norm(m["home"]))
 
     return eliminated
-
-
-# ---------------------------------------------------------------------------
-# Scoring engine
-# ---------------------------------------------------------------------------
-
 def espn_team_key(espn_name):
     return norm(espn_name)
 
@@ -399,7 +410,7 @@ def compute_standings(entries_data, rules, matches_list, aliases):
                 "box": p["box"], "team": p["team"], "bonus": p["bonus"],
                 "match": 0, "scorer": 0, "pool": 0, "tourney": 0, "games": 0,
                 "scorers": p["scorers"],
-                                "eliminated": our_team_key(p["team"]) in eliminated,
+                "eliminated": our_team_key(p["team"]) in eliminated,
             }
 
         picks_by_key = {}

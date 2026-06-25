@@ -636,6 +636,7 @@ function buildTeamTable(picks) {
     }
     const bonusLabel = p.bonus > 0 ? `+${p.bonus}` : '—';
     const scorerText = (p.scorers || []).map(s => `– ${s}`).join('<br>');
+    const teamCell = p.eliminated ? `<span style="text-decoration:line-through;color:#d12626">${p.team}</span>` : p.team;
     rows += `<tr>
       <td>${p.team}</td>
       <td>${bonusLabel}</td>

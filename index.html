@@ -638,7 +638,7 @@ function buildTeamTable(picks) {
     const scorerText = (p.scorers || []).map(s => `– ${s}`).join('<br>');
     const teamCell = p.eliminated ? `<span style="text-decoration:line-through;color:#d12626">${p.team}</span>` : p.team;
     rows += `<tr>
-      <td>${p.team}</td>
+      <td>${teamCell}</td>
       <td>${bonusLabel}</td>
       <td>${p.games  || 0}</td>
       <td>${p.match  || 0}</td>

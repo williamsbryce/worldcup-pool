@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-24T22:03:24Z",
+  "fetched_at": "2026-06-25T10:21:07Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -14,8 +14,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 1,
+      "away_group_rank": 2,
       "goals": [
         {
           "scorer": "Julián Quiñones",
@@ -48,8 +48,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 3,
+      "away_group_rank": 4,
       "goals": [
         {
           "scorer": "Hwang In-Beom",
@@ -216,8 +216,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 1,
+      "away_group_rank": 2,
       "goals": [
         {
           "scorer": "Vinícius Júnior ",
@@ -250,8 +250,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 4,
+      "away_group_rank": 3,
       "goals": [
         {
           "scorer": "John McGinn",
@@ -1045,8 +1045,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 4,
+      "away_group_rank": 2,
       "goals": [
         {
           "scorer": "Michal Sadílek",
@@ -1203,8 +1203,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 1,
+      "away_group_rank": 3,
       "goals": [
         {
           "scorer": "Luis Romo",
@@ -1263,8 +1263,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 3,
+      "away_group_rank": 2,
       "goals": [
         {
           "scorer": "Ismael Saibari",
@@ -1289,8 +1289,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 1,
+      "away_group_rank": 4,
       "goals": [
         {
           "scorer": "Matheus Cunha",
@@ -2075,6 +2075,182 @@
           "scorer": "Promise David",
           "team": "Canada",
           "minute": "76'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760464",
+      "date": "2026-06-24",
+      "home": "Morocco",
+      "away": "Haiti",
+      "home_score": 4,
+      "away_score": 2,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": 2,
+      "away_group_rank": 4,
+      "goals": [
+        {
+          "scorer": "Yassine Bounou",
+          "team": "Morocco",
+          "minute": "10'",
+          "type": "regular",
+          "own_goal": true,
+          "shootout": false
+        },
+        {
+          "scorer": "Achraf Hakimi",
+          "team": "Morocco",
+          "minute": "39'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Ismael Saibari",
+          "team": "Morocco",
+          "minute": "45'+1'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Gessime Yassine",
+          "team": "Morocco",
+          "minute": "89'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Soufiane Rahimi",
+          "team": "Morocco",
+          "minute": "78'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Wilson Isidor",
+          "team": "Haiti",
+          "minute": "43'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760465",
+      "date": "2026-06-24",
+      "home": "Scotland",
+      "away": "Brazil",
+      "home_score": 0,
+      "away_score": 3,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": 3,
+      "away_group_rank": 1,
+      "goals": [
+        {
+          "scorer": "Matheus Cunha",
+          "team": "Brazil",
+          "minute": "60'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Vinícius Júnior ",
+          "team": "Brazil",
+          "minute": "7'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Vinícius Júnior ",
+          "team": "Brazil",
+          "minute": "45'+3'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760467",
+      "date": "2026-06-24",
+      "home": "Czechia",
+      "away": "Mexico",
+      "home_score": 0,
+      "away_score": 3,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": 4,
+      "away_group_rank": 1,
+      "goals": [
+        {
+          "scorer": "Mateo Chávez",
+          "team": "Mexico",
+          "minute": "55'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Julián Quiñones",
+          "team": "Mexico",
+          "minute": "61'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Álvaro Fidalgo",
+          "team": "Mexico",
+          "minute": "90'+4'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760466",
+      "date": "2026-06-24",
+      "home": "South Africa",
+      "away": "South Korea",
+      "home_score": 1,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": 2,
+      "away_group_rank": 3,
+      "goals": [
+        {
+          "scorer": "Thapelo Maseko",
+          "team": "South Africa",
+          "minute": "63'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

@@ -399,6 +399,7 @@ def compute_standings(entries_data, rules, matches_list, aliases):
                 "box": p["box"], "team": p["team"], "bonus": p["bonus"],
                 "match": 0, "scorer": 0, "pool": 0, "tourney": 0, "games": 0,
                 "scorers": p["scorers"],
+                                "eliminated": our_team_key(p["team"]) in eliminated,
             }
 
         picks_by_key = {}

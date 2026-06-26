@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-25T23:04:16Z",
+  "fetched_at": "2026-06-26T10:38:38Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -124,8 +124,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 1,
+      "away_group_rank": 3,
       "goals": [
         {
           "scorer": "Folarin Balogun",
@@ -276,8 +276,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 2,
+      "away_group_rank": 4,
       "goals": [
         {
           "scorer": "Nestory Irankunda",
@@ -392,8 +392,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 1,
+      "away_group_rank": 2,
       "goals": [
         {
           "scorer": "Virgil van Dijk",
@@ -468,8 +468,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 3,
+      "away_group_rank": 4,
       "goals": [
         {
           "scorer": "Mattias Svanberg",
@@ -1229,8 +1229,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 1,
+      "away_group_rank": 2,
       "goals": [
         {
           "scorer": "Alex Freeman",
@@ -1331,8 +1331,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 4,
+      "away_group_rank": 3,
       "goals": [
         {
           "scorer": "Matías Galarza",
@@ -1357,8 +1357,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 1,
+      "away_group_rank": 3,
       "goals": [
         {
           "scorer": "Brian Brobbey",
@@ -1482,8 +1482,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 4,
+      "away_group_rank": 2,
       "goals": [
         {
           "scorer": "Ayase Ueda",
@@ -2327,6 +2327,165 @@
           "scorer": "Leroy Sané",
           "team": "Germany",
           "minute": "2'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760471",
+      "date": "2026-06-25",
+      "home": "Japan",
+      "away": "Sweden",
+      "home_score": 1,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": 2,
+      "away_group_rank": 3,
+      "goals": [
+        {
+          "scorer": "Daizen Maeda",
+          "team": "Japan",
+          "minute": "56'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Anthony Elanga",
+          "team": "Sweden",
+          "minute": "62'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760472",
+      "date": "2026-06-25",
+      "home": "Tunisia",
+      "away": "Netherlands",
+      "home_score": 1,
+      "away_score": 3,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": 4,
+      "away_group_rank": 1,
+      "goals": [
+        {
+          "scorer": "Ellyes Skhiri",
+          "team": "Tunisia",
+          "minute": "3'",
+          "type": "regular",
+          "own_goal": true,
+          "shootout": false
+        },
+        {
+          "scorer": "Hazem Mastouri",
+          "team": "Tunisia",
+          "minute": "54'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Jan Paul van Hecke",
+          "team": "Netherlands",
+          "minute": "62'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Brian Brobbey",
+          "team": "Netherlands",
+          "minute": "7'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760469",
+      "date": "2026-06-25",
+      "home": "Paraguay",
+      "away": "Australia",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": 3,
+      "away_group_rank": 2,
+      "goals": []
+    },
+    {
+      "espn_id": "760470",
+      "date": "2026-06-25",
+      "home": "Türkiye",
+      "away": "United States",
+      "home_score": 3,
+      "away_score": 2,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": 4,
+      "away_group_rank": 1,
+      "goals": [
+        {
+          "scorer": "Baris Alper Yilmaz",
+          "team": "Türkiye",
+          "minute": "31'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Arda Güler",
+          "team": "Türkiye",
+          "minute": "10'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Kaan Ayhan",
+          "team": "Türkiye",
+          "minute": "90'+8'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Auston Trusty",
+          "team": "United States",
+          "minute": "3'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Sebastian Berhalter",
+          "team": "United States",
+          "minute": "49'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

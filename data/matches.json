@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-26T21:53:02Z",
+  "fetched_at": "2026-06-27T08:02:55Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -534,8 +534,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 1,
+      "away_group_rank": 2,
       "goals": []
     },
     {
@@ -551,8 +551,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 1,
+      "away_group_rank": 2,
       "goals": [
         {
           "scorer": "Mohamed Hany",
@@ -585,8 +585,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 4,
+      "away_group_rank": 3,
       "goals": [
         {
           "scorer": "Abdulelah Al-Amri",
@@ -619,8 +619,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 3,
+      "away_group_rank": 4,
       "goals": [
         {
           "scorer": "Ramin Rezaeian",
@@ -1532,8 +1532,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 1,
+      "away_group_rank": 4,
       "goals": [
         {
           "scorer": "Mikel Oyarzabal",
@@ -1582,8 +1582,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 1,
+      "away_group_rank": 3,
       "goals": []
     },
     {
@@ -1599,8 +1599,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 3,
+      "away_group_rank": 2,
       "goals": [
         {
           "scorer": "Maxi Araújo",
@@ -1649,8 +1649,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 4,
+      "away_group_rank": 2,
       "goals": [
         {
           "scorer": "Finn Surman",
@@ -2602,6 +2602,149 @@
           "scorer": "Iliman Ndiaye",
           "team": "Senegal",
           "minute": "82'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760478",
+      "date": "2026-06-26",
+      "home": "Cape Verde",
+      "away": "Saudi Arabia",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": 2,
+      "away_group_rank": 4,
+      "goals": []
+    },
+    {
+      "espn_id": "760479",
+      "date": "2026-06-26",
+      "home": "Uruguay",
+      "away": "Spain",
+      "home_score": 0,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": 3,
+      "away_group_rank": 1,
+      "goals": [
+        {
+          "scorer": "Álex Baena",
+          "team": "Spain",
+          "minute": "42'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760476",
+      "date": "2026-06-26",
+      "home": "Egypt",
+      "away": "Iran",
+      "home_score": 1,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": 2,
+      "away_group_rank": 3,
+      "goals": [
+        {
+          "scorer": "Mahmoud Saber",
+          "team": "Egypt",
+          "minute": "5'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Ramin Rezaeian",
+          "team": "Iran",
+          "minute": "14'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760477",
+      "date": "2026-06-26",
+      "home": "New Zealand",
+      "away": "Belgium",
+      "home_score": 1,
+      "away_score": 5,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": 4,
+      "away_group_rank": 1,
+      "goals": [
+        {
+          "scorer": "Elijah Just",
+          "team": "New Zealand",
+          "minute": "84'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Kevin De Bruyne",
+          "team": "Belgium",
+          "minute": "66'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Leandro Trossard",
+          "team": "Belgium",
+          "minute": "28'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Leandro Trossard",
+          "team": "Belgium",
+          "minute": "50'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Alexis Saelemaekers",
+          "team": "Belgium",
+          "minute": "90'+4'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Romelu Lukaku",
+          "team": "Belgium",
+          "minute": "86'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

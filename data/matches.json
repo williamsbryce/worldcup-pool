@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-27T20:40:45Z",
+  "fetched_at": "2026-06-28T00:17:03Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -903,8 +903,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 1,
+      "away_group_rank": 2,
       "goals": [
         {
           "scorer": "Jude Bellingham",
@@ -969,8 +969,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 3,
+      "away_group_rank": 4,
       "goals": [
         {
           "scorer": "Caleb Yirenkyi",
@@ -1933,8 +1933,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 1,
+      "away_group_rank": 3,
       "goals": []
     },
     {
@@ -1950,8 +1950,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 4,
+      "away_group_rank": 2,
       "goals": [
         {
           "scorer": "Ante Budimir",
@@ -2745,6 +2745,82 @@
           "scorer": "Romelu Lukaku",
           "team": "Belgium",
           "minute": "86'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760480",
+      "date": "2026-06-27",
+      "home": "Croatia",
+      "away": "Ghana",
+      "home_score": 2,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": 2,
+      "away_group_rank": 3,
+      "goals": [
+        {
+          "scorer": "Petar Sucic",
+          "team": "Croatia",
+          "minute": "31'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Nikola Vlasic",
+          "team": "Croatia",
+          "minute": "83'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Derrick Luckassen",
+          "team": "Ghana",
+          "minute": "73'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760485",
+      "date": "2026-06-27",
+      "home": "Panama",
+      "away": "England",
+      "home_score": 0,
+      "away_score": 2,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": 4,
+      "away_group_rank": 1,
+      "goals": [
+        {
+          "scorer": "Jude Bellingham",
+          "team": "England",
+          "minute": "62'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Harry Kane",
+          "team": "England",
+          "minute": "67'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

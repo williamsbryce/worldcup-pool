@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-28T00:17:03Z",
+  "fetched_at": "2026-06-28T07:42:19Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -777,8 +777,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 1,
+      "away_group_rank": 3,
       "goals": [
         {
           "scorer": "Lionel Messi",
@@ -819,8 +819,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 2,
+      "away_group_rank": 4,
       "goals": [
         {
           "scorer": "Romano Schmid",
@@ -869,8 +869,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 2,
+      "away_group_rank": 3,
       "goals": [
         {
           "scorer": "João Neves",
@@ -995,8 +995,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 4,
+      "away_group_rank": 1,
       "goals": [
         {
           "scorer": "Abbosbek Fayzullaev",
@@ -1699,8 +1699,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 1,
+      "away_group_rank": 2,
       "goals": [
         {
           "scorer": "Lionel Messi",
@@ -1833,8 +1833,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 4,
+      "away_group_rank": 3,
       "goals": [
         {
           "scorer": "Nizar Al-Rashdan",
@@ -1875,8 +1875,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 2,
+      "away_group_rank": 4,
       "goals": [
         {
           "scorer": "Nuno Mendes",
@@ -1976,8 +1976,8 @@
       "shootout": false,
       "home_shootout_score": 0,
       "away_shootout_score": 0,
-      "home_group_rank": null,
-      "away_group_rank": null,
+      "home_group_rank": 1,
+      "away_group_rank": 3,
       "goals": [
         {
           "scorer": "Daniel Muñoz",
@@ -2821,6 +2821,189 @@
           "scorer": "Harry Kane",
           "team": "England",
           "minute": "67'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760481",
+      "date": "2026-06-27",
+      "home": "Colombia",
+      "away": "Portugal",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": 1,
+      "away_group_rank": 2,
+      "goals": []
+    },
+    {
+      "espn_id": "760482",
+      "date": "2026-06-27",
+      "home": "Congo DR",
+      "away": "Uzbekistan",
+      "home_score": 3,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": 3,
+      "away_group_rank": 4,
+      "goals": [
+        {
+          "scorer": "Yoane Wissa",
+          "team": "Congo DR",
+          "minute": "68'",
+          "type": "penalty",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Yoane Wissa",
+          "team": "Congo DR",
+          "minute": "90'+1'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Fiston Mayele",
+          "team": "Congo DR",
+          "minute": "78'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Eldor Shomurodov",
+          "team": "Uzbekistan",
+          "minute": "10'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760484",
+      "date": "2026-06-27",
+      "home": "Algeria",
+      "away": "Austria",
+      "home_score": 3,
+      "away_score": 3,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": 3,
+      "away_group_rank": 2,
+      "goals": [
+        {
+          "scorer": "Rafik Belghali",
+          "team": "Algeria",
+          "minute": "45'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Riyad Mahrez",
+          "team": "Algeria",
+          "minute": "60'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Riyad Mahrez",
+          "team": "Algeria",
+          "minute": "90'+3'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Marko Arnautovic",
+          "team": "Austria",
+          "minute": "28'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Marcel Sabitzer",
+          "team": "Austria",
+          "minute": "55'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Sasa Kalajdzic",
+          "team": "Austria",
+          "minute": "90'+6'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760483",
+      "date": "2026-06-27",
+      "home": "Jordan",
+      "away": "Argentina",
+      "home_score": 1,
+      "away_score": 3,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": 4,
+      "away_group_rank": 1,
+      "goals": [
+        {
+          "scorer": "Mousa Al-Tamari",
+          "team": "Jordan",
+          "minute": "55'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Giovani Lo Celso",
+          "team": "Argentina",
+          "minute": "19'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Lautaro Martínez",
+          "team": "Argentina",
+          "minute": "31'",
+          "type": "penalty",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Lionel Messi",
+          "team": "Argentina",
+          "minute": "80'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

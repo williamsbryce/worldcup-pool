@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-29T12:48:19Z",
+  "fetched_at": "2026-06-29T19:26:33Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -3030,6 +3030,48 @@
           "scorer": "Stephen Eustáquio",
           "team": "Canada",
           "minute": "90'+2'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760487",
+      "date": "2026-06-29",
+      "home": "Brazil",
+      "away": "Japan",
+      "home_score": 2,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "ROUND_OF_32",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Casemiro ",
+          "team": "Brazil",
+          "minute": "56'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Gabriel Martinelli",
+          "team": "Brazil",
+          "minute": "90'+5'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Kaishu Sano",
+          "team": "Japan",
+          "minute": "29'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

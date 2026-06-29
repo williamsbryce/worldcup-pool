@@ -105,6 +105,25 @@ def parse_stage(event_name, note_text):
         return "FINAL"
     return "GROUP"
 
+def stage_from_date(match_date):
+    """Infer stage from match date using the 2026 World Cup schedule windows.
+    The ESPN feed carries no round labels, so date is the reliable signal.
+    match_date is an ISO 'YYYY-MM-DD' string."""
+    d = date.fromisoformat(match_date)
+    if d <= date(2026, 6, 27):
+        return "GROUP"
+    if d <= date(2026, 7, 3):
+        return "ROUND_OF_32"
+    if d <= date(2026, 7, 7):
+        return "ROUND_OF_16"
+    if d <= date(2026, 7, 11):
+        return "QUARTER_FINAL"
+    if d <= date(2026, 7, 15):
+        return "SEMI_FINAL"
+    if d <= date(2026, 7, 18):
+        return "THIRD_PLACE"
+    return "FINAL"
+
 def parse_group(event_name, note_text):
     m = re.search(r"Group ([A-L])\b", event_name + " " + note_text)
     return m.group(1) if m else None
@@ -182,6 +201,10 @@ def fetch_all_matches(existing_by_id):
             else:
                 match_date = d.isoformat()
 
+            # Feed lacks round labels; fall back to date-based stage when keywords miss
+            if stage == "GROUP":
+                stage = stage_from_date(match_date)
+
             existing = matches.get(eid, {})
             matches[eid] = {
                 "espn_id":            eid,
@@ -241,12 +264,11 @@ def infer_groups(matches_list):
             assigned.update(group_teams)
     return groups
 
-def compute_group_standings(matches_list):
-    """Compute standings for each complete group."""
-    complete_groups = infer_groups(matches_list)
-    result = {}
-    for gset in complete_groups:
-        label = ",".join(sorted(gset))  # stable key for the group
+def compute_group_tables(matches_list):
+    """For each complete group, return a list of ranked entries ordered 1st..4th:
+    [{"team","rank","pts","gf","ga","gd"}, ...]."""
+    tables = []
+    for gset in infer_groups(matches_list):
         stats = {}
         for m in matches_list:
             if m.get("stage") != "GROUP":
@@ -257,29 +279,33 @@ def compute_group_standings(matches_list):
                 (m["home"], m["home_score"], m["away_score"]),
                 (m["away"], m["away_score"], m["home_score"]),
             ]:
-                if team not in stats:
-                    stats[team] = {"p": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "pts": 0}
-                s = stats[team]
-                s["p"]  += 1
+                s = stats.setdefault(team, {"pts": 0, "gf": 0, "ga": 0})
                 s["gf"] += scored
                 s["ga"] += conceded
                 if m.get("shootout"):
-                    s["d"]   += 1
                     s["pts"] += 1
                 elif scored > conceded:
-                    s["w"]   += 1
                     s["pts"] += 3
                 elif scored == conceded:
-                    s["d"]   += 1
                     s["pts"] += 1
-                else:
-                    s["l"] += 1
         ranked = sorted(
             stats.items(),
             key=lambda x: (x[1]["pts"], x[1]["gf"] - x[1]["ga"], x[1]["gf"]),
             reverse=True,
         )
-        result[label] = {team: rank + 1 for rank, (team, _) in enumerate(ranked)}
+        tables.append([
+            {"team": t, "rank": i + 1, "pts": s["pts"],
+             "gf": s["gf"], "ga": s["ga"], "gd": s["gf"] - s["ga"]}
+            for i, (t, s) in enumerate(ranked)
+        ])
+    return tables
+
+def compute_group_standings(matches_list):
+    """team -> rank within each complete group (used by apply_group_ranks)."""
+    result = {}
+    for tbl in compute_group_tables(matches_list):
+        label = ",".join(sorted(e["team"] for e in tbl))
+        result[label] = {e["team"]: e["rank"] for e in tbl}
     return result
 
 def apply_group_ranks(matches_list, group_standings):
@@ -333,37 +359,32 @@ def apply_overrides(matches_by_id, overrides):
 def compute_eliminated_teams(matches_list):
     """
     Returns a set of norm'd team names that are out of the tournament.
-    Group stage: 4th place is out immediately; 3rd place stays alive until
-    the Round of 32 is published, then is out only if not in the bracket.
-    Knockout rounds: loser of each finished match.
+
+    Group stage (per complete group):
+      - 4th place is out.
+      - 3rd place is out only once ALL 12 groups are complete and the team
+        is not among the 8 best third-place teams (FIFA tiebreak: points,
+        then goal difference, then goals for).
+    Knockout rounds: loser of each finished match is out.
     """
     eliminated = set()
     knockout = {"ROUND_OF_32", "ROUND_OF_16", "QUARTER_FINAL", "SEMI_FINAL", "THIRD_PLACE", "FINAL"}
 
-    # Teams that appear in a knockout fixture (i.e. they advanced past groups)
-    knockout_teams = set()
-    knockout_started = False
-    for m in matches_list:
-        if m.get("stage") in knockout:
-            knockout_started = True
-            knockout_teams.add(norm(m["home"]))
-            knockout_teams.add(norm(m["away"]))
+    tables = compute_group_tables(matches_list)
 
-    # Group-stage final ranks
-    team_rank = {}
-    for m in matches_list:
-        if m.get("stage") != "GROUP":
-            continue
-        if m.get("home_group_rank") is not None:
-            team_rank[norm(m["home"])] = m["home_group_rank"]
-        if m.get("away_group_rank") is not None:
-            team_rank[norm(m["away"])] = m["away_group_rank"]
+    thirds = []
+    for tbl in tables:
+        for e in tbl:
+            if e["rank"] == 4:
+                eliminated.add(norm(e["team"]))
+            elif e["rank"] == 3:
+                thirds.append(e)
 
-    for team_key, rank in team_rank.items():
-        if rank >= 4:
-            eliminated.add(team_key)
-        elif rank == 3 and knockout_started and team_key not in knockout_teams:
-            eliminated.add(team_key)
+    # Best-8 third-place teams advance; resolve only when every group is done.
+    if len(tables) == 12:
+        thirds.sort(key=lambda e: (e["pts"], e["gd"], e["gf"]), reverse=True)
+        for e in thirds[8:]:
+            eliminated.add(norm(e["team"]))
 
     # Knockout rounds — loser of each finished match is out
     for m in matches_list:
@@ -384,6 +405,8 @@ def compute_eliminated_teams(matches_list):
             eliminated.add(norm(m["home"]))
 
     return eliminated
+
+
 def espn_team_key(espn_name):
     return norm(espn_name)
 

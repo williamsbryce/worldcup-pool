@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-28T20:40:50Z",
+  "fetched_at": "2026-06-29T00:08:02Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -3004,6 +3004,32 @@
           "scorer": "Lionel Messi",
           "team": "Argentina",
           "minute": "80'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760486",
+      "date": "2026-06-28",
+      "home": "South Africa",
+      "away": "Canada",
+      "home_score": 0,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "GROUP",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": 2,
+      "away_group_rank": 2,
+      "goals": [
+        {
+          "scorer": "Stephen Eustáquio",
+          "team": "Canada",
+          "minute": "90'+2'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

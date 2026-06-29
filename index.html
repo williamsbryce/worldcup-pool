@@ -777,6 +777,18 @@ function renderResults() {
         goalLines += `<div class="goal-line own">OG — ${g.scorer} ${g.minute ? g.minute + "'" : ''}</div>`;
       });
 
+      // PK shootout scorers
+      const pkGoals = (m.goals || []).filter(g => g.shootout);
+      let shootoutScorers = '';
+      if (pkGoals.length) {
+        const homePk = pkGoals.filter(g => normStr(g.team) === normStr(m.home)).map(g => g.scorer);
+        const awayPk = pkGoals.filter(g => normStr(g.team) === normStr(m.away)).map(g => g.scorer);
+        const parts = [];
+        if (homePk.length) parts.push(`${m.home}: ${homePk.join(', ')}`);
+        if (awayPk.length) parts.push(`${m.away}: ${awayPk.join(', ')}`);
+        shootoutScorers = `<div class="shootout-line">Penalties — ${parts.join('  ·  ')}</div>`;
+      }
+
       html += `
         <div class="match-card">
           <div class="match-header">
@@ -788,6 +800,7 @@ function renderResults() {
             <div class="match-team away">${m.away}</div>
           </div>
           ${goalLines ? `<div class="match-goals">${goalLines}</div>` : ''}
+          ${shootoutScorers}
         </div>`;
     });
   });
@@ -799,6 +812,7 @@ function stageText(stage, group) {
   const g = group ? ` — Group ${group}` : '';
   switch(stage) {
     case 'GROUP':       return 'Group Stage' + g;
+    case 'ROUND_OF_32': return 'Round of 32';
     case 'ROUND_OF_16': return 'Round of 16';
     case 'QUARTER_FINAL': return 'Quarter-Final';
     case 'SEMI_FINAL':  return 'Semi-Final';

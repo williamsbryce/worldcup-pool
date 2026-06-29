@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-29T22:43:26Z",
+  "fetched_at": "2026-06-29T23:31:49Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -3072,6 +3072,40 @@
           "scorer": "Kaishu Sano",
           "team": "Japan",
           "minute": "29'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760489",
+      "date": "2026-06-29",
+      "home": "Germany",
+      "away": "Paraguay",
+      "home_score": 1,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "ROUND_OF_32",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Kai Havertz",
+          "team": "Germany",
+          "minute": "54'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Julio Enciso",
+          "team": "Paraguay",
+          "minute": "42'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

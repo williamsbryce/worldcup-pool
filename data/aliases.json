@@ -46,7 +46,7 @@
     "M. Salah": "Mohamed Salah",
     "Marmoush": "Omar Marmoush",
     "O. Marmoush": "Omar Marmoush",
-    "Trezeguet": "Mahmoud Trezeguet",
+    "Trezeguet": "Trézéguet null",
     "Mane": "Sadio Mané",
     "Sadio Mane": "Sadio Mané",
     "Jackson": "Nicolas Jackson",
@@ -65,8 +65,8 @@
     "G.  Xhaka": "Granit Xhaka",
     "Vargas": "Ruben Vargas",
     "En-Nesyri": "Youssef En-Nesyri",
-    "Saibari": "Ilias Saibari",
-    "I. Saibari": "Ilias Saibari",
+    "Saibari": "Ismael Saibari",
+    "I. Saibari": "Ismael Saibari",
     "Rahimi": "Soufiane Rahimi",
     "El Kaabi": "Ayoub El Kaabi",
     "Diaz": "Brahim Díaz",
@@ -209,7 +209,11 @@
     "Jose Luis Rodriguez": "José Luis Rodríguez",
     "J L Rodriguez": "José Luis Rodríguez",
     "F. Chaouat": "Firas Chaouat",
-    "Chaouat": "Firas Chaouat"
+    "Chaouat": "Firas Chaouat",
+    "Mohammad Mohebi": "Mohammad Mohebbi",
+    "Mousa Tamari": "Mousa Al-Tamari",
+    "Mahmoud Trezeguet": "Trézéguet null",
+    "Ilias Saibari": "Ismael Saibari"
   },
   "teams": {
     "USA": "United States",

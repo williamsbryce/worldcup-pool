@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-29T00:08:02Z",
+  "last_updated": "2026-06-29T00:21:04Z",
   "standings": [
     {
       "id": "drew-findlay",
       "name": "Drew Findlay",
       "total": 446,
       "total_games": 62,
-      "teams_remaining": 17,
+      "teams_remaining": 15,
       "picks": [
         {
           "box": 1,
@@ -213,7 +213,7 @@
             "Mehdi Taremi",
             "Sardar Azmoun"
           ],
-          "eliminated": false,
+          "eliminated": true,
           "total": 13
         },
         {
@@ -290,7 +290,7 @@
           "scorers": [
             "Lyle Foster"
           ],
-          "eliminated": false,
+          "eliminated": true,
           "total": 14
         },
         {
@@ -338,7 +338,7 @@
       "name": "Tate Williams",
       "total": 437,
       "total_games": 61,
-      "teams_remaining": 17,
+      "teams_remaining": 16,
       "picks": [
         {
           "box": 1,
@@ -577,7 +577,7 @@
             "Lawrence Shankland",
             "Lyndon Dykes"
           ],
-          "eliminated": false,
+          "eliminated": true,
           "total": 10
         },
         {
@@ -670,7 +670,7 @@
       "name": "Tyler Marien",
       "total": 432,
       "total_games": 62,
-      "teams_remaining": 17,
+      "teams_remaining": 14,
       "picks": [
         {
           "box": 1,
@@ -797,7 +797,7 @@
             "Darwin Núñez",
             "Federico Valverde"
           ],
-          "eliminated": false,
+          "eliminated": true,
           "total": 10
         },
         {
@@ -909,7 +909,7 @@
             "Son Heung-min",
             "Lee Kang-in"
           ],
-          "eliminated": false,
+          "eliminated": true,
           "total": 10
         },
         {
@@ -954,7 +954,7 @@
           "scorers": [
             "Lyle Foster"
           ],
-          "eliminated": false,
+          "eliminated": true,
           "total": 14
         },
         {
@@ -1002,7 +1002,7 @@
       "name": "Brendan Newton",
       "total": 428,
       "total_games": 61,
-      "teams_remaining": 16,
+      "teams_remaining": 14,
       "picks": [
         {
           "box": 1,
@@ -1225,7 +1225,7 @@
             "Scott McTominay",
             "John McGinn"
           ],
-          "eliminated": false,
+          "eliminated": true,
           "total": 12
         },
         {
@@ -1241,7 +1241,7 @@
             "Son Heung-min",
             "Hwang Hee-chan"
           ],
-          "eliminated": false,
+          "eliminated": true,
           "total": 10
         },
         {
@@ -1334,7 +1334,7 @@
       "name": "Rob Roy",
       "total": 426,
       "total_games": 61,
-      "teams_remaining": 17,
+      "teams_remaining": 15,
       "picks": [
         {
           "box": 1,
@@ -1461,7 +1461,7 @@
             "Federico Valverde",
             "Darwin Núñez"
           ],
-          "eliminated": false,
+          "eliminated": true,
           "total": 10
         },
         {
@@ -1573,7 +1573,7 @@
             "Scott McTominay",
             "John McGinn"
           ],
-          "eliminated": false,
+          "eliminated": true,
           "total": 12
         },
         {
@@ -1666,7 +1666,7 @@
       "name": "Bryce Williams",
       "total": 425,
       "total_games": 61,
-      "teams_remaining": 17,
+      "teams_remaining": 16,
       "picks": [
         {
           "box": 1,
@@ -1905,7 +1905,7 @@
             "Son Heung-min",
             "Hwang Hee-chan"
           ],
-          "eliminated": false,
+          "eliminated": true,
           "total": 10
         },
         {
@@ -1998,7 +1998,7 @@
       "name": "Alex Ryback",
       "total": 411,
       "total_games": 61,
-      "teams_remaining": 17,
+      "teams_remaining": 16,
       "picks": [
         {
           "box": 1,
@@ -2237,7 +2237,7 @@
             "Son Heung-min",
             "Lee Kang-in"
           ],
-          "eliminated": false,
+          "eliminated": true,
           "total": 10
         },
         {
@@ -2330,7 +2330,7 @@
       "name": "Vernon Persaud",
       "total": 411,
       "total_games": 60,
-      "teams_remaining": 16,
+      "teams_remaining": 15,
       "picks": [
         {
           "box": 1,
@@ -2569,7 +2569,7 @@
             "Scott McTominay",
             "Lawrence Shankland"
           ],
-          "eliminated": false,
+          "eliminated": true,
           "total": 10
         },
         {
@@ -2662,7 +2662,7 @@
       "name": "Damon Williams",
       "total": 407,
       "total_games": 62,
-      "teams_remaining": 17,
+      "teams_remaining": 15,
       "picks": [
         {
           "box": 1,
@@ -2901,7 +2901,7 @@
             "Che Adams",
             "Scott McTominay"
           ],
-          "eliminated": false,
+          "eliminated": true,
           "total": 10
         },
         {
@@ -2946,7 +2946,7 @@
           "scorers": [
             "Lyle Foster"
           ],
-          "eliminated": false,
+          "eliminated": true,
           "total": 14
         },
         {
@@ -2994,7 +2994,7 @@
       "name": "Dan Murza",
       "total": 394,
       "total_games": 61,
-      "teams_remaining": 15,
+      "teams_remaining": 13,
       "picks": [
         {
           "box": 1,
@@ -3121,7 +3121,7 @@
             "Darwin Núñez",
             "Federico Valverde"
           ],
-          "eliminated": false,
+          "eliminated": true,
           "total": 10
         },
         {
@@ -3233,7 +3233,7 @@
             "Mehdi Taremi",
             "Mohammad Mohebi"
           ],
-          "eliminated": false,
+          "eliminated": true,
           "total": 13
         },
         {
@@ -3326,7 +3326,7 @@
       "name": "Andrew Tennent",
       "total": 393,
       "total_games": 61,
-      "teams_remaining": 17,
+      "teams_remaining": 15,
       "picks": [
         {
           "box": 1,
@@ -3565,7 +3565,7 @@
             "Son Heung-min",
             "Lee Kang-in"
           ],
-          "eliminated": false,
+          "eliminated": true,
           "total": 10
         },
         {
@@ -3610,7 +3610,7 @@
           "scorers": [
             "Lyle Foster"
           ],
-          "eliminated": false,
+          "eliminated": true,
           "total": 14
         },
         {

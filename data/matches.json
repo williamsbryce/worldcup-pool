@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-29T00:08:02Z",
+  "fetched_at": "2026-06-29T00:21:04Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -3018,7 +3018,7 @@
       "home_score": 0,
       "away_score": 1,
       "status": "FINISHED",
-      "stage": "GROUP",
+      "stage": "ROUND_OF_32",
       "group": null,
       "shootout": false,
       "home_shootout_score": 0,

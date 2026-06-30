@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-30T09:27:43Z",
+  "fetched_at": "2026-06-30T10:44:51Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -3109,6 +3109,62 @@
           "type": "regular",
           "own_goal": false,
           "shootout": false
+        },
+        {
+          "scorer": "J. Kimmich",
+          "team": "Germany",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "J. Musiala",
+          "team": "Germany",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "N. Amiri",
+          "team": "Germany",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "Maurício",
+          "team": "Paraguay",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "G. Gómez",
+          "team": "Paraguay",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "M. Galarza",
+          "team": "Paraguay",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "J. Canale",
+          "team": "Paraguay",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
         },
         {
           "scorer": "J. Kimmich",

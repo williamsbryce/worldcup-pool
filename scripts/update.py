@@ -350,6 +350,11 @@ def apply_overrides(matches_by_id, overrides):
         elif t == "set_group_rank":
             side = "home" if norm(ov["team"]) == norm(matches_by_id[eid]["home"]) else "away"
             matches_by_id[eid][f"{side}_group_rank"] = ov["rank"]
+        elif t == "set_shootout":
+            mm = matches_by_id[eid]
+            mm["shootout"] = True
+            mm["home_shootout_score"] = ov["home_shootout_score"]
+            mm["away_shootout_score"] = ov["away_shootout_score"]
 
 
 # ---------------------------------------------------------------------------
@@ -471,9 +476,11 @@ def compute_standings(entries_data, rules, matches_list, aliases):
 
                 # --- win / tie / loss + GD ---
                 if is_so:
-                    ps["match"] += pm["tie"]
+                    # Shootout: winner takes the win plus the shootout-win bonus;
+                    # loser takes a loss (no tie). Both keep their PK goals.
                     won = (side == "home" and h_pen > a_pen) or (side == "away" and a_pen > h_pen)
                     if won:
+                        ps["match"] += pm["win"]
                         ps["match"] += pm["shootout_win"]
                     ps["match"] += team_pen * pm["shootout_goal"]
                     gd = 0

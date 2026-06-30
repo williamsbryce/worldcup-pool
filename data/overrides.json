@@ -1,4 +1,60 @@
 {
-  "_comment": "Add overrides here to correct API data errors. Types: remove_goal, add_goal, set_group_rank",
-  "overrides": []
+  "_comment": "Add overrides here to correct API data errors. Types: remove_goal, add_goal, set_group_rank, set_shootout",
+  "overrides": [
+    {
+      "type": "set_shootout",
+      "espn_id": "760489",
+      "home_shootout_score": 3,
+      "away_shootout_score": 4
+    },
+    {
+      "type": "add_goal",
+      "espn_id": "760489",
+      "team": "Germany",
+      "scorer": "J. Kimmich",
+      "shootout": true
+    },
+    {
+      "type": "add_goal",
+      "espn_id": "760489",
+      "team": "Germany",
+      "scorer": "J. Musiala",
+      "shootout": true
+    },
+    {
+      "type": "add_goal",
+      "espn_id": "760489",
+      "team": "Germany",
+      "scorer": "N. Amiri",
+      "shootout": true
+    },
+    {
+      "type": "add_goal",
+      "espn_id": "760489",
+      "team": "Paraguay",
+      "scorer": "Maurício",
+      "shootout": true
+    },
+    {
+      "type": "add_goal",
+      "espn_id": "760489",
+      "team": "Paraguay",
+      "scorer": "G. Gómez",
+      "shootout": true
+    },
+    {
+      "type": "add_goal",
+      "espn_id": "760489",
+      "team": "Paraguay",
+      "scorer": "M. Galarza",
+      "shootout": true
+    },
+    {
+      "type": "add_goal",
+      "espn_id": "760489",
+      "team": "Paraguay",
+      "scorer": "J. Canale",
+      "shootout": true
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-30T00:54:52Z",
+  "fetched_at": "2026-06-30T01:54:51Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -3088,9 +3088,9 @@
       "status": "FINISHED",
       "stage": "ROUND_OF_32",
       "group": null,
-      "shootout": false,
-      "home_shootout_score": 0,
-      "away_shootout_score": 0,
+      "shootout": true,
+      "home_shootout_score": 3,
+      "away_shootout_score": 4,
       "home_group_rank": null,
       "away_group_rank": null,
       "goals": [
@@ -3109,6 +3109,62 @@
           "type": "regular",
           "own_goal": false,
           "shootout": false
+        },
+        {
+          "scorer": "J. Kimmich",
+          "team": "Germany",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "J. Musiala",
+          "team": "Germany",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "N. Amiri",
+          "team": "Germany",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "Maurício",
+          "team": "Paraguay",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "G. Gómez",
+          "team": "Paraguay",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "M. Galarza",
+          "team": "Paraguay",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "J. Canale",
+          "team": "Paraguay",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
         }
       ]
     }

@@ -350,6 +350,17 @@
     color: var(--red);
     font-weight: 600;
   }
+  .so-warning {
+    margin: 8px 12px 10px;
+    padding: 7px 10px;
+    background: #fdecea;
+    border: 1px solid var(--red);
+    border-radius: 6px;
+    color: var(--red);
+    font-size: .76rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
 
   /* ── rules page ── */
   .rules-section { margin-bottom: 10px; }
@@ -836,6 +847,12 @@ function renderResults() {
         shootoutScorers = `<div class="shootout-line">Penalties — ${parts.join('  ·  ')}</div>`;
       }
 
+      // Knockout match finished level but no shootout data = missing PK result
+      const needsShootout = m.stage !== 'GROUP' && m.home_score === m.away_score && !m.shootout;
+      const soWarning = needsShootout
+        ? `<div class="so-warning">⚠ Scoring not official. Waiting on shootout data.</div>`
+        : '';
+
       html += `
         <div class="match-card">
           <div class="match-header">
@@ -846,6 +863,7 @@ function renderResults() {
             <a class="match-score" href="https://www.espn.com/soccer/matchstats/_/gameId/${m.espn_id}" target="_blank" rel="noopener noreferrer">${scoreStr}</a>
             <div class="match-team away">${m.away}</div>
           </div>
+          ${soWarning}
           ${goalLines ? `<div class="match-goals">${goalLines}</div>` : ''}
           ${shootoutScorers}
         </div>`;

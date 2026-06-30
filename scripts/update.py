@@ -339,14 +339,23 @@ def apply_overrides(matches_by_id, overrides):
                         and norm(g["team"]) == norm(ov["team"]))
             ]
         elif t == "add_goal":
-            matches_by_id[eid]["goals"].append({
+            new_goal = {
                 "scorer":   ov["scorer"],
                 "team":     ov["team"],
                 "minute":   ov.get("minute", "?"),
                 "type":     ov.get("goal_type", "regular"),
                 "own_goal": ov.get("own_goal", False),
                 "shootout": ov.get("shootout", False),
-            })
+            }
+            goals = matches_by_id[eid]["goals"]
+            # Idempotent: drop any existing identical entry first so repeated
+            # workflow runs don't keep appending duplicates, then add exactly one.
+            goals[:] = [g for g in goals if not (
+                g.get("scorer") == new_goal["scorer"]
+                and norm(g.get("team", "")) == norm(new_goal["team"])
+                and bool(g.get("shootout", False)) == new_goal["shootout"]
+            )]
+            goals.append(new_goal)
         elif t == "set_group_rank":
             side = "home" if norm(ov["team"]) == norm(matches_by_id[eid]["home"]) else "away"
             matches_by_id[eid][f"{side}_group_rank"] = ov["rank"]
@@ -482,7 +491,6 @@ def compute_standings(entries_data, rules, matches_list, aliases):
                     if won:
                         ps["match"] += pm["win"]
                         ps["match"] += pm["shootout_win"]
-                    ps["match"] += team_pen * pm["shootout_goal"]
                     gd = 0
                 elif ts > os:
                     ps["match"] += pm["win"]
@@ -518,13 +526,14 @@ def compute_standings(entries_data, rules, matches_list, aliases):
                 pts_per_goal = sp["boxes_7_8"] if pick["box"] in (7, 8) else sp["boxes_1_6"]
 
                 for goal in m.get("goals", []):
-                    if goal.get("own_goal") or goal.get("shootout"):
+                    if goal.get("own_goal"):
                         continue
                     if not team_eq(pick["team"], goal["team"]):
                         continue
+                    goal_pts = pm["shootout_goal"] if goal.get("shootout") else pts_per_goal
                     for sname in pick["scorers"]:
                         if scorer_eq(sname, goal["scorer"], player_aliases):
-                            ps["scorer"] += pts_per_goal
+                            ps["scorer"] += goal_pts
                             break
 
         # Aggregate totals from per-team stats

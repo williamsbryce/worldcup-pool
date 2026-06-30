@@ -372,6 +372,9 @@
   }
   .rules-row:last-child { border-bottom: none; }
   .rules-pts { font-weight: 800; color: var(--blue); }
+  .fee-paid   { color: #1a7f37; font-weight: 800; }
+  .fee-unpaid { color: var(--red); font-weight: 800; }
+  .fee-row-unpaid span { color: var(--red); }
 
   /* ── loading / error ── */
   .loading { text-align: center; padding: 40px 20px; color: var(--muted); font-size: .9rem; }
@@ -417,6 +420,28 @@
 
 <!-- ── Rules page ── -->
 <section id="page-rules" class="page">
+  <div class="rules-section card">
+    <div class="rules-title">Payout</div>
+    <div class="rules-row"><span>1st place</span><span class="rules-pts">60%</span></div>
+    <div class="rules-row"><span>2nd place</span><span class="rules-pts">25%</span></div>
+    <div class="rules-row"><span>3rd place</span><span class="rules-pts">15%</span></div>
+    <div class="rules-row"><span>Entry fee</span><span class="rules-pts">$40</span></div>
+    <div class="rules-row"><span>Total pot (11 entries)</span><span class="rules-pts">$440</span></div>
+  </div>
+  <div class="rules-section card">
+    <div class="rules-title">Entry Fees</div>
+    <div class="rules-row fee-row-unpaid"><span>Alex Ryback</span><span class="fee-unpaid">Unpaid</span></div>
+    <div class="rules-row fee-row-unpaid"><span>Andrew Tennent</span><span class="fee-unpaid">Unpaid</span></div>
+    <div class="rules-row fee-row-unpaid"><span>Brendan Newton</span><span class="fee-unpaid">Unpaid</span></div>
+    <div class="rules-row"><span>Bryce Williams</span><span class="fee-paid">Paid</span></div>
+    <div class="rules-row fee-row-unpaid"><span>Damon Williams</span><span class="fee-unpaid">Unpaid</span></div>
+    <div class="rules-row"><span>Dan Murza</span><span class="fee-paid">Paid</span></div>
+    <div class="rules-row"><span>Drew Findlay</span><span class="fee-paid">Paid</span></div>
+    <div class="rules-row fee-row-unpaid"><span>Rob Roy</span><span class="fee-unpaid">Unpaid</span></div>
+    <div class="rules-row"><span>Tate Williams</span><span class="fee-paid">Paid</span></div>
+    <div class="rules-row"><span>Tyler Marien</span><span class="fee-paid">Paid</span></div>
+    <div class="rules-row"><span>Vernon Persaud</span><span class="fee-paid">Paid</span></div>
+  </div>
   <div class="rules-section card">
     <div class="rules-title">Per Match</div>
     <div class="rules-row"><span>Game played</span><span class="rules-pts">1 pt</span></div>
@@ -466,14 +491,6 @@
     <div class="rules-row"><span>Box 7 ★ — Qatar, Cape Verde, Australia</span><span class="rules-pts">+2</span></div>
     <div class="rules-row"><span>Box 8 ★ — Tunisia, Jordan, Panama</span><span class="rules-pts">+1</span></div>
     <div class="rules-row"><span>Box 8 ★ — Curacao, Haiti, Iraq</span><span class="rules-pts">+2</span></div>
-  </div>
-  <div class="rules-section card">
-    <div class="rules-title">Payout</div>
-    <div class="rules-row"><span>1st place</span><span class="rules-pts">60%</span></div>
-    <div class="rules-row"><span>2nd place</span><span class="rules-pts">25%</span></div>
-    <div class="rules-row"><span>3rd place</span><span class="rules-pts">15%</span></div>
-    <div class="rules-row"><span>Entry fee</span><span class="rules-pts">$40</span></div>
-    <div class="rules-row"><span>Total pot (11 entries)</span><span class="rules-pts">$440</span></div>
   </div>
 </section>
 
@@ -799,7 +816,7 @@ function renderResults() {
           </div>
           <div class="match-teams">
             <div class="match-team home">${m.home}</div>
-            <a class="match-score" href="https://www.espn.com/soccer/match/_/gameId/${m.espn_id}" target="_blank" rel="noopener noreferrer">${scoreStr}</a>
+            <a class="match-score" href="https://www.espn.com/soccer/matchstats/_/gameId/${m.espn_id}" target="_blank" rel="noopener noreferrer">${scoreStr}</a>
             <div class="match-team away">${m.away}</div>
           </div>
           ${goalLines ? `<div class="match-goals">${goalLines}</div>` : ''}

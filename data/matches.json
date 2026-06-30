@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-30T17:31:18Z",
+  "fetched_at": "2026-06-30T22:48:55Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -3239,6 +3239,48 @@
           "type": "regular",
           "own_goal": false,
           "shootout": true
+        }
+      ]
+    },
+    {
+      "espn_id": "760490",
+      "date": "2026-06-30",
+      "home": "Ivory Coast",
+      "away": "Norway",
+      "home_score": 1,
+      "away_score": 2,
+      "status": "FINISHED",
+      "stage": "ROUND_OF_32",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Amad Diallo",
+          "team": "Ivory Coast",
+          "minute": "74'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Erling Haaland",
+          "team": "Norway",
+          "minute": "86'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Antonio Nusa",
+          "team": "Norway",
+          "minute": "39'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
         }
       ]
     }

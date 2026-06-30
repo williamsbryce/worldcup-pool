@@ -286,7 +286,7 @@
 
   /* ── results ── */
   .date-label {
-    font-size: .94rem;
+    font-size: .86rem;
     font-weight: 800;
     letter-spacing: .04em;
     text-transform: uppercase;
@@ -332,7 +332,10 @@
     text-align: center;
     padding: 0 8px;
     white-space: nowrap;
+    text-decoration: none;
+    display: block;
   }
+  a.match-score:hover { opacity: .75; }
   .match-goals {
     padding: 4px 14px 10px;
     font-size: .76rem;
@@ -796,7 +799,7 @@ function renderResults() {
           </div>
           <div class="match-teams">
             <div class="match-team home">${m.home}</div>
-            <div class="match-score">${scoreStr}</div>
+            <a class="match-score" href="https://www.espn.com/soccer/match/_/gameId/${m.espn_id}" target="_blank" rel="noopener noreferrer">${scoreStr}</a>
             <div class="match-team away">${m.away}</div>
           </div>
           ${goalLines ? `<div class="match-goals">${goalLines}</div>` : ''}

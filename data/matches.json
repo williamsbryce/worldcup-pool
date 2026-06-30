@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-30T02:04:03Z",
+  "fetched_at": "2026-06-30T09:27:43Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -3221,6 +3221,96 @@
           "type": "regular",
           "own_goal": false,
           "shootout": true
+        },
+        {
+          "scorer": "J. Kimmich",
+          "team": "Germany",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "J. Musiala",
+          "team": "Germany",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "N. Amiri",
+          "team": "Germany",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "Maurício",
+          "team": "Paraguay",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "G. Gómez",
+          "team": "Paraguay",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "M. Galarza",
+          "team": "Paraguay",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "J. Canale",
+          "team": "Paraguay",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        }
+      ]
+    },
+    {
+      "espn_id": "760488",
+      "date": "2026-06-29",
+      "home": "Netherlands",
+      "away": "Morocco",
+      "home_score": 1,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "ROUND_OF_32",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Cody Gakpo",
+          "team": "Netherlands",
+          "minute": "72'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Issa Diop",
+          "team": "Morocco",
+          "minute": "90'+1'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
         }
       ]
     }

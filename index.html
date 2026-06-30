@@ -361,6 +361,20 @@
     font-weight: 700;
     line-height: 1.3;
   }
+  .pens-line {
+    text-align: center;
+    color: var(--red);
+    font-size: .78rem;
+    font-weight: 700;
+    padding: 0 0 8px;
+  }
+  .pk-block {
+    padding: 4px 14px 10px;
+    font-size: .78rem;
+    color: var(--muted);
+  }
+  .pk-title { font-weight: 700; color: var(--text); margin-bottom: 2px; }
+  .pk-team { padding: 1px 0; }
 
   /* ── rules page ── */
   .rules-section { margin-bottom: 10px; }
@@ -816,10 +830,10 @@ function renderResults() {
       const goals = (m.goals || []).filter(g => !g.own_goal && !g.shootout);
       const ownGoals = (m.goals || []).filter(g => g.own_goal);
 
-      let scoreStr = `${m.home_score}–${m.away_score}`;
-      if (m.shootout) {
-        scoreStr += ` <span style="font-size:.7rem;color:var(--red)">(${m.home_shootout_score}–${m.away_shootout_score} pens)</span>`;
-      }
+      const scoreStr = `${m.home_score}–${m.away_score}`;
+      const pensLine = m.shootout
+        ? `<div class="pens-line">${m.home_shootout_score}–${m.away_shootout_score} pens</div>`
+        : '';
 
       const homeGoals = goals.filter(g => normStr(g.team) === normStr(m.home));
       const awayGoals = goals.filter(g => normStr(g.team) === normStr(m.away));
@@ -841,10 +855,10 @@ function renderResults() {
       if (pkGoals.length) {
         const homePk = pkGoals.filter(g => normStr(g.team) === normStr(m.home)).map(g => g.scorer);
         const awayPk = pkGoals.filter(g => normStr(g.team) === normStr(m.away)).map(g => g.scorer);
-        const parts = [];
-        if (homePk.length) parts.push(`${m.home}: ${homePk.join(', ')}`);
-        if (awayPk.length) parts.push(`${m.away}: ${awayPk.join(', ')}`);
-        shootoutScorers = `<div class="shootout-line">Penalties — ${parts.join('  ·  ')}</div>`;
+        let pkLines = '';
+        if (homePk.length) pkLines += `<div class="pk-team"><span class="gteam">${m.home}</span> — ${homePk.join(', ')}</div>`;
+        if (awayPk.length) pkLines += `<div class="pk-team"><span class="gteam">${m.away}</span> — ${awayPk.join(', ')}</div>`;
+        shootoutScorers = `<div class="pk-block"><div class="pk-title">Penalties</div>${pkLines}</div>`;
       }
 
       // Knockout match finished level but no shootout data = missing PK result
@@ -863,6 +877,7 @@ function renderResults() {
             <a class="match-score" href="https://www.espn.com/soccer/matchstats/_/gameId/${m.espn_id}" target="_blank" rel="noopener noreferrer">${scoreStr}</a>
             <div class="match-team away">${m.away}</div>
           </div>
+          ${pensLine}
           ${soWarning}
           ${goalLines ? `<div class="match-goals">${goalLines}</div>` : ''}
           ${shootoutScorers}

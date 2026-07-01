@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-30T22:48:55Z",
+  "fetched_at": "2026-07-01T01:13:46Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -3278,6 +3278,48 @@
           "scorer": "Antonio Nusa",
           "team": "Norway",
           "minute": "39'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760492",
+      "date": "2026-06-30",
+      "home": "France",
+      "away": "Sweden",
+      "home_score": 3,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "ROUND_OF_32",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Kylian Mbappé",
+          "team": "France",
+          "minute": "45'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Kylian Mbappé",
+          "team": "France",
+          "minute": "74'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Bradley Barcola",
+          "team": "France",
+          "minute": "53'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

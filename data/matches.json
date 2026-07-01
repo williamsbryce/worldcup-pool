@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-01T18:30:32Z",
+  "fetched_at": "2026-07-01T22:52:17Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -3396,6 +3396,64 @@
           "scorer": "Brian Cipenga",
           "team": "Congo DR",
           "minute": "7'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760493",
+      "date": "2026-07-01",
+      "home": "Belgium",
+      "away": "Senegal",
+      "home_score": 3,
+      "away_score": 2,
+      "status": "FINISHED",
+      "stage": "ROUND_OF_32",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Youri Tielemans",
+          "team": "Belgium",
+          "minute": "89'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Youri Tielemans",
+          "team": "Belgium",
+          "minute": "120'+5'",
+          "type": "penalty",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Romelu Lukaku",
+          "team": "Belgium",
+          "minute": "86'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Habib Diarra",
+          "team": "Senegal",
+          "minute": "25'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Ismaïla Sarr",
+          "team": "Senegal",
+          "minute": "51'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

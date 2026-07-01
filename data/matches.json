@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-01T11:36:00Z",
+  "fetched_at": "2026-07-01T18:30:32Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -3354,6 +3354,48 @@
           "scorer": "Julián Quiñones",
           "team": "Mexico",
           "minute": "22'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760495",
+      "date": "2026-07-01",
+      "home": "England",
+      "away": "Congo DR",
+      "home_score": 2,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "ROUND_OF_32",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Harry Kane",
+          "team": "England",
+          "minute": "75'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Harry Kane",
+          "team": "England",
+          "minute": "86'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Brian Cipenga",
+          "team": "Congo DR",
+          "minute": "7'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

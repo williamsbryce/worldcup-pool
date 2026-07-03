@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-02T20:45:28Z",
+  "fetched_at": "2026-07-03T01:02:31Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -3488,6 +3488,48 @@
           "scorer": "Folarin Balogun",
           "team": "United States",
           "minute": "45'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760497",
+      "date": "2026-07-02",
+      "home": "Spain",
+      "away": "Austria",
+      "home_score": 3,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "ROUND_OF_32",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Pedro Porro",
+          "team": "Spain",
+          "minute": "66'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Mikel Oyarzabal",
+          "team": "Spain",
+          "minute": "36'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Mikel Oyarzabal",
+          "team": "Spain",
+          "minute": "89'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

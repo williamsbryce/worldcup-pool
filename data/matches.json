@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-03T20:34:38Z",
+  "fetched_at": "2026-07-03T22:50:05Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -3606,6 +3606,40 @@
           "scorer": "Dan Ndoye",
           "team": "Switzerland",
           "minute": "46'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760499",
+      "date": "2026-07-03",
+      "home": "Australia",
+      "away": "Egypt",
+      "home_score": 1,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "ROUND_OF_32",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Mohamed Hany",
+          "team": "Egypt",
+          "minute": "55'",
+          "type": "regular",
+          "own_goal": true,
+          "shootout": false
+        },
+        {
+          "scorer": "Emam Ashour",
+          "team": "Egypt",
+          "minute": "13'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-03T01:02:31Z",
+  "fetched_at": "2026-07-03T08:39:31Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -3530,6 +3530,82 @@
           "scorer": "Mikel Oyarzabal",
           "team": "Spain",
           "minute": "89'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760496",
+      "date": "2026-07-02",
+      "home": "Portugal",
+      "away": "Croatia",
+      "home_score": 2,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "ROUND_OF_32",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Cristiano Ronaldo",
+          "team": "Portugal",
+          "minute": "68'",
+          "type": "penalty",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Gonçalo Ramos",
+          "team": "Portugal",
+          "minute": "90'+4'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Ivan Perisic",
+          "team": "Croatia",
+          "minute": "53'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760498",
+      "date": "2026-07-02",
+      "home": "Switzerland",
+      "away": "Algeria",
+      "home_score": 2,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "ROUND_OF_32",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Breel Embolo",
+          "team": "Switzerland",
+          "minute": "10'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Dan Ndoye",
+          "team": "Switzerland",
+          "minute": "46'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

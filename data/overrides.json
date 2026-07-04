@@ -1,4 +1,5 @@
-  "_comment": "Add overrides here to correct API data errors. Types: remove_goal, add_goal, set_group_rank, set_shootout",
+{
+    "_comment": "Add overrides here to correct API data errors. Types: remove_goal, add_goal, set_group_rank, set_shootout",
   "overrides": [
     {
       "type": "set_shootout",

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-04T15:48:11Z",
+  "fetched_at": "2026-07-04T19:28:39Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -3772,6 +3772,48 @@
           "scorer": "Jhon Arias",
           "team": "Colombia",
           "minute": "14'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760502",
+      "date": "2026-07-04",
+      "home": "Canada",
+      "away": "Morocco",
+      "home_score": 0,
+      "away_score": 3,
+      "status": "FINISHED",
+      "stage": "ROUND_OF_16",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Azzedine Ounahi",
+          "team": "Morocco",
+          "minute": "50'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Azzedine Ounahi",
+          "team": "Morocco",
+          "minute": "82'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Soufiane Rahimi",
+          "team": "Morocco",
+          "minute": "90'+8'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

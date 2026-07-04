@@ -1,4 +1,3 @@
-{
   "_comment": "Add overrides here to correct API data errors. Types: remove_goal, add_goal, set_group_rank, set_shootout",
   "overrides": [
     {
@@ -95,6 +94,54 @@
       "espn_id": "760488",
       "team": "Morocco",
       "scorer": "I. Saibari",
+      "shootout": true
+    },
+    {
+      "type": "set_shootout",
+      "espn_id": "760499",
+      "home_shootout_score": 2,
+      "away_shootout_score": 4
+    },
+    {
+      "type": "add_goal",
+      "espn_id": "760499",
+      "team": "Australia",
+      "scorer": "J. Irvine",
+      "shootout": true
+    },
+    {
+      "type": "add_goal",
+      "espn_id": "760499",
+      "team": "Australia",
+      "scorer": "A. Mabil",
+      "shootout": true
+    },
+    {
+      "type": "add_goal",
+      "espn_id": "760499",
+      "team": "Egypt",
+      "scorer": "M. Saber",
+      "shootout": true
+    },
+    {
+      "type": "add_goal",
+      "espn_id": "760499",
+      "team": "Egypt",
+      "scorer": "R. Rabia",
+      "shootout": true
+    },
+    {
+      "type": "add_goal",
+      "espn_id": "760499",
+      "team": "Egypt",
+      "scorer": "M. Salah",
+      "shootout": true
+    },
+    {
+      "type": "add_goal",
+      "espn_id": "760499",
+      "team": "Egypt",
+      "scorer": "H. Abdelmaguid",
       "shootout": true
     }
   ]

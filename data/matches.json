@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-04T00:42:06Z",
+  "fetched_at": "2026-07-04T00:55:23Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -3088,9 +3088,9 @@
       "status": "FINISHED",
       "stage": "ROUND_OF_32",
       "group": null,
-      "shootout": false,
-      "home_shootout_score": 0,
-      "away_shootout_score": 0,
+      "shootout": true,
+      "home_shootout_score": 3,
+      "away_shootout_score": 4,
       "home_group_rank": null,
       "away_group_rank": null,
       "goals": [
@@ -3178,9 +3178,9 @@
       "status": "FINISHED",
       "stage": "ROUND_OF_32",
       "group": null,
-      "shootout": false,
-      "home_shootout_score": 0,
-      "away_shootout_score": 0,
+      "shootout": true,
+      "home_shootout_score": 2,
+      "away_shootout_score": 3,
       "home_group_rank": null,
       "away_group_rank": null,
       "goals": [
@@ -3622,9 +3622,9 @@
       "status": "FINISHED",
       "stage": "ROUND_OF_32",
       "group": null,
-      "shootout": false,
-      "home_shootout_score": 0,
-      "away_shootout_score": 0,
+      "shootout": true,
+      "home_shootout_score": 2,
+      "away_shootout_score": 4,
       "home_group_rank": null,
       "away_group_rank": null,
       "goals": [
@@ -3640,6 +3640,112 @@
           "scorer": "Emam Ashour",
           "team": "Egypt",
           "minute": "13'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "J. Irvine",
+          "team": "Australia",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "A. Mabil",
+          "team": "Australia",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "M. Saber",
+          "team": "Egypt",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "R. Rabia",
+          "team": "Egypt",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "M. Salah",
+          "team": "Egypt",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "H. Abdelmaguid",
+          "team": "Egypt",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        }
+      ]
+    },
+    {
+      "espn_id": "760500",
+      "date": "2026-07-03",
+      "home": "Argentina",
+      "away": "Cape Verde",
+      "home_score": 3,
+      "away_score": 2,
+      "status": "FINISHED",
+      "stage": "ROUND_OF_32",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Lisandro Martínez",
+          "team": "Argentina",
+          "minute": "92'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Lionel Messi",
+          "team": "Argentina",
+          "minute": "29'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Diney Borges",
+          "team": "Cape Verde",
+          "minute": "111'",
+          "type": "regular",
+          "own_goal": true,
+          "shootout": false
+        },
+        {
+          "scorer": "Sidny Lopes Cabral",
+          "team": "Cape Verde",
+          "minute": "103'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Deroy Duarte",
+          "team": "Cape Verde",
+          "minute": "59'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

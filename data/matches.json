@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-05T18:51:21Z",
+  "fetched_at": "2026-07-05T22:10:26Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -3841,6 +3841,48 @@
           "team": "France",
           "minute": "70'",
           "type": "penalty",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760504",
+      "date": "2026-07-05",
+      "home": "Brazil",
+      "away": "Norway",
+      "home_score": 1,
+      "away_score": 2,
+      "status": "FINISHED",
+      "stage": "ROUND_OF_16",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Neymar",
+          "team": "Brazil",
+          "minute": "90'+10'",
+          "type": "penalty",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Erling Haaland",
+          "team": "Norway",
+          "minute": "79'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Erling Haaland",
+          "team": "Norway",
+          "minute": "90'",
+          "type": "regular",
           "own_goal": false,
           "shootout": false
         }

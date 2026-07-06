@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-06T19:23:30Z",
+  "fetched_at": "2026-07-06T21:45:08Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -3941,6 +3941,32 @@
           "team": "England",
           "minute": "60'",
           "type": "penalty",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760506",
+      "date": "2026-07-06",
+      "home": "Portugal",
+      "away": "Spain",
+      "home_score": 0,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "ROUND_OF_16",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Mikel Merino",
+          "team": "Spain",
+          "minute": "90'+1'",
+          "type": "regular",
           "own_goal": false,
           "shootout": false
         }

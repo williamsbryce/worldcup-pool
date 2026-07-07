@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-07T10:40:54Z",
+  "fetched_at": "2026-07-07T18:25:33Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -4024,6 +4024,64 @@
           "scorer": "Hans Vanaken",
           "team": "Belgium",
           "minute": "57'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760509",
+      "date": "2026-07-07",
+      "home": "Argentina",
+      "away": "Egypt",
+      "home_score": 3,
+      "away_score": 2,
+      "status": "FINISHED",
+      "stage": "ROUND_OF_16",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Cristian Romero",
+          "team": "Argentina",
+          "minute": "79'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Enzo Fernández",
+          "team": "Argentina",
+          "minute": "90'+2'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Lionel Messi",
+          "team": "Argentina",
+          "minute": "83'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Yasser Ibrahim",
+          "team": "Egypt",
+          "minute": "15'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Mostafa Zico",
+          "team": "Egypt",
+          "minute": "67'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-06T23:41:37Z",
+  "fetched_at": "2026-07-07T04:24:11Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -3966,6 +3966,64 @@
           "scorer": "Mikel Merino",
           "team": "Spain",
           "minute": "90'+1'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760507",
+      "date": "2026-07-06",
+      "home": "United States",
+      "away": "Belgium",
+      "home_score": 1,
+      "away_score": 4,
+      "status": "FINISHED",
+      "stage": "ROUND_OF_16",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Malik Tillman",
+          "team": "United States",
+          "minute": "31'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Charles De Ketelaere",
+          "team": "Belgium",
+          "minute": "9'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Charles De Ketelaere",
+          "team": "Belgium",
+          "minute": "33'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Romelu Lukaku",
+          "team": "Belgium",
+          "minute": "90'+3'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Hans Vanaken",
+          "team": "Belgium",
+          "minute": "57'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-07T22:40:58Z",
+  "fetched_at": "2026-07-08T07:42:35Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -4087,6 +4087,23 @@
           "shootout": false
         }
       ]
+    },
+    {
+      "espn_id": "760508",
+      "date": "2026-07-07",
+      "home": "Switzerland",
+      "away": "Colombia",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "ROUND_OF_16",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": []
     }
   ]
 }

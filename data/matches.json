@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-09T17:33:37Z",
+  "fetched_at": "2026-07-09T22:47:26Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -4104,6 +4104,40 @@
       "home_group_rank": null,
       "away_group_rank": null,
       "goals": []
+    },
+    {
+      "espn_id": "760510",
+      "date": "2026-07-09",
+      "home": "France",
+      "away": "Morocco",
+      "home_score": 2,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "QUARTER_FINAL",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Kylian Mbappé",
+          "team": "France",
+          "minute": "60'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Ousmane Dembélé",
+          "team": "France",
+          "minute": "66'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
     }
   ]
 }

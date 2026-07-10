@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-10T17:23:30Z",
+  "fetched_at": "2026-07-10T21:36:24Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -4133,6 +4133,48 @@
           "scorer": "Ousmane Dembélé",
           "team": "France",
           "minute": "66'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760511",
+      "date": "2026-07-10",
+      "home": "Spain",
+      "away": "Belgium",
+      "home_score": 2,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "QUARTER_FINAL",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Fabián Ruiz",
+          "team": "Spain",
+          "minute": "30'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Mikel Merino",
+          "team": "Spain",
+          "minute": "88'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Charles De Ketelaere",
+          "team": "Belgium",
+          "minute": "41'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

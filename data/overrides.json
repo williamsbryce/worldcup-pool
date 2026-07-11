@@ -158,3 +158,47 @@
       "scorer": "G. Xhaka",
       "shootout": true
     },
+    {
+      "type": "add_goal",
+      "espn_id": "760508",
+      "team": "Switzerland",
+      "scorer": "Z. Amdouni",
+      "shootout": true
+    },
+    {
+      "type": "add_goal",
+      "espn_id": "760508",
+      "team": "Switzerland",
+      "scorer": "C. Itten",
+      "shootout": true
+    },
+    {
+      "type": "add_goal",
+      "espn_id": "760508",
+      "team": "Switzerland",
+      "scorer": "R. Vargas",
+      "shootout": true
+    },
+    {
+      "type": "add_goal",
+      "espn_id": "760508",
+      "team": "Colombia",
+      "scorer": "J. Quintero",
+      "shootout": true
+    },
+    {
+      "type": "add_goal",
+      "espn_id": "760508",
+      "team": "Colombia",
+      "scorer": "J. Campaz",
+      "shootout": true
+    },
+    {
+      "type": "add_goal",
+      "espn_id": "760508",
+      "team": "Colombia",
+      "scorer": "L. Díaz",
+      "shootout": true
+    }
+  ]
+}

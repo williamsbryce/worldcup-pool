@@ -144,6 +144,17 @@
       "team": "Egypt",
       "scorer": "H. Abdelmaguid",
       "shootout": true
-    }
-  ]
-}
+    },
+    {
+      "type": "set_shootout",
+      "espn_id": "760508",
+      "home_shootout_score": 4,
+      "away_shootout_score": 3
+    },
+    {
+      "type": "add_goal",
+      "espn_id": "760508",
+      "team": "Switzerland",
+      "scorer": "G. Xhaka",
+      "shootout": true
+    },

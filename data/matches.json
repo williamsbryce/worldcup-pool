@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-11T00:26:46Z",
+  "fetched_at": "2026-07-11T00:33:54Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -3088,9 +3088,9 @@
       "status": "FINISHED",
       "stage": "ROUND_OF_32",
       "group": null,
-      "shootout": false,
-      "home_shootout_score": 0,
-      "away_shootout_score": 0,
+      "shootout": true,
+      "home_shootout_score": 3,
+      "away_shootout_score": 4,
       "home_group_rank": null,
       "away_group_rank": null,
       "goals": [
@@ -3178,9 +3178,9 @@
       "status": "FINISHED",
       "stage": "ROUND_OF_32",
       "group": null,
-      "shootout": false,
-      "home_shootout_score": 0,
-      "away_shootout_score": 0,
+      "shootout": true,
+      "home_shootout_score": 2,
+      "away_shootout_score": 3,
       "home_group_rank": null,
       "away_group_rank": null,
       "goals": [
@@ -3622,9 +3622,9 @@
       "status": "FINISHED",
       "stage": "ROUND_OF_32",
       "group": null,
-      "shootout": false,
-      "home_shootout_score": 0,
-      "away_shootout_score": 0,
+      "shootout": true,
+      "home_shootout_score": 2,
+      "away_shootout_score": 4,
       "home_group_rank": null,
       "away_group_rank": null,
       "goals": [
@@ -4098,12 +4098,69 @@
       "status": "FINISHED",
       "stage": "ROUND_OF_16",
       "group": null,
-      "shootout": false,
-      "home_shootout_score": 0,
-      "away_shootout_score": 0,
+      "shootout": true,
+      "home_shootout_score": 4,
+      "away_shootout_score": 3,
       "home_group_rank": null,
       "away_group_rank": null,
-      "goals": []
+      "goals": [
+        {
+          "scorer": "G. Xhaka",
+          "team": "Switzerland",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "Z. Amdouni",
+          "team": "Switzerland",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "C. Itten",
+          "team": "Switzerland",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "R. Vargas",
+          "team": "Switzerland",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "J. Quintero",
+          "team": "Colombia",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "J. Campaz",
+          "team": "Colombia",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        },
+        {
+          "scorer": "L. Díaz",
+          "team": "Colombia",
+          "minute": "?",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": true
+        }
+      ]
     },
     {
       "espn_id": "760510",

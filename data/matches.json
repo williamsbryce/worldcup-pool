@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-12T03:34:57Z",
+  "fetched_at": "2026-07-12T05:08:10Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -4274,6 +4274,56 @@
           "scorer": "Jude Bellingham",
           "team": "England",
           "minute": "93'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760513",
+      "date": "2026-07-11",
+      "home": "Argentina",
+      "away": "Switzerland",
+      "home_score": 3,
+      "away_score": 1,
+      "status": "FINISHED",
+      "stage": "QUARTER_FINAL",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Lautaro Martínez",
+          "team": "Argentina",
+          "minute": "120'+1'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Alexis Mac Allister",
+          "team": "Argentina",
+          "minute": "10'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Julián Álvarez",
+          "team": "Argentina",
+          "minute": "112'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Dan Ndoye",
+          "team": "Switzerland",
+          "minute": "67'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

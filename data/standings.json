@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-11T23:38:23Z",
+  "last_updated": "2026-07-12T03:34:57Z",
   "standings": [
     {
       "id": "drew-findlay",
       "name": "Drew Findlay",
-      "total": 596,
-      "total_games": 88,
-      "teams_remaining": 4,
+      "total": 603,
+      "total_games": 90,
+      "teams_remaining": 3,
       "picks": [
         {
           "box": 1,
@@ -28,17 +28,17 @@
           "box": 1,
           "team": "England",
           "bonus": 3,
-          "match": 31,
+          "match": 37,
           "scorer": 12,
           "pool": 4,
           "tourney": 0,
-          "games": 5,
+          "games": 6,
           "scorers": [
             "Harry Kane",
             "Bukayo Saka"
           ],
           "eliminated": false,
-          "total": 50
+          "total": 56
         },
         {
           "box": 1,
@@ -124,17 +124,17 @@
           "box": 3,
           "team": "Norway",
           "bonus": 1,
-          "match": 27,
+          "match": 28,
           "scorer": 14,
           "pool": 2,
           "tourney": 0,
-          "games": 5,
+          "games": 6,
           "scorers": [
             "Erling Haaland",
             "Alexander Sørloth"
           ],
-          "eliminated": false,
-          "total": 44
+          "eliminated": true,
+          "total": 45
         },
         {
           "box": 4,
@@ -326,7 +326,7 @@
       ],
       "breakdown": {
         "bonuses": 26,
-        "match_results": 417,
+        "match_results": 424,
         "scorer_goals": 109,
         "pool_placement": 44,
         "tournament_finish": 0
@@ -336,9 +336,9 @@
     {
       "id": "tate-williams",
       "name": "Tate Williams",
-      "total": 596,
-      "total_games": 89,
-      "teams_remaining": 4,
+      "total": 597,
+      "total_games": 90,
+      "teams_remaining": 3,
       "picks": [
         {
           "box": 1,
@@ -440,17 +440,17 @@
           "box": 3,
           "team": "Norway",
           "bonus": 1,
-          "match": 27,
+          "match": 28,
           "scorer": 14,
           "pool": 2,
           "tourney": 0,
-          "games": 5,
+          "games": 6,
           "scorers": [
             "Erling Haaland",
             "Alexander Sørloth"
           ],
-          "eliminated": false,
-          "total": 44
+          "eliminated": true,
+          "total": 45
         },
         {
           "box": 3,
@@ -658,7 +658,7 @@
       ],
       "breakdown": {
         "bonuses": 33,
-        "match_results": 406,
+        "match_results": 407,
         "scorer_goals": 116,
         "pool_placement": 41,
         "tournament_finish": 0
@@ -668,25 +668,25 @@
     {
       "id": "andrew-tennent",
       "name": "Andrew Tennent",
-      "total": 585,
-      "total_games": 90,
-      "teams_remaining": 5,
+      "total": 596,
+      "total_games": 92,
+      "teams_remaining": 4,
       "picks": [
         {
           "box": 1,
           "team": "England",
           "bonus": 3,
-          "match": 31,
-          "scorer": 20,
+          "match": 37,
+          "scorer": 24,
           "pool": 4,
           "tourney": 0,
-          "games": 5,
+          "games": 6,
           "scorers": [
             "Harry Kane",
             "Jude Bellingham"
           ],
           "eliminated": false,
-          "total": 58
+          "total": 68
         },
         {
           "box": 1,
@@ -772,17 +772,17 @@
           "box": 3,
           "team": "Norway",
           "bonus": 1,
-          "match": 27,
+          "match": 28,
           "scorer": 14,
           "pool": 2,
           "tourney": 0,
-          "games": 5,
+          "games": 6,
           "scorers": [
             "Erling Haaland",
             "Alexander Sørloth"
           ],
-          "eliminated": false,
-          "total": 44
+          "eliminated": true,
+          "total": 45
         },
         {
           "box": 3,
@@ -990,8 +990,8 @@
       ],
       "breakdown": {
         "bonuses": 24,
-        "match_results": 411,
-        "scorer_goals": 108,
+        "match_results": 418,
+        "scorer_goals": 112,
         "pool_placement": 42,
         "tournament_finish": 0
       },
@@ -1000,9 +1000,9 @@
     {
       "id": "vernon-persaud",
       "name": "Vernon Persaud",
-      "total": 572,
-      "total_games": 88,
-      "teams_remaining": 4,
+      "total": 573,
+      "total_games": 89,
+      "teams_remaining": 3,
       "picks": [
         {
           "box": 1,
@@ -1104,17 +1104,17 @@
           "box": 3,
           "team": "Norway",
           "bonus": 1,
-          "match": 27,
+          "match": 28,
           "scorer": 14,
           "pool": 2,
           "tourney": 0,
-          "games": 5,
+          "games": 6,
           "scorers": [
             "Erling Haaland",
             "Martin Ødegaard"
           ],
-          "eliminated": false,
-          "total": 44
+          "eliminated": true,
+          "total": 45
         },
         {
           "box": 3,
@@ -1322,7 +1322,7 @@
       ],
       "breakdown": {
         "bonuses": 33,
-        "match_results": 395,
+        "match_results": 396,
         "scorer_goals": 106,
         "pool_placement": 38,
         "tournament_finish": 0
@@ -1332,9 +1332,9 @@
     {
       "id": "rob-roy",
       "name": "Rob Roy",
-      "total": 564,
-      "total_games": 85,
-      "teams_remaining": 4,
+      "total": 565,
+      "total_games": 86,
+      "teams_remaining": 3,
       "picks": [
         {
           "box": 1,
@@ -1436,17 +1436,17 @@
           "box": 3,
           "team": "Norway",
           "bonus": 1,
-          "match": 27,
+          "match": 28,
           "scorer": 16,
           "pool": 2,
           "tourney": 0,
-          "games": 5,
+          "games": 6,
           "scorers": [
             "Antonio Nusa",
             "Erling Haaland"
           ],
-          "eliminated": false,
-          "total": 46
+          "eliminated": true,
+          "total": 47
         },
         {
           "box": 3,
@@ -1654,7 +1654,7 @@
       ],
       "breakdown": {
         "bonuses": 23,
-        "match_results": 389,
+        "match_results": 390,
         "scorer_goals": 112,
         "pool_placement": 40,
         "tournament_finish": 0
@@ -1664,8 +1664,8 @@
     {
       "id": "tyler-marien",
       "name": "Tyler Marien",
-      "total": 552,
-      "total_games": 84,
+      "total": 558,
+      "total_games": 85,
       "teams_remaining": 3,
       "picks": [
         {
@@ -1688,17 +1688,17 @@
           "box": 1,
           "team": "England",
           "bonus": 3,
-          "match": 31,
+          "match": 37,
           "scorer": 12,
           "pool": 4,
           "tourney": 0,
-          "games": 5,
+          "games": 6,
           "scorers": [
             "Harry Kane",
             "Bukayo Saka"
           ],
           "eliminated": false,
-          "total": 50
+          "total": 56
         },
         {
           "box": 1,
@@ -1986,7 +1986,7 @@
       ],
       "breakdown": {
         "bonuses": 32,
-        "match_results": 374,
+        "match_results": 380,
         "scorer_goals": 104,
         "pool_placement": 42,
         "tournament_finish": 0
@@ -1996,9 +1996,9 @@
     {
       "id": "brendan-newton",
       "name": "Brendan Newton",
-      "total": 550,
-      "total_games": 83,
-      "teams_remaining": 4,
+      "total": 557,
+      "total_games": 85,
+      "teams_remaining": 3,
       "picks": [
         {
           "box": 1,
@@ -2020,17 +2020,17 @@
           "box": 1,
           "team": "England",
           "bonus": 3,
-          "match": 31,
+          "match": 37,
           "scorer": 14,
           "pool": 4,
           "tourney": 0,
-          "games": 5,
+          "games": 6,
           "scorers": [
             "Harry Kane",
             "Marcus Rashford"
           ],
           "eliminated": false,
-          "total": 52
+          "total": 58
         },
         {
           "box": 1,
@@ -2100,17 +2100,17 @@
           "box": 3,
           "team": "Norway",
           "bonus": 1,
-          "match": 27,
+          "match": 28,
           "scorer": 14,
           "pool": 2,
           "tourney": 0,
-          "games": 5,
+          "games": 6,
           "scorers": [
             "Erling Haaland",
             "Alexander Sørloth"
           ],
-          "eliminated": false,
-          "total": 44
+          "eliminated": true,
+          "total": 45
         },
         {
           "box": 3,
@@ -2318,7 +2318,7 @@
       ],
       "breakdown": {
         "bonuses": 36,
-        "match_results": 373,
+        "match_results": 380,
         "scorer_goals": 103,
         "pool_placement": 38,
         "tournament_finish": 0
@@ -2660,9 +2660,9 @@
     {
       "id": "bryce-williams",
       "name": "Bryce Williams",
-      "total": 548,
-      "total_games": 87,
-      "teams_remaining": 2,
+      "total": 549,
+      "total_games": 88,
+      "teams_remaining": 1,
       "picks": [
         {
           "box": 1,
@@ -2780,17 +2780,17 @@
           "box": 3,
           "team": "Norway",
           "bonus": 1,
-          "match": 27,
+          "match": 28,
           "scorer": 14,
           "pool": 2,
           "tourney": 0,
-          "games": 5,
+          "games": 6,
           "scorers": [
             "Erling Haaland",
             "Alexander Sørloth"
           ],
-          "eliminated": false,
-          "total": 44
+          "eliminated": true,
+          "total": 45
         },
         {
           "box": 4,
@@ -2982,7 +2982,7 @@
       ],
       "breakdown": {
         "bonuses": 29,
-        "match_results": 387,
+        "match_results": 388,
         "scorer_goals": 89,
         "pool_placement": 43,
         "tournament_finish": 0
@@ -2992,9 +2992,9 @@
     {
       "id": "alex-ryback",
       "name": "Alex Ryback",
-      "total": 541,
-      "total_games": 88,
-      "teams_remaining": 2,
+      "total": 542,
+      "total_games": 89,
+      "teams_remaining": 1,
       "picks": [
         {
           "box": 1,
@@ -3096,17 +3096,17 @@
           "box": 3,
           "team": "Norway",
           "bonus": 1,
-          "match": 27,
+          "match": 28,
           "scorer": 14,
           "pool": 2,
           "tourney": 0,
-          "games": 5,
+          "games": 6,
           "scorers": [
             "Erling Haaland",
             "Alexander Sørloth"
           ],
-          "eliminated": false,
-          "total": 44
+          "eliminated": true,
+          "total": 45
         },
         {
           "box": 3,
@@ -3314,7 +3314,7 @@
       ],
       "breakdown": {
         "bonuses": 42,
-        "match_results": 388,
+        "match_results": 389,
         "scorer_goals": 73,
         "pool_placement": 38,
         "tournament_finish": 0

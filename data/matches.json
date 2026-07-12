@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-11T23:38:23Z",
+  "fetched_at": "2026-07-12T03:34:57Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -4232,6 +4232,48 @@
           "scorer": "Charles De Ketelaere",
           "team": "Belgium",
           "minute": "41'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760512",
+      "date": "2026-07-11",
+      "home": "Norway",
+      "away": "England",
+      "home_score": 1,
+      "away_score": 2,
+      "status": "FINISHED",
+      "stage": "QUARTER_FINAL",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Andreas Schjelderup",
+          "team": "Norway",
+          "minute": "36'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Jude Bellingham",
+          "team": "England",
+          "minute": "45'+2'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Jude Bellingham",
+          "team": "England",
+          "minute": "93'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

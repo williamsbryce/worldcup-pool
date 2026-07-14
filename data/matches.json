@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-14T20:21:27Z",
+  "fetched_at": "2026-07-14T21:06:31Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -4325,6 +4325,40 @@
           "team": "Switzerland",
           "minute": "67'",
           "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760514",
+      "date": "2026-07-14",
+      "home": "France",
+      "away": "Spain",
+      "home_score": 0,
+      "away_score": 2,
+      "status": "FINISHED",
+      "stage": "SEMI_FINAL",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Pedro Porro",
+          "team": "Spain",
+          "minute": "58'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Mikel Oyarzabal",
+          "team": "Spain",
+          "minute": "22'",
+          "type": "penalty",
           "own_goal": false,
           "shootout": false
         }

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-15T19:49:34Z",
+  "fetched_at": "2026-07-15T21:08:38Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -4359,6 +4359,48 @@
           "team": "Spain",
           "minute": "22'",
           "type": "penalty",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760515",
+      "date": "2026-07-15",
+      "home": "England",
+      "away": "Argentina",
+      "home_score": 1,
+      "away_score": 2,
+      "status": "FINISHED",
+      "stage": "SEMI_FINAL",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Anthony Gordon",
+          "team": "England",
+          "minute": "55'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Enzo Fernández",
+          "team": "Argentina",
+          "minute": "85'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Lautaro Martínez",
+          "team": "Argentina",
+          "minute": "90'+2'",
+          "type": "regular",
           "own_goal": false,
           "shootout": false
         }

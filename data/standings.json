@@ -1,28 +1,28 @@
 {
-  "last_updated": "2026-07-15T19:49:34Z",
+  "last_updated": "2026-07-15T21:08:38Z",
   "standings": [
     {
       "id": "tate-williams",
       "name": "Tate Williams",
-      "total": 617,
-      "total_games": 93,
+      "total": 625,
+      "total_games": 94,
       "teams_remaining": 2,
       "picks": [
         {
           "box": 1,
           "team": "Argentina",
           "bonus": 5,
-          "match": 43,
-          "scorer": 20,
+          "match": 49,
+          "scorer": 22,
           "pool": 4,
           "tourney": 0,
-          "games": 6,
+          "games": 7,
           "scorers": [
             "Lionel Messi",
             "Lautaro Martínez"
           ],
           "eliminated": false,
-          "total": 72
+          "total": 80
         },
         {
           "box": 1,
@@ -326,8 +326,8 @@
       ],
       "breakdown": {
         "bonuses": 33,
-        "match_results": 423,
-        "scorer_goals": 120,
+        "match_results": 429,
+        "scorer_goals": 122,
         "pool_placement": 41,
         "tournament_finish": 0
       },
@@ -336,41 +336,41 @@
     {
       "id": "drew-findlay",
       "name": "Drew Findlay",
-      "total": 613,
-      "total_games": 92,
-      "teams_remaining": 2,
+      "total": 622,
+      "total_games": 94,
+      "teams_remaining": 1,
       "picks": [
         {
           "box": 1,
           "team": "Argentina",
           "bonus": 5,
-          "match": 43,
-          "scorer": 20,
+          "match": 49,
+          "scorer": 22,
           "pool": 4,
           "tourney": 0,
-          "games": 6,
+          "games": 7,
           "scorers": [
             "Lionel Messi",
             "Lautaro Martínez"
           ],
           "eliminated": false,
-          "total": 72
+          "total": 80
         },
         {
           "box": 1,
           "team": "England",
           "bonus": 3,
-          "match": 37,
+          "match": 38,
           "scorer": 12,
           "pool": 4,
           "tourney": 0,
-          "games": 6,
+          "games": 7,
           "scorers": [
             "Harry Kane",
             "Bukayo Saka"
           ],
-          "eliminated": false,
-          "total": 56
+          "eliminated": true,
+          "total": 57
         },
         {
           "box": 1,
@@ -658,8 +658,8 @@
       ],
       "breakdown": {
         "bonuses": 26,
-        "match_results": 432,
-        "scorer_goals": 111,
+        "match_results": 439,
+        "scorer_goals": 113,
         "pool_placement": 44,
         "tournament_finish": 0
       },
@@ -668,25 +668,25 @@
     {
       "id": "andrew-tennent",
       "name": "Andrew Tennent",
-      "total": 608,
-      "total_games": 95,
-      "teams_remaining": 2,
+      "total": 609,
+      "total_games": 96,
+      "teams_remaining": 1,
       "picks": [
         {
           "box": 1,
           "team": "England",
           "bonus": 3,
-          "match": 37,
+          "match": 38,
           "scorer": 24,
           "pool": 4,
           "tourney": 0,
-          "games": 6,
+          "games": 7,
           "scorers": [
             "Harry Kane",
             "Jude Bellingham"
           ],
-          "eliminated": false,
-          "total": 68
+          "eliminated": true,
+          "total": 69
         },
         {
           "box": 1,
@@ -990,7 +990,7 @@
       ],
       "breakdown": {
         "bonuses": 24,
-        "match_results": 428,
+        "match_results": 429,
         "scorer_goals": 114,
         "pool_placement": 42,
         "tournament_finish": 0
@@ -1000,25 +1000,25 @@
     {
       "id": "vernon-persaud",
       "name": "Vernon Persaud",
-      "total": 586,
-      "total_games": 92,
+      "total": 592,
+      "total_games": 93,
       "teams_remaining": 1,
       "picks": [
         {
           "box": 1,
           "team": "Argentina",
           "bonus": 5,
-          "match": 43,
+          "match": 49,
           "scorer": 18,
           "pool": 4,
           "tourney": 0,
-          "games": 6,
+          "games": 7,
           "scorers": [
             "Lionel Messi",
             "Julián Álvarez"
           ],
           "eliminated": false,
-          "total": 70
+          "total": 76
         },
         {
           "box": 1,
@@ -1322,7 +1322,7 @@
       ],
       "breakdown": {
         "bonuses": 33,
-        "match_results": 405,
+        "match_results": 411,
         "scorer_goals": 110,
         "pool_placement": 38,
         "tournament_finish": 0
@@ -1332,25 +1332,25 @@
     {
       "id": "rob-roy",
       "name": "Rob Roy",
-      "total": 583,
-      "total_games": 89,
+      "total": 591,
+      "total_games": 90,
       "teams_remaining": 2,
       "picks": [
         {
           "box": 1,
           "team": "Argentina",
           "bonus": 5,
-          "match": 43,
-          "scorer": 20,
+          "match": 49,
+          "scorer": 22,
           "pool": 4,
           "tourney": 0,
-          "games": 6,
+          "games": 7,
           "scorers": [
             "Lautaro Martínez",
             "Lionel Messi"
           ],
           "eliminated": false,
-          "total": 72
+          "total": 80
         },
         {
           "box": 1,
@@ -1654,8 +1654,8 @@
       ],
       "breakdown": {
         "bonuses": 23,
-        "match_results": 406,
-        "scorer_goals": 114,
+        "match_results": 412,
+        "scorer_goals": 116,
         "pool_placement": 40,
         "tournament_finish": 0
       },
@@ -1664,41 +1664,41 @@
     {
       "id": "tyler-marien",
       "name": "Tyler Marien",
-      "total": 568,
-      "total_games": 87,
-      "teams_remaining": 2,
+      "total": 575,
+      "total_games": 89,
+      "teams_remaining": 1,
       "picks": [
         {
           "box": 1,
           "team": "Argentina",
           "bonus": 5,
-          "match": 43,
+          "match": 49,
           "scorer": 18,
           "pool": 4,
           "tourney": 0,
-          "games": 6,
+          "games": 7,
           "scorers": [
             "Lionel Messi",
             "Julián Álvarez"
           ],
           "eliminated": false,
-          "total": 70
+          "total": 76
         },
         {
           "box": 1,
           "team": "England",
           "bonus": 3,
-          "match": 37,
+          "match": 38,
           "scorer": 12,
           "pool": 4,
           "tourney": 0,
-          "games": 6,
+          "games": 7,
           "scorers": [
             "Harry Kane",
             "Bukayo Saka"
           ],
-          "eliminated": false,
-          "total": 56
+          "eliminated": true,
+          "total": 57
         },
         {
           "box": 1,
@@ -1986,7 +1986,7 @@
       ],
       "breakdown": {
         "bonuses": 32,
-        "match_results": 388,
+        "match_results": 395,
         "scorer_goals": 106,
         "pool_placement": 42,
         "tournament_finish": 0
@@ -1996,41 +1996,41 @@
     {
       "id": "brendan-newton",
       "name": "Brendan Newton",
-      "total": 567,
-      "total_games": 87,
-      "teams_remaining": 2,
+      "total": 574,
+      "total_games": 89,
+      "teams_remaining": 1,
       "picks": [
         {
           "box": 1,
           "team": "Argentina",
           "bonus": 5,
-          "match": 43,
+          "match": 49,
           "scorer": 18,
           "pool": 4,
           "tourney": 0,
-          "games": 6,
+          "games": 7,
           "scorers": [
             "Julián Álvarez",
             "Lionel Messi"
           ],
           "eliminated": false,
-          "total": 70
+          "total": 76
         },
         {
           "box": 1,
           "team": "England",
           "bonus": 3,
-          "match": 37,
+          "match": 38,
           "scorer": 14,
           "pool": 4,
           "tourney": 0,
-          "games": 6,
+          "games": 7,
           "scorers": [
             "Harry Kane",
             "Marcus Rashford"
           ],
-          "eliminated": false,
-          "total": 58
+          "eliminated": true,
+          "total": 59
         },
         {
           "box": 1,
@@ -2318,7 +2318,7 @@
       ],
       "breakdown": {
         "bonuses": 36,
-        "match_results": 388,
+        "match_results": 395,
         "scorer_goals": 105,
         "pool_placement": 38,
         "tournament_finish": 0
@@ -3324,25 +3324,25 @@
     {
       "id": "dan-murza",
       "name": "Dan Murza",
-      "total": 497,
-      "total_games": 83,
+      "total": 505,
+      "total_games": 84,
       "teams_remaining": 1,
       "picks": [
         {
           "box": 1,
           "team": "Argentina",
           "bonus": 5,
-          "match": 43,
-          "scorer": 6,
+          "match": 49,
+          "scorer": 8,
           "pool": 4,
           "tourney": 0,
-          "games": 6,
+          "games": 7,
           "scorers": [
             "Julián Álvarez",
             "Lautaro Martínez"
           ],
           "eliminated": false,
-          "total": 58
+          "total": 66
         },
         {
           "box": 1,
@@ -3646,8 +3646,8 @@
       ],
       "breakdown": {
         "bonuses": 57,
-        "match_results": 336,
-        "scorer_goals": 69,
+        "match_results": 342,
+        "scorer_goals": 71,
         "pool_placement": 35,
         "tournament_finish": 0
       },

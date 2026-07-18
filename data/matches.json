@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-18T22:05:29Z",
+  "fetched_at": "2026-07-18T23:02:40Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -4400,6 +4400,104 @@
           "scorer": "Lautaro Martínez",
           "team": "Argentina",
           "minute": "90'+2'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760516",
+      "date": "2026-07-18",
+      "home": "France",
+      "away": "England",
+      "home_score": 4,
+      "away_score": 6,
+      "status": "FINISHED",
+      "stage": "THIRD_PLACE",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Kylian Mbappé",
+          "team": "France",
+          "minute": "48'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Kylian Mbappé",
+          "team": "France",
+          "minute": "66'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Bradley Barcola",
+          "team": "France",
+          "minute": "54'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Ousmane Dembélé",
+          "team": "France",
+          "minute": "90'+6'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Ezri Konsa",
+          "team": "England",
+          "minute": "18'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Declan Rice",
+          "team": "England",
+          "minute": "3'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Bukayo Saka",
+          "team": "England",
+          "minute": "37'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Bukayo Saka",
+          "team": "England",
+          "minute": "45'+1'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Bukayo Saka",
+          "team": "England",
+          "minute": "87'",
+          "type": "penalty",
+          "own_goal": false,
+          "shootout": false
+        },
+        {
+          "scorer": "Jude Bellingham",
+          "team": "England",
+          "minute": "90'+8'",
           "type": "regular",
           "own_goal": false,
           "shootout": false

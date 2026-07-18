@@ -1,11 +1,343 @@
 {
-  "last_updated": "2026-07-18T22:05:29Z",
+  "last_updated": "2026-07-18T23:02:40Z",
   "standings": [
+    {
+      "id": "drew-findlay",
+      "name": "Drew Findlay",
+      "total": 643,
+      "total_games": 96,
+      "teams_remaining": 1,
+      "picks": [
+        {
+          "box": 1,
+          "team": "Argentina",
+          "bonus": 5,
+          "match": 49,
+          "scorer": 22,
+          "pool": 4,
+          "tourney": 0,
+          "games": 7,
+          "scorers": [
+            "Lionel Messi",
+            "Lautaro Martínez"
+          ],
+          "eliminated": false,
+          "total": 80
+        },
+        {
+          "box": 1,
+          "team": "England",
+          "bonus": 3,
+          "match": 45,
+          "scorer": 18,
+          "pool": 4,
+          "tourney": 1,
+          "games": 8,
+          "scorers": [
+            "Harry Kane",
+            "Bukayo Saka"
+          ],
+          "eliminated": true,
+          "total": 71
+        },
+        {
+          "box": 1,
+          "team": "France",
+          "bonus": 3,
+          "match": 50,
+          "scorer": 32,
+          "pool": 4,
+          "tourney": 0,
+          "games": 8,
+          "scorers": [
+            "Kylian Mbappé",
+            "Ousmane Dembélé"
+          ],
+          "eliminated": true,
+          "total": 89
+        },
+        {
+          "box": 2,
+          "team": "Netherlands",
+          "bonus": 0,
+          "match": 20,
+          "scorer": 6,
+          "pool": 4,
+          "tourney": 0,
+          "games": 4,
+          "scorers": [
+            "Memphis Depay",
+            "Cody Gakpo"
+          ],
+          "eliminated": true,
+          "total": 30
+        },
+        {
+          "box": 3,
+          "team": "Colombia",
+          "bonus": 0,
+          "match": 27,
+          "scorer": 3,
+          "pool": 4,
+          "tourney": 0,
+          "games": 5,
+          "scorers": [
+            "Luis Díaz",
+            "James Rodríguez"
+          ],
+          "eliminated": true,
+          "total": 34
+        },
+        {
+          "box": 3,
+          "team": "Mexico",
+          "bonus": 0,
+          "match": 33,
+          "scorer": 6,
+          "pool": 4,
+          "tourney": 0,
+          "games": 5,
+          "scorers": [
+            "Raúl Jiménez",
+            "Santiago Giménez"
+          ],
+          "eliminated": true,
+          "total": 43
+        },
+        {
+          "box": 3,
+          "team": "Morocco",
+          "bonus": 4,
+          "match": 33,
+          "scorer": 0,
+          "pool": 2,
+          "tourney": 0,
+          "games": 6,
+          "scorers": [
+            "Brahim Díaz",
+            "Ayoub El Kaabi"
+          ],
+          "eliminated": true,
+          "total": 39
+        },
+        {
+          "box": 3,
+          "team": "Norway",
+          "bonus": 1,
+          "match": 28,
+          "scorer": 14,
+          "pool": 2,
+          "tourney": 0,
+          "games": 6,
+          "scorers": [
+            "Erling Haaland",
+            "Alexander Sørloth"
+          ],
+          "eliminated": true,
+          "total": 45
+        },
+        {
+          "box": 4,
+          "team": "Canada",
+          "bonus": 3,
+          "match": 24,
+          "scorer": 10,
+          "pool": 2,
+          "tourney": 0,
+          "games": 5,
+          "scorers": [
+            "Jonathan David",
+            "Cyle Larin"
+          ],
+          "eliminated": true,
+          "total": 39
+        },
+        {
+          "box": 4,
+          "team": "Croatia",
+          "bonus": 0,
+          "match": 15,
+          "scorer": 4,
+          "pool": 2,
+          "tourney": 0,
+          "games": 4,
+          "scorers": [
+            "Ante Budimir",
+            "Ivan Perišić"
+          ],
+          "eliminated": true,
+          "total": 21
+        },
+        {
+          "box": 4,
+          "team": "Japan",
+          "bonus": 1,
+          "match": 17,
+          "scorer": 4,
+          "pool": 2,
+          "tourney": 0,
+          "games": 4,
+          "scorers": [
+            "Ayase Ueda",
+            "Takefusa Kubo"
+          ],
+          "eliminated": true,
+          "total": 24
+        },
+        {
+          "box": 5,
+          "team": "Egypt",
+          "bonus": 0,
+          "match": 20,
+          "scorer": 3,
+          "pool": 2,
+          "tourney": 0,
+          "games": 5,
+          "scorers": [
+            "Mohamed Salah",
+            "Omar Marmoush"
+          ],
+          "eliminated": true,
+          "total": 25
+        },
+        {
+          "box": 6,
+          "team": "Iran",
+          "bonus": 2,
+          "match": 10,
+          "scorer": 0,
+          "pool": 1,
+          "tourney": 0,
+          "games": 3,
+          "scorers": [
+            "Mehdi Taremi",
+            "Sardar Azmoun"
+          ],
+          "eliminated": true,
+          "total": 13
+        },
+        {
+          "box": 6,
+          "team": "Ivory Coast",
+          "bonus": 0,
+          "match": 17,
+          "scorer": 0,
+          "pool": 2,
+          "tourney": 0,
+          "games": 4,
+          "scorers": [
+            "Seko Fofana",
+            "Simon Adingra"
+          ],
+          "eliminated": true,
+          "total": 19
+        },
+        {
+          "box": 6,
+          "team": "Paraguay",
+          "bonus": 0,
+          "match": 19,
+          "scorer": 0,
+          "pool": 1,
+          "tourney": 0,
+          "games": 5,
+          "scorers": [
+            "Antonio Sanabria",
+            "Miguel Almirón"
+          ],
+          "eliminated": true,
+          "total": 20
+        },
+        {
+          "box": 7,
+          "team": "Australia",
+          "bonus": 2,
+          "match": 14,
+          "scorer": 0,
+          "pool": 2,
+          "tourney": 0,
+          "games": 4,
+          "scorers": [
+            "Mathew Leckie"
+          ],
+          "eliminated": true,
+          "total": 18
+        },
+        {
+          "box": 7,
+          "team": "Saudi Arabia",
+          "bonus": 1,
+          "match": 8,
+          "scorer": 0,
+          "pool": 0,
+          "tourney": 0,
+          "games": 3,
+          "scorers": [
+            "Salem Al-Dawsari"
+          ],
+          "eliminated": true,
+          "total": 9
+        },
+        {
+          "box": 7,
+          "team": "South Africa",
+          "bonus": 0,
+          "match": 12,
+          "scorer": 0,
+          "pool": 2,
+          "tourney": 0,
+          "games": 4,
+          "scorers": [
+            "Lyle Foster"
+          ],
+          "eliminated": true,
+          "total": 14
+        },
+        {
+          "box": 8,
+          "team": "Tunisia",
+          "bonus": 1,
+          "match": 3,
+          "scorer": 0,
+          "pool": 0,
+          "tourney": 0,
+          "games": 3,
+          "scorers": [
+            "Wahbi Khazri"
+          ],
+          "eliminated": true,
+          "total": 4
+        },
+        {
+          "box": 8,
+          "team": "Uzbekistan",
+          "bonus": 0,
+          "match": 3,
+          "scorer": 3,
+          "pool": 0,
+          "tourney": 0,
+          "games": 3,
+          "scorers": [
+            "Eldor Shomurodov"
+          ],
+          "eliminated": true,
+          "total": 6
+        }
+      ],
+      "breakdown": {
+        "bonuses": 26,
+        "match_results": 447,
+        "scorer_goals": 125,
+        "pool_placement": 44,
+        "tournament_finish": 1
+      },
+      "rank": 1
+    },
     {
       "id": "tate-williams",
       "name": "Tate Williams",
-      "total": 625,
-      "total_games": 94,
+      "total": 632,
+      "total_games": 95,
       "teams_remaining": 2,
       "picks": [
         {
@@ -28,17 +360,17 @@
           "box": 1,
           "team": "France",
           "bonus": 3,
-          "match": 49,
-          "scorer": 26,
+          "match": 50,
+          "scorer": 32,
           "pool": 4,
           "tourney": 0,
-          "games": 7,
+          "games": 8,
           "scorers": [
             "Kylian Mbappé",
             "Ousmane Dembélé"
           ],
           "eliminated": true,
-          "total": 82
+          "total": 89
         },
         {
           "box": 1,
@@ -326,341 +658,9 @@
       ],
       "breakdown": {
         "bonuses": 33,
-        "match_results": 429,
-        "scorer_goals": 122,
+        "match_results": 430,
+        "scorer_goals": 128,
         "pool_placement": 41,
-        "tournament_finish": 0
-      },
-      "rank": 1
-    },
-    {
-      "id": "drew-findlay",
-      "name": "Drew Findlay",
-      "total": 622,
-      "total_games": 94,
-      "teams_remaining": 1,
-      "picks": [
-        {
-          "box": 1,
-          "team": "Argentina",
-          "bonus": 5,
-          "match": 49,
-          "scorer": 22,
-          "pool": 4,
-          "tourney": 0,
-          "games": 7,
-          "scorers": [
-            "Lionel Messi",
-            "Lautaro Martínez"
-          ],
-          "eliminated": false,
-          "total": 80
-        },
-        {
-          "box": 1,
-          "team": "England",
-          "bonus": 3,
-          "match": 38,
-          "scorer": 12,
-          "pool": 4,
-          "tourney": 0,
-          "games": 7,
-          "scorers": [
-            "Harry Kane",
-            "Bukayo Saka"
-          ],
-          "eliminated": true,
-          "total": 57
-        },
-        {
-          "box": 1,
-          "team": "France",
-          "bonus": 3,
-          "match": 49,
-          "scorer": 26,
-          "pool": 4,
-          "tourney": 0,
-          "games": 7,
-          "scorers": [
-            "Kylian Mbappé",
-            "Ousmane Dembélé"
-          ],
-          "eliminated": true,
-          "total": 82
-        },
-        {
-          "box": 2,
-          "team": "Netherlands",
-          "bonus": 0,
-          "match": 20,
-          "scorer": 6,
-          "pool": 4,
-          "tourney": 0,
-          "games": 4,
-          "scorers": [
-            "Memphis Depay",
-            "Cody Gakpo"
-          ],
-          "eliminated": true,
-          "total": 30
-        },
-        {
-          "box": 3,
-          "team": "Colombia",
-          "bonus": 0,
-          "match": 27,
-          "scorer": 3,
-          "pool": 4,
-          "tourney": 0,
-          "games": 5,
-          "scorers": [
-            "Luis Díaz",
-            "James Rodríguez"
-          ],
-          "eliminated": true,
-          "total": 34
-        },
-        {
-          "box": 3,
-          "team": "Mexico",
-          "bonus": 0,
-          "match": 33,
-          "scorer": 6,
-          "pool": 4,
-          "tourney": 0,
-          "games": 5,
-          "scorers": [
-            "Raúl Jiménez",
-            "Santiago Giménez"
-          ],
-          "eliminated": true,
-          "total": 43
-        },
-        {
-          "box": 3,
-          "team": "Morocco",
-          "bonus": 4,
-          "match": 33,
-          "scorer": 0,
-          "pool": 2,
-          "tourney": 0,
-          "games": 6,
-          "scorers": [
-            "Brahim Díaz",
-            "Ayoub El Kaabi"
-          ],
-          "eliminated": true,
-          "total": 39
-        },
-        {
-          "box": 3,
-          "team": "Norway",
-          "bonus": 1,
-          "match": 28,
-          "scorer": 14,
-          "pool": 2,
-          "tourney": 0,
-          "games": 6,
-          "scorers": [
-            "Erling Haaland",
-            "Alexander Sørloth"
-          ],
-          "eliminated": true,
-          "total": 45
-        },
-        {
-          "box": 4,
-          "team": "Canada",
-          "bonus": 3,
-          "match": 24,
-          "scorer": 10,
-          "pool": 2,
-          "tourney": 0,
-          "games": 5,
-          "scorers": [
-            "Jonathan David",
-            "Cyle Larin"
-          ],
-          "eliminated": true,
-          "total": 39
-        },
-        {
-          "box": 4,
-          "team": "Croatia",
-          "bonus": 0,
-          "match": 15,
-          "scorer": 4,
-          "pool": 2,
-          "tourney": 0,
-          "games": 4,
-          "scorers": [
-            "Ante Budimir",
-            "Ivan Perišić"
-          ],
-          "eliminated": true,
-          "total": 21
-        },
-        {
-          "box": 4,
-          "team": "Japan",
-          "bonus": 1,
-          "match": 17,
-          "scorer": 4,
-          "pool": 2,
-          "tourney": 0,
-          "games": 4,
-          "scorers": [
-            "Ayase Ueda",
-            "Takefusa Kubo"
-          ],
-          "eliminated": true,
-          "total": 24
-        },
-        {
-          "box": 5,
-          "team": "Egypt",
-          "bonus": 0,
-          "match": 20,
-          "scorer": 3,
-          "pool": 2,
-          "tourney": 0,
-          "games": 5,
-          "scorers": [
-            "Mohamed Salah",
-            "Omar Marmoush"
-          ],
-          "eliminated": true,
-          "total": 25
-        },
-        {
-          "box": 6,
-          "team": "Iran",
-          "bonus": 2,
-          "match": 10,
-          "scorer": 0,
-          "pool": 1,
-          "tourney": 0,
-          "games": 3,
-          "scorers": [
-            "Mehdi Taremi",
-            "Sardar Azmoun"
-          ],
-          "eliminated": true,
-          "total": 13
-        },
-        {
-          "box": 6,
-          "team": "Ivory Coast",
-          "bonus": 0,
-          "match": 17,
-          "scorer": 0,
-          "pool": 2,
-          "tourney": 0,
-          "games": 4,
-          "scorers": [
-            "Seko Fofana",
-            "Simon Adingra"
-          ],
-          "eliminated": true,
-          "total": 19
-        },
-        {
-          "box": 6,
-          "team": "Paraguay",
-          "bonus": 0,
-          "match": 19,
-          "scorer": 0,
-          "pool": 1,
-          "tourney": 0,
-          "games": 5,
-          "scorers": [
-            "Antonio Sanabria",
-            "Miguel Almirón"
-          ],
-          "eliminated": true,
-          "total": 20
-        },
-        {
-          "box": 7,
-          "team": "Australia",
-          "bonus": 2,
-          "match": 14,
-          "scorer": 0,
-          "pool": 2,
-          "tourney": 0,
-          "games": 4,
-          "scorers": [
-            "Mathew Leckie"
-          ],
-          "eliminated": true,
-          "total": 18
-        },
-        {
-          "box": 7,
-          "team": "Saudi Arabia",
-          "bonus": 1,
-          "match": 8,
-          "scorer": 0,
-          "pool": 0,
-          "tourney": 0,
-          "games": 3,
-          "scorers": [
-            "Salem Al-Dawsari"
-          ],
-          "eliminated": true,
-          "total": 9
-        },
-        {
-          "box": 7,
-          "team": "South Africa",
-          "bonus": 0,
-          "match": 12,
-          "scorer": 0,
-          "pool": 2,
-          "tourney": 0,
-          "games": 4,
-          "scorers": [
-            "Lyle Foster"
-          ],
-          "eliminated": true,
-          "total": 14
-        },
-        {
-          "box": 8,
-          "team": "Tunisia",
-          "bonus": 1,
-          "match": 3,
-          "scorer": 0,
-          "pool": 0,
-          "tourney": 0,
-          "games": 3,
-          "scorers": [
-            "Wahbi Khazri"
-          ],
-          "eliminated": true,
-          "total": 4
-        },
-        {
-          "box": 8,
-          "team": "Uzbekistan",
-          "bonus": 0,
-          "match": 3,
-          "scorer": 3,
-          "pool": 0,
-          "tourney": 0,
-          "games": 3,
-          "scorers": [
-            "Eldor Shomurodov"
-          ],
-          "eliminated": true,
-          "total": 6
-        }
-      ],
-      "breakdown": {
-        "bonuses": 26,
-        "match_results": 439,
-        "scorer_goals": 113,
-        "pool_placement": 44,
         "tournament_finish": 0
       },
       "rank": 2
@@ -668,41 +668,41 @@
     {
       "id": "andrew-tennent",
       "name": "Andrew Tennent",
-      "total": 609,
-      "total_games": 96,
+      "total": 626,
+      "total_games": 98,
       "teams_remaining": 1,
       "picks": [
         {
           "box": 1,
           "team": "England",
           "bonus": 3,
-          "match": 38,
-          "scorer": 24,
+          "match": 45,
+          "scorer": 26,
           "pool": 4,
-          "tourney": 0,
-          "games": 7,
+          "tourney": 1,
+          "games": 8,
           "scorers": [
             "Harry Kane",
             "Jude Bellingham"
           ],
           "eliminated": true,
-          "total": 69
+          "total": 79
         },
         {
           "box": 1,
           "team": "France",
           "bonus": 3,
-          "match": 49,
-          "scorer": 26,
+          "match": 50,
+          "scorer": 32,
           "pool": 4,
           "tourney": 0,
-          "games": 7,
+          "games": 8,
           "scorers": [
             "Kylian Mbappé",
             "Ousmane Dembélé"
           ],
           "eliminated": true,
-          "total": 82
+          "total": 89
         },
         {
           "box": 1,
@@ -990,18 +990,18 @@
       ],
       "breakdown": {
         "bonuses": 24,
-        "match_results": 429,
-        "scorer_goals": 114,
+        "match_results": 437,
+        "scorer_goals": 122,
         "pool_placement": 42,
-        "tournament_finish": 0
+        "tournament_finish": 1
       },
       "rank": 3
     },
     {
       "id": "vernon-persaud",
       "name": "Vernon Persaud",
-      "total": 592,
-      "total_games": 93,
+      "total": 599,
+      "total_games": 94,
       "teams_remaining": 1,
       "picks": [
         {
@@ -1040,17 +1040,17 @@
           "box": 1,
           "team": "France",
           "bonus": 3,
-          "match": 49,
-          "scorer": 26,
+          "match": 50,
+          "scorer": 32,
           "pool": 4,
           "tourney": 0,
-          "games": 7,
+          "games": 8,
           "scorers": [
             "Ousmane Dembélé",
             "Kylian Mbappé"
           ],
           "eliminated": true,
-          "total": 82
+          "total": 89
         },
         {
           "box": 2,
@@ -1322,8 +1322,8 @@
       ],
       "breakdown": {
         "bonuses": 33,
-        "match_results": 411,
-        "scorer_goals": 110,
+        "match_results": 412,
+        "scorer_goals": 116,
         "pool_placement": 38,
         "tournament_finish": 0
       },
@@ -1332,8 +1332,8 @@
     {
       "id": "rob-roy",
       "name": "Rob Roy",
-      "total": 591,
-      "total_games": 90,
+      "total": 598,
+      "total_games": 91,
       "teams_remaining": 2,
       "picks": [
         {
@@ -1356,17 +1356,17 @@
           "box": 1,
           "team": "France",
           "bonus": 3,
-          "match": 49,
-          "scorer": 26,
+          "match": 50,
+          "scorer": 32,
           "pool": 4,
           "tourney": 0,
-          "games": 7,
+          "games": 8,
           "scorers": [
             "Ousmane Dembélé",
             "Kylian Mbappé"
           ],
           "eliminated": true,
-          "total": 82
+          "total": 89
         },
         {
           "box": 1,
@@ -1654,8 +1654,8 @@
       ],
       "breakdown": {
         "bonuses": 23,
-        "match_results": 412,
-        "scorer_goals": 116,
+        "match_results": 413,
+        "scorer_goals": 122,
         "pool_placement": 40,
         "tournament_finish": 0
       },
@@ -1664,8 +1664,8 @@
     {
       "id": "tyler-marien",
       "name": "Tyler Marien",
-      "total": 575,
-      "total_games": 89,
+      "total": 596,
+      "total_games": 91,
       "teams_remaining": 1,
       "picks": [
         {
@@ -1688,33 +1688,33 @@
           "box": 1,
           "team": "England",
           "bonus": 3,
-          "match": 38,
-          "scorer": 12,
+          "match": 45,
+          "scorer": 18,
           "pool": 4,
-          "tourney": 0,
-          "games": 7,
+          "tourney": 1,
+          "games": 8,
           "scorers": [
             "Harry Kane",
             "Bukayo Saka"
           ],
           "eliminated": true,
-          "total": 57
+          "total": 71
         },
         {
           "box": 1,
           "team": "France",
           "bonus": 3,
-          "match": 49,
-          "scorer": 26,
+          "match": 50,
+          "scorer": 32,
           "pool": 4,
           "tourney": 0,
-          "games": 7,
+          "games": 8,
           "scorers": [
             "Kylian Mbappé",
             "Ousmane Dembélé"
           ],
           "eliminated": true,
-          "total": 82
+          "total": 89
         },
         {
           "box": 2,
@@ -1986,18 +1986,18 @@
       ],
       "breakdown": {
         "bonuses": 32,
-        "match_results": 395,
-        "scorer_goals": 106,
+        "match_results": 403,
+        "scorer_goals": 118,
         "pool_placement": 42,
-        "tournament_finish": 0
+        "tournament_finish": 1
       },
       "rank": 6
     },
     {
       "id": "brendan-newton",
       "name": "Brendan Newton",
-      "total": 574,
-      "total_games": 89,
+      "total": 587,
+      "total_games": 91,
       "teams_remaining": 1,
       "picks": [
         {
@@ -2020,33 +2020,33 @@
           "box": 1,
           "team": "England",
           "bonus": 3,
-          "match": 38,
+          "match": 45,
           "scorer": 14,
           "pool": 4,
-          "tourney": 0,
-          "games": 7,
+          "tourney": 1,
+          "games": 8,
           "scorers": [
             "Harry Kane",
             "Marcus Rashford"
           ],
           "eliminated": true,
-          "total": 59
+          "total": 67
         },
         {
           "box": 1,
           "team": "France",
           "bonus": 3,
-          "match": 49,
-          "scorer": 16,
+          "match": 50,
+          "scorer": 20,
           "pool": 4,
           "tourney": 0,
-          "games": 7,
+          "games": 8,
           "scorers": [
             "Kylian Mbappé",
             "Michael Olise"
           ],
           "eliminated": true,
-          "total": 72
+          "total": 77
         },
         {
           "box": 2,
@@ -2318,35 +2318,35 @@
       ],
       "breakdown": {
         "bonuses": 36,
-        "match_results": 395,
-        "scorer_goals": 105,
+        "match_results": 403,
+        "scorer_goals": 109,
         "pool_placement": 38,
-        "tournament_finish": 0
+        "tournament_finish": 1
       },
       "rank": 7
     },
     {
       "id": "damon-williams",
       "name": "Damon Williams",
-      "total": 562,
-      "total_games": 91,
+      "total": 567,
+      "total_games": 92,
       "teams_remaining": 1,
       "picks": [
         {
           "box": 1,
           "team": "France",
           "bonus": 3,
-          "match": 49,
-          "scorer": 16,
+          "match": 50,
+          "scorer": 20,
           "pool": 4,
           "tourney": 0,
-          "games": 7,
+          "games": 8,
           "scorers": [
             "Kylian Mbappé",
             "Michael Olise"
           ],
           "eliminated": true,
-          "total": 72
+          "total": 77
         },
         {
           "box": 1,
@@ -2650,8 +2650,8 @@
       ],
       "breakdown": {
         "bonuses": 26,
-        "match_results": 412,
-        "scorer_goals": 84,
+        "match_results": 413,
+        "scorer_goals": 88,
         "pool_placement": 40,
         "tournament_finish": 0
       },
@@ -2992,8 +2992,8 @@
     {
       "id": "alex-ryback",
       "name": "Alex Ryback",
-      "total": 543,
-      "total_games": 90,
+      "total": 548,
+      "total_games": 91,
       "teams_remaining": 0,
       "picks": [
         {
@@ -3016,17 +3016,17 @@
           "box": 1,
           "team": "France",
           "bonus": 3,
-          "match": 49,
-          "scorer": 16,
+          "match": 50,
+          "scorer": 20,
           "pool": 4,
           "tourney": 0,
-          "games": 7,
+          "games": 8,
           "scorers": [
             "Kylian Mbappé",
             "Michael Olise"
           ],
           "eliminated": true,
-          "total": 72
+          "total": 77
         },
         {
           "box": 1,
@@ -3314,8 +3314,8 @@
       ],
       "breakdown": {
         "bonuses": 42,
-        "match_results": 390,
-        "scorer_goals": 73,
+        "match_results": 391,
+        "scorer_goals": 77,
         "pool_placement": 38,
         "tournament_finish": 0
       },

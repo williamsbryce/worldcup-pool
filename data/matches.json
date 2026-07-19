@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-19T21:05:17Z",
+  "fetched_at": "2026-07-19T22:07:49Z",
   "matches": [
     {
       "espn_id": "760415",
@@ -4498,6 +4498,32 @@
           "scorer": "Jude Bellingham",
           "team": "England",
           "minute": "90'+8'",
+          "type": "regular",
+          "own_goal": false,
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "espn_id": "760517",
+      "date": "2026-07-19",
+      "home": "Spain",
+      "away": "Argentina",
+      "home_score": 1,
+      "away_score": 0,
+      "status": "FINISHED",
+      "stage": "FINAL",
+      "group": null,
+      "shootout": false,
+      "home_shootout_score": 0,
+      "away_shootout_score": 0,
+      "home_group_rank": null,
+      "away_group_rank": null,
+      "goals": [
+        {
+          "scorer": "Ferran Torres",
+          "team": "Spain",
+          "minute": "106'",
           "type": "regular",
           "own_goal": false,
           "shootout": false
